@@ -262,20 +262,20 @@ function PartnersDoc() {
   ];
 
   const projectArr = [
+    { pic: pancake.src, link: "https://pancakeswap.finance/" },
+    { pic: sandbox.src, link: "https://www.sandbox.game/" },
     { pic: typus.src, link: "https://typus.finance/" },
+    { pic: scallop.src, link: "https://scallop.io/" },
     { pic: aicean.src, link: "https://aicean.ai/" },
     { pic: salvo.src, link: "https://accapital.io/" },
     { pic: thena.src, link: "https://thena.fi/" },
-    { pic: BTU.src },
+    //{ pic: BTU.src },
     { pic: openbit.src, link: "https://openbit.network/" },
     { pic: trust.src, link: "https://trustwallet.com/" },
     { pic: tintin.src, link: "https://tintinland.com/" },
     { pic: oneblock.src, link: "https://x.com/OneBlock_" },
     { pic: amphi.src, link: "https://amphi.space/" },
     { pic: aggregata.src, link: "https://aggregata.xyz/" },
-    { pic: scallop.src, link: "https://scallop.io/" },
-    { pic: pancake.src, link: "https://pancakeswap.finance/" },
-    { pic: sandbox.src, link: "https://www.sandbox.game/" },
     { pic: uxlink.src, link: "https://www.uxlink.io/" }
   ];
 
