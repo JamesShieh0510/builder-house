@@ -14,4 +14,10 @@ module.exports = {
     tw: "tw",
     en: "en",
   },
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.resolve(__dirname, 'src');
+    return config;
+  },
 };
+
+
