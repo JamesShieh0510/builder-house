@@ -20,11 +20,11 @@ function PrizeDoc() {
   const prizeArray = [
     {
       title: "TBH：Best Overall",
-      prize: "$6,000 + $3,000 Google Cloud Credit",
+      prize: "$3,000",
       pic: TBH1.src,
       data: {
         title: "Taiwan Builder House：Best Overall",
-        prize: `${t("pA")}：$6,000U + $3,000 Google Cloud Credit`,
+        prize: `${t("pA")}：$3,000U`,
         illustrate: t("1T"),
         content: [
           {
@@ -42,11 +42,11 @@ function PrizeDoc() {
     },
     {
       title: "TBH：Most Potential",
-      prize: "$3,000 + $1,500 Google Cloud Credit",
+      prize: "$2,000",
       pic: TBH1.src,
       data: {
         title: "Taiwan Builder House：Most Potential",
-        prize: `${t("pA")}：$3,000U + $1,500 Google Cloud Credit`,
+        prize: `${t("pA")}：$2,000U`,
         illustrate: t("2T"),
         content: [
           {
