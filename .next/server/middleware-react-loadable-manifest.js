@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"../components/Prizes/Prizes.tsx -> react-odometerjs":{"id":4453,"files":["static/chunks/453.45fd8cbeca765d5a.js"]}}';
