@@ -63,12 +63,15 @@ import blockbeats from "@/assets/Partners/blockbeats.png";
 import tokenpost from "@/assets/Partners/tokenpost.png";
 
 // Community
+import gem from "@/assets/Partners/1000xgem.png";
+import gen3 from "@/assets/Partners/gen3.png";
+import pudgy from "@/assets/Partners/pudgy.png";
 import ntut from "@/assets/Partners/ntut.png";
 import xuedao from "@/assets/Partners/xuedao.png";
 import bobadao from "@/assets/Partners/bobadao.svg";
+import suimover from "@/assets/Partners/mover.png";
 import fcu from "@/assets/Partners/fcu.png";
 import ifc from "@/assets/Partners/ifc.png";
-import gem from "@/assets/Partners/1000xgem.png";
 import tnua from "@/assets/Partners/tnua.png";
 import ntufc from "@/assets/Partners/ntufc.png";
 import ntnu from "@/assets/Partners/ntnu.png";
@@ -82,16 +85,13 @@ import _852web3 from "@/assets/Partners/852web3.png";
 import mb from "@/assets/Partners/mb.png";
 import lxdao from "@/assets/Partners/lxdao.svg";
 import changshadao from "@/assets/Partners/changshadao.png";
-import gen3 from "@/assets/Partners/gen3.png";
 import nuva from "@/assets/Partners/nuva.png";
 import z from "@/assets/Partners/Z.png";
-import pudgy from "@/assets/Partners/pudgy.png";
 import da from "@/assets/Partners/da.png";
 import tzd from "@/assets/Partners/tzd.png";
 import tuhk from "@/assets/Partners/tuhk.png";
 import cryptowilson from "@/assets/Partners/cryptowilson.png";
 import su from "@/assets/Partners/su.png";
-import suimover from "@/assets/Partners/mover.png";
 
 import chain from "@/assets/Partners/chain.svg";
 import Huobi from "@/assets/Partners/Huobi.svg";
@@ -227,7 +227,7 @@ function PartnersDoc() {
   const silverArr = [
     { pic: Ref.src, link: "https://www.ref.finance/" },
   ];
-  const partnersArr = [
+  const partnersArr = [ㄋ
     { pic: movement.src, link: "https://movementlabs.xyz/" },
     { pic: scroll.src, link: "https://scroll.io/" },
     { pic: ckb.src, link: "https://www.nervos.org/" },
@@ -303,8 +303,8 @@ function PartnersDoc() {
   
   const mediaArr = [
     { pic: noneland.src, link: "https://none.land/" },
-    { pic: zombie.src, link: "https://zombit.info/" },
-    { pic: aipost.src, link: "https://aiposthub.com/" },
+    //{ pic: zombie.src, link: "https://zombit.info/" },
+    //{ pic: aipost.src, link: "https://aiposthub.com/" },
     { pic: cryptotaiwan.src, link: "https://www.instagram.com/crypto.tw_/" },
     { pic: coinvoice.src, link: "https://coinvoice.cn/" },
     { pic: wesearch.src, link: "https://cryptowesearch.com/" },
@@ -318,13 +318,15 @@ function PartnersDoc() {
     { pic: tokenpost.src, link: "https://tokenpost.com/" }
   ];
   const communityArr = [
+    { pic: gem.src },
+    { pic: gen3.src },
+    { pic: suimover.src },
     { pic: ntut.src, link: "https://ntutblockchain.com/" },
     // 中興
     { pic: xuedao.src, link: "https://x.com/xuedao_tw" },
     { pic: bobadao.src },
     { pic: fcu.src },
     { pic: ifc.src },
-    { pic: gem.src },
     { pic: tnua.src },
     { pic: ntufc.src },
     { pic: ntnu.src },
@@ -338,7 +340,6 @@ function PartnersDoc() {
     { pic: mb.src },
     { pic: lxdao.src  },
     { pic: changshadao.src },
-    { pic: gen3.src },
     { pic: nuva.src },
     { pic: z.src },
     { pic: pudgy.src },
@@ -347,7 +348,6 @@ function PartnersDoc() {
     { pic: tuhk.src },
     { pic: cryptowilson.src }, 
     { pic: su.src },
-    { pic: suimover.src },
     // { pic: Silver.src, link: "" , w: "150"},
     // { pic: Face.src, link: "https://discord.gg/UK8rQjdhmc" , w: "150"},
     // { pic: LBFS.src, link: "https://linktr.ee/blockchain_zh" , w: "150"},
