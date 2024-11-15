@@ -92,8 +92,8 @@ function PrizeDoc() {
         illustrate: t("3T"),
         content: [
           {
-            //title: t("TZ"),
-            //         detail: [`Need to integrate with Tezos`],
+            title: t("TZ"),
+            detail: [`Need to integrate with Tezos`],
           },
         ],
       },
