@@ -84,7 +84,7 @@ import lxdao from "@/assets/Partners/lxdao.svg";
 import changshadao from "@/assets/Partners/changshadao.png";
 import gen3 from "@/assets/Partners/gen3.png";
 import nuva from "@/assets/Partners/nuva.png";
-import z from "@/assets/Partners/z.png";
+import z from "@/assets/Partners/Z.png";
 import pudgy from "@/assets/Partners/pudgy.png";
 import da from "@/assets/Partners/da.png";
 import tzd from "@/assets/Partners/tzd.png";
