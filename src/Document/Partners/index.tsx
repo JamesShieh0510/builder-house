@@ -20,6 +20,7 @@ import zircuit from "@/assets/Partners/zircuit.png";
 import akindo from "@/assets/Partners/akindo.png";
 import moongate from "@/assets/Partners/moongate.svg";
 import coredao from "@/assets/Partners/coredao.png";
+import icp from "@/assets/Partners/icp.png";
 
 // Vc
 import okx from "@/assets/Partners/okx.svg";
@@ -230,6 +231,7 @@ function PartnersDoc() {
   const partnersArr = [
     { pic: movement.src, link: "https://movementlabs.xyz/" },
     { pic: scroll.src, link: "https://scroll.io/", w: "100" },
+    { pic: icp.src, link: "https://internetcomputer.org/" },
     { pic: ckb.src, link: "https://www.nervos.org/", w: "100" },
     { pic: bitlayer.src, link: "https://www.bitlayer.org/" },
     { pic: manta.src, link: "https://manta.network/", w: "200" },
