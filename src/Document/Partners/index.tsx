@@ -229,8 +229,8 @@ function PartnersDoc() {
   ];
   const partnersArr = [
     { pic: movement.src, link: "https://movementlabs.xyz/" },
-    { pic: scroll.src, link: "https://scroll.io/", w: "200" },
-    { pic: ckb.src, link: "https://www.nervos.org/", w: "200" },
+    { pic: scroll.src, link: "https://scroll.io/", w: "100" },
+    { pic: ckb.src, link: "https://www.nervos.org/", w: "100" },
     { pic: bitlayer.src, link: "https://www.bitlayer.org/" },
     { pic: manta.src, link: "https://manta.network/", w: "200" },
     { pic: hashkey.src },
