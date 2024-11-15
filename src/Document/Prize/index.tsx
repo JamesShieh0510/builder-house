@@ -9,7 +9,7 @@ import TBH1 from "@/assets/Prizes/TBH_Tiffany_1.png";
 import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
 import TBH3 from "@/assets/Prizes/TBH_White_3.png";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
-import icp from "@/assets/Partners/icp.png";
+import icp from "@/assets/prizes/icp_centered.png";
 
 
 import { useTranslation } from "next-i18next";
@@ -325,7 +325,7 @@ function PrizeDoc() {
     subTitle: t("subTitle"),
     id: "Prizes",
     data: prizeArray,
-    totalPrize: 46000,
+    totalPrize: 11000,
   };
   return prizeData;
 }
