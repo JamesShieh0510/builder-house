@@ -9,7 +9,7 @@ import TBH1 from "@/assets/Prizes/TBH_Tiffany_1.png";
 import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
 import TBH3 from "@/assets/Prizes/TBH_White_3.png";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
-import Bonk from "@/assets/Partners/BONK_logo.svg";
+import icp from "@/assets/Partners/icp.png";
 
 
 import { useTranslation } from "next-i18next";
@@ -78,6 +78,22 @@ function PrizeDoc() {
               `${t("ps")}300U`,
               `${t("pt")}200U`,
             ],
+          },
+        ],
+      },
+    },
+    {
+      title: "ICP",
+      prize: "$1,000",
+      pic: icp.src,
+      data: {
+        title: "ICP Online Hackathon",
+        prize: `${t("pA")}：$1,000U`,
+        illustrate: t("3T"),
+        content: [
+          {
+            //title: t("TZ"),
+            //         detail: [`Need to integrate with Tezos`],
           },
         ],
       },
