@@ -227,14 +227,14 @@ function PartnersDoc() {
   const silverArr = [
     { pic: Ref.src, link: "https://www.ref.finance/" },
   ];
-  const partnersArr = [ㄋ
+  const partnersArr = [
     { pic: movement.src, link: "https://movementlabs.xyz/" },
-    { pic: scroll.src, link: "https://scroll.io/" },
-    { pic: ckb.src, link: "https://www.nervos.org/" },
+    { pic: scroll.src, link: "https://scroll.io/", w: "200" },
+    { pic: ckb.src, link: "https://www.nervos.org/", w: "200" },
     { pic: bitlayer.src, link: "https://www.bitlayer.org/" },
-    { pic: manta.src, link: "https://manta.network/" },
+    { pic: manta.src, link: "https://manta.network/", w: "200" },
     { pic: hashkey.src },
-    { pic: zircuit.src, link: "https://www.zircuit.com/" },
+    { pic: zircuit.src, link: "https://www.zircuit.com/", w: "200" },
     { pic: akindo.src, link: "https://akindo.io/" },
     { pic: moongate.src, link: "https://www.moongate.id/" },
     { pic: coredao.src, link: "https://coredao.org/" },
