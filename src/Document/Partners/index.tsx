@@ -303,18 +303,18 @@ function PartnersDoc() {
   
   const mediaArr = [
     { pic: noneland.src, link: "https://none.land/" },
+    { pic: foresight.src, link: "https://foresightnews.pro/" },
+    { pic: blockbeats.src, link: "https://www.theblockbeats.info/" },
+    { pic: followin.src, link: "https://followin.io/" },
+    { pic: gmweb3.src, link: "https://x.com/GMweb3Labs" },
     //{ pic: zombie.src, link: "https://zombit.info/" },
     //{ pic: aipost.src, link: "https://aiposthub.com/" },
     { pic: cryptotaiwan.src, link: "https://www.instagram.com/crypto.tw_/" },
     { pic: coinvoice.src, link: "https://coinvoice.cn/" },
     { pic: wesearch.src, link: "https://cryptowesearch.com/" },
     { pic: cryptocity.src, link: "https://www.cryptocity.tw/" },
-    { pic: followin.src, link: "https://followin.io/" },
-    { pic: gmweb3.src, link: "https://x.com/GMweb3Labs" },
-    { pic: foresight.src, link: "https://foresightnews.pro/" },
     { pic: marginatm.src, link: "https://marginatm.com/" },
     { pic: cryptotimes.src },
-    { pic: blockbeats.src, link: "https://www.theblockbeats.info/" },
     { pic: tokenpost.src, link: "https://tokenpost.com/" }
   ];
   const communityArr = [
