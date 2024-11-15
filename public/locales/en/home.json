@@ -1,0 +1,22 @@
+{
+  "content1": "Nero is a modular blockchain focused on enhancing user experience, ecosystem economics, and validator stability. We examines Nero’s three-layer architecture and key features such as user-centric design, sustainable tokenomics, and streamlined onboarding. The aim is to demonstrate how Nero effectively addresses the challenges faced by applications and users in the blockchain space, offering an efficient and secure infrastructure.",
+  "title2": "THREE-LAYER\nMODULAR BLOCKCHAIN",
+  "content2": "Nero’s three layer, EVM compatible modular blockchain architecture allows for a more efficient and scalable system by offloading work to other specialized modular blockchains.",
+  "content2-1": "EXECUTION ✧",
+  "content2-1-2": "Processing transactions.",
+  "content2-2": "SETTLEMENT ✧ ",
+  "content2-2-2": "Dispute resolution and bridge.",
+  "content2-3": "DATA AVAILABILITY ✧ ",
+  "content2-3-2":"Ensuring data is available.",
+  "content2-4": "CONSENSUS ✧ ",
+  "content2-4-2": "Ordering transactions.",
+  "title3": "SUSTAINABLE\nTOKENOMICS\n“CYOG”",
+  "content3": "CYOG: CHOOSE YOUR OWN GAS.\nNero enables gas fees to be paid in platform tokens, fostering a more sustainable and stable ecosystem by creating a demand force.",
+  "title4": "SPONSORED\nGAS FEES\nFOR NEW USERS",
+  "content4": "To encourage user adoption and remove barriers to entry, Nero leverages the Paymaster mechanism in account abstraction to sponsor the gas fees for the first few transactions made by new users, allowing them to explore the platform without incurring initial costs. Furthermore, new projects can also sponsor others’ transaction fees in exchange for increased exposure.",
+  "title5": "ACCOUNT\nABSTRACTION\n&\nSOCIAL\nACCOUNT\nLOGIN",
+  "content5": "Nero’s integration with account abstraction enables users to log in using their existing social accounts, streamlining the onboarding process and removing the need to create a separate blockchain-specific account.\n \nNo plugin or extension wallets need to be installed.",
+  "title6": "FLEXIBLE\nUSER\nPERMISSIONS\nAND\nSETTINGS",
+  "content6": "Nero places a strong emphasis on delivering clear and understandable transaction messages for its users. The platform becomes more accessible to those without a deep technical understanding of blockchain technology. Providing more comprehensible transaction messages helps users identify and prevent potential scams by providing greater transparency in transaction details.",
+  "title7": "TEAM"
+}
