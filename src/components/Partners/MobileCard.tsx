@@ -11,16 +11,18 @@ export default function PartnersM(props: {
       <div className="bg-primary bg-clip-text text-center text-2xl font-bold uppercase text-transparent">
         {props.type}
       </div>
-      {props.logo.map((item: any, idx: any) => (
-        <div className="mt-8 flex w-full items-center justify-center" key={idx}>
-          <Image
-            src={item.pic}
-            width={item.w ? item.w : "250"}
-            height="200"
-            alt="avatar"
-          />
-        </div>
-      ))}
+      <div className="grid grid-cols-2 gap-10">
+        {props.logo.map((item: any, idx: any) => (
+          <div className="flex w-full items-center justify-center" key={idx}>
+            <Image
+              src={item.pic}
+              width={item.w ? item.w : "250"}
+              height="200"
+              alt="avatar"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

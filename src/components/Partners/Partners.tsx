@@ -65,7 +65,7 @@ export default function Partners(props: { data: any }) {
         </div>
       </div>
       <div className="z-50 flex h-full items-center justify-center bg-white">
-        <div className="hidden w-full flex-col items-center gap-16 lg:flex">
+        <div className="hidden w-full flex-col items-center gap-16 lg:flex ">
           <PartnersCard logo={host} type="HOST" grid="4" />
           <PartnersCard logo={coHost} type="CO-HOST" grid="4" />
           <PartnersCard logo={strategic} grid="4" type="Strategic Partner" />
@@ -82,10 +82,10 @@ export default function Partners(props: { data: any }) {
           <PartnersCard logo={community} type="Community Partner" />
         </div>
         {/* Mobile  */}
-        <div className="flex w-full flex-col items-center gap-12 px-6 lg:hidden">
+        <div className="flex w-full flex-col items-center gap-12 px-6 lg:hidden ">
           <PartnersM logo={host} type="HOST" />
           <PartnersM logo={coHost} type="CO - HOST" />
-          <PartnersM logo={strategic} type="Strategic Partner" />
+          <PartnersM logo={strategic} type="Strategic Partner " />
           {/* <PartnersM logo={diamond} type="Diamond Sponsor" /> */}
           {/* <PartnersM logo={gold} type="Gold Sponsor" /> */}
           {/* <PartnersM logo={silver} type="Silver partner" /> */}
