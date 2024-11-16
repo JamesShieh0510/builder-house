@@ -24,6 +24,7 @@ import icp from "@/assets/Partners/icp.png";
 
 // Vc
 import okx from "@/assets/Partners/okx.svg";
+import HorizonCapital from "@/assets/Partners/HorizonCapital_20.png";
 import pressstartcapital from "@/assets/Partners/PressStartCapital.png";
 import ac from "@/assets/Partners/accapital.svg";
 import anti from "@/assets/Partners/anticapital.png";
@@ -254,6 +255,7 @@ function PartnersDoc() {
 
   const vcArr = [
     { pic: okx.src, link: "https://www.okx.com/ventures" },
+    { pic: HorizonCapital.src},
     { pic: pressstartcapital.src, link: "https://pressstart.capital/" },
     { pic: ac.src, link: "https://accapital.io/" },
     { pic: anti.src, link: "https://anticapital.ai/" },
