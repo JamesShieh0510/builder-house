@@ -34,7 +34,7 @@ import cdetrading from "@/assets/Partners/CDETrading.png";
 import horizon from "@/assets/Partners/horizoncapital.png";
 
 // Project
-import cetus from "@/assets/Partners/CETUS-Black.png";
+import cetus from "@/assets/Partners/CETUS_Black.png";
 import navi from "@/assets/Partners/navi.png";
 import typus from "@/assets/Partners/typus.png";
 import aicean from "@/assets/Partners/AICEAN.png";
