@@ -34,6 +34,8 @@ import cdetrading from "@/assets/Partners/CDETrading.png";
 import horizon from "@/assets/Partners/horizoncapital.png";
 
 // Project
+import cetus from "@/assets/Partners/CETUS-Black.png";
+import navi from "@/assets/Partners/navi.png";
 import typus from "@/assets/Partners/typus.png";
 import aicean from "@/assets/Partners/AICEAN.png";
 import salvo from "@/assets/Partners/salvo.svg";
@@ -268,6 +270,8 @@ function PartnersDoc() {
   const projectArr = [
     { pic: pancake.src, link: "https://pancakeswap.finance/" },
     { pic: sandbox.src, link: "https://www.sandbox.game/" },
+    { pic: cetus.src},
+    { pic: navi.src},
     { pic: typus.src, link: "https://typus.finance/" },
     { pic: scallop.src, link: "https://scallop.io/" },
     { pic: aicean.src, link: "https://aicean.ai/" },
