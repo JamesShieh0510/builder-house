@@ -23,11 +23,11 @@ export default function PrizesCard(props: {
 
   return (
     <div
-      className="h-full rounded-xl bg-primary p-[2px] transition-all"
-      // onClick={onOpen} TODO:
+      className="h-full rounded-xl bg-gradient-to-r from-redF to-redT p-[2px] transition-all"
+      onClick={onOpen}
     >
       <div
-        className={`flex h-full w-full items-center gap-6 rounded-xl bg-white p-4 md:gap-2`}
+        className={`flex h-full w-full items-center gap-6 rounded-xl bg-bg p-4 md:gap-2`}
       >
         <Image
           src={props.pic?.pic}
@@ -35,7 +35,7 @@ export default function PrizesCard(props: {
           height="60"
           alt="avatar"
         />
-        <div className="flex flex-col text-black">
+        <div className="flex flex-col">
           <div className="text-lg">{props.title}</div>
           <div className="text-md font-normal">{props.prize}</div>
         </div>
