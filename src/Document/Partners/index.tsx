@@ -35,7 +35,7 @@ import horizon from "@/assets/Partners/horizoncapital.png";
 
 // Project
 import cetus from "@/assets/Partners/CETUS_Black.png";
-import navi from "@/assets/Partners/navi.png";
+import navi from "@/assets/Partners/navi.svg";
 import typus from "@/assets/Partners/typus.png";
 import aicean from "@/assets/Partners/AICEAN.png";
 import salvo from "@/assets/Partners/salvo.svg";
