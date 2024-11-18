@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next";
 import After_party from "@/assets/Activity/After_party.png";
-import City1 from "@/assets/Overview/bn1.jpg";
+import City1 from "@/assets/Overview/bn1.jppg";
 import City2 from "@/assets/Overview/bn2.jpg";
 import City3 from "@/assets/Overview/bn3.jpg";
 import City4 from "@/assets/Overview/bn4.jpg";
