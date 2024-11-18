@@ -93,7 +93,29 @@ function PrizeDoc() {
         content: [
           {
             title: t("TZ"),
-            detail: [`Need to integrate with Tezos`],
+            detail: [`​參加方式：
+
+​📱 追蹤 TBH 的 Instagram：
+在 IG 上搜尋並關注我們的官方帳號，掌握最新活動資訊和福利。
+
+​📚 註冊帳號並完成課程：
+1️⃣ 前往活動網址：👉
+
+​https://dacade.org/communities/icp/challenges/256f0a1c-5f4f-495f-a1b3-90559ab3c51f
+
+​
+2️⃣ 註冊一個新的帳號，並選修指定的 ICP 課程。
+3️⃣ 認真學習並完成課程內容，最後提交作業。
+
+​獎勵機制：
+
+​🏆 先到先得！
+前 20 位完成課程並提交作業的參與者，每人可獲得 $30 美元獎勵！ 💵
+
+​🎁 驚喜大獎！
+其他完成課程並擁有 TBH Ticket 的參與者，我們將抽出 1 位幸運兒，贏得 $500 美元的超級獎勵！ 🎉
+
+​快來參加吧！ 🚀`],
           },
         ],
       },

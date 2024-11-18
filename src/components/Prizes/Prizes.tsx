@@ -49,7 +49,7 @@ export default function Prizes(props: { data: any }) {
         </div>
         <div className="flex-1">
           <div className="text-[2rem] uppercase text-primary">Total Prize</div>
-          <div className="h-32 w-4/5 rounded-2xl transition-all">
+          <div className="h-32 w-full rounded-2xl transition-all">
             <div
               className={`flex h-full w-full items-center justify-start gap-6 rounded-2xl md:gap-2`}
             >
