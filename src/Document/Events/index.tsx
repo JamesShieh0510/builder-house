@@ -5,7 +5,7 @@ import trader0719 from "@/assets/Activity/trader0719.png";
 import After_party from "@/assets/Activity/After_party.png";
 import NTUFC from "@/assets/Activity/NTUFC.png";
 import BNBhackathon from "@/assets/Activity/BNBhackathon.jpg";
-import suievent from "@/assets/Activity/suievent.png";
+import suievent from "@/assets/Activity/suievent.jpg";
 
 import { useTranslation } from "next-i18next";
 
