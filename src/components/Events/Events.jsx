@@ -26,7 +26,7 @@ export default function Events(props) {
       subTitle={data.subTitle}
       id={data.id}
     >
-      <div className="relative h-full w-full pt-10 text-white">
+      <div className="relative h-full w-full pt-10 text-black">
         {!expend && (
           <div className="absolute right-10 top-0 z-30 flex w-full justify-end gap-6 lg:right-0">
             <div onClick={() => swiperRef.current.slidePrev()}>
@@ -39,11 +39,11 @@ export default function Events(props) {
         )}
 
         {loading ? (
-          <div className="flex h-36 w-full justify-center">
+          <div className="flex h-36 w-full justify-center ">
             <CircularProgress isIndeterminate size="100%" thickness="4px" />
           </div>
         ) : expend ? (
-          <div className="grid grid-cols-1 gap-x-[70px] gap-y-12 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-x-[70px] gap-y-12 lg:grid-cols-3  ">
             {data.data.map((item, index) => {
               return (
                 <div
@@ -120,7 +120,7 @@ export default function Events(props) {
               className="flex cursor-pointer items-center gap-3 rounded-full border text-base text-white bg-primary h-12 w-44 justify-center"
               onClick={() => {
                 openExternalLink(
-                  "https://docs.google.com/spreadsheets/d/1NmAOhrCagu2qJPy-6gZCQVtg5mzYg7Mwa0rTp560_mo/edit#gid=1263175052"
+                  ""
                 );
               }}
             >

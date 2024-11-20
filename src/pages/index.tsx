@@ -70,7 +70,7 @@ export default function Home() {
       {/* <Judges data={JudgesData} /> */}
       {/* TODO: change to speaker <Judges data={JudgesData} /> */}
       {/* <Agenda data={AgendaData} /> */}
-      {/* <Events data={EventsData} /> */}
+      {<Events data={EventsData} /> }
       <Partners data={PartnersData} />
       <FAQ data={FAQData} />
     </>
