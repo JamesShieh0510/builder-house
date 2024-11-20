@@ -4,8 +4,8 @@ import lead0816 from "@/assets/Activity/LeadUpTheNight_0816_1000X500.png";
 import trader0719 from "@/assets/Activity/trader0719.png";
 import After_party from "@/assets/Activity/After_party.png";
 import NTUFC from "@/assets/Activity/NTUFC.png";
-import BNBhackathon from "@/assets/Activity/BNBhackathon.jpg"
-import suievent from "@/assets/Activity/suievent.png"
+import BNBhackathon from "@/assets/Activity/BNBhackathon.jpg";
+import suievent from "@/assets/Activity/suievent.png";
 
 import { useTranslation } from "next-i18next";
 
