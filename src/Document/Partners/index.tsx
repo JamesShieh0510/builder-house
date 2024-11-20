@@ -37,6 +37,7 @@ import horizon from "@/assets/Partners/horizoncapital.png";
 import cetus from "@/assets/Partners/CETUS_Black.png";
 import navi from "@/assets/Partners/navi.svg";
 import typus from "@/assets/Partners/typus.png";
+import asus_metaverse from "@/assets/Partners/asus_metaverse_logo_black.png";
 import aicean from "@/assets/Partners/AICEAN.png";
 import salvo from "@/assets/Partners/salvo.svg";
 import thena from "@/assets/Partners/thena.png";
@@ -51,6 +52,7 @@ import scallop from "@/assets/Partners/scallop.png";
 import pancake from "@/assets/Partners/pancake.svg";
 import sandbox from "@/assets/Partners/sandbox.png";
 import uxlink from "@/assets/Partners/uxlink.svg";
+import twin3ai from "@/assets/Partners/twin3ai_logo-black-2.png";
 
 // Media
 import noneland from "@/assets/Partners/noneland.svg";
@@ -275,6 +277,7 @@ function PartnersDoc() {
     { pic: navi.src},
     { pic: typus.src, link: "https://typus.finance/" },
     { pic: scallop.src, link: "https://scallop.io/" },
+    { pic: asus_metaverse.src},
     { pic: aicean.src, link: "https://aicean.ai/" },
     { pic: salvo.src, link: "https://accapital.io/" },
     { pic: thena.src, link: "https://thena.fi/" },
@@ -285,7 +288,8 @@ function PartnersDoc() {
     { pic: oneblock.src, link: "https://x.com/OneBlock_" },
     { pic: amphi.src, link: "https://amphi.space/" },
     { pic: aggregata.src, link: "https://aggregata.xyz/" },
-    { pic: uxlink.src, link: "https://www.uxlink.io/" }
+    { pic: uxlink.src, link: "https://www.uxlink.io/" },
+    { pic: twin3ai.src }
   ];
 
   const technicalArr = [
