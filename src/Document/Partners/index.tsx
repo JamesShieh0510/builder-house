@@ -65,6 +65,7 @@ import marginatm from "@/assets/Partners/marginatm.png";
 import cryptotimes from "@/assets/Partners/cryptotimes.svg";
 import blockbeats from "@/assets/Partners/blockbeats.png";
 import tokenpost from "@/assets/Partners/tokenpost.png";
+import blockmedia from "@/assets/Partners/blockmedia.png";
 
 // Community
 import gem from "@/assets/Partners/1000xgem.png";
@@ -314,6 +315,7 @@ function PartnersDoc() {
     { pic: foresight.src, link: "https://foresightnews.pro/" },
     { pic: blockbeats.src, link: "https://www.theblockbeats.info/" },
     { pic: followin.src, link: "https://followin.io/" },
+    { pic: blockmedia.src, link: "https://www.blockmedia.co.kr/" },
     { pic: gmweb3.src, link: "https://x.com/GMweb3Labs" },
     //{ pic: zombie.src, link: "https://zombit.info/" },
     //{ pic: aipost.src, link: "https://aiposthub.com/" },
