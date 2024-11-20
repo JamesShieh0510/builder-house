@@ -27,7 +27,7 @@ function EventsDoc() {
       link: "https://www.bnbchain.org/en/blog/bnb-hack-2024-q4-the-ultimate-battle-of-hacker-heroes",
     },
     {
-      pic: BNBhackathon.src,
+      pic: suievent.src.src,
       date: `Q4 ,2024`,
       title: "BNB Online Hackthon",
       content: `#BNBHack 2024 Q4 kicks off with a total prize pool of over $458,000, making this one of the most rewarding hackathons yet!Ready to build the future of Web3? Let’s dive in 🧵👇`,
