@@ -27,7 +27,7 @@ function EventsDoc() {
       link: "https://www.bnbchain.org/en/blog/bnb-hack-2024-q4-the-ultimate-battle-of-hacker-heroes",
     },
     {
-      pic: BNBhackathon.src,
+      pic: suievent.src,
       date: `Nov.23, 2024 ~ Jan.11, 2024`,
       title: "Master Sui Move in 8 Lessons: A Quick Guide to Smart Contract Development",
       content: `This workshop offers an 8-lesson journey over two months, guiding developers through the basics to advanced topics for mastering the Sui Move programming language.。`,
