@@ -6,6 +6,7 @@ import After_party from "@/assets/Activity/After_party.png";
 import NTUFC from "@/assets/Activity/NTUFC.png";
 import BNBhackathon from "@/assets/Activity/BNBhackathon.jpg";
 import suievent from "@/assets/Activity/SuiMover_event.png";
+import solanaevent from "@/assets/Activity/solana.jpg";
 
 import { useTranslation } from "next-i18next";
 
@@ -19,6 +20,13 @@ function EventsDoc() {
   const { t } = useTranslation("events");
 
   const EventsContent = [
+    {
+      pic: solanaevent.src,
+      date: `Nov.13, 2024 ~ Dec.12, 2024`,
+      title: "Solana Hackathon @TBW2024",
+      content: `Join us for the TBW 2024 Solana Hackathon, where we focus on the next steps after winning. This session will cover strategies for scaling your project, leveraging Solana’s ecosystem resources, and learning from past hackathon winners who have turned their success into long-term growth.`,
+      link: "https://lu.ma/Solana-TBW2024",
+    },
     {
       pic: BNBhackathon.src,
       date: `Q4 ,2024`,
