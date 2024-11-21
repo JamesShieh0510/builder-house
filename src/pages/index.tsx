@@ -7,6 +7,7 @@ import Partners from "@/components/Partners/Partners";
 import Prizes from "@/components/Prizes/Prizes";
 import Activity from "@/components/Activity/Activity";
 import TimeLine from "@/components/TimeLine/TimeLine";
+import Workshop from "@/components/Workshop/Workshop";
 import GemHunter from "@/components/GemHunter/GemHunter";
 import PrizeDoc from "@/Document/Prize";
 import OverViewDoc from "@/Document/OverView";
@@ -25,6 +26,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import JudgesDoc from "@/Document/Judges";
 import EventsDoc from "@/Document/Events";
 import PartnersDoc from "@/Document/Partners";
+import WorkshopDoc from "@/Document/Workshop/Workshop";
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
@@ -59,6 +61,7 @@ export default function Home() {
   const JudgesData = JudgesDoc();
   const EventsData = EventsDoc();
   const PartnersData = PartnersDoc();
+  const WorkshopData = WorkshopDoc();
 
   return (
     <>
@@ -71,6 +74,7 @@ export default function Home() {
       <Prizes data={prizeData} />
       {/* <GemHunter data={hunterData} /> */}
       {/* <Activity data={ActivityData} /> */}
+      <Workshop data={WorkshopData} />
       {<Judges data={JudgesData} />}
       {/* TODO: change to speaker <Judges data={JudgesData} /> */}
       {/* <Agenda data={AgendaData} /> */}
