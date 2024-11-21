@@ -1,10 +1,14 @@
 import { useTranslation } from "next-i18next";
-import henry from "@/assets/Judges/henry.jpeg";
-import michael from "@/assets/Judges/michael.jpg";
-import damien from "@/assets/Judges/damien.jpeg";
-import Josh from "@/assets/Judges/Josh.jpeg";
-import Albert from "@/assets/Judges/albert.jpeg";
-import Ryder from "@/assets/Judges/Ryder.jpeg";
+
+import Amy from "@/assets/Judges/Amy_Cetus.png";
+import Antoine from "@/assets/Judges/Antoine.jpeg";
+import b12ny from "@/assets/Judges/b12ny.JPG";
+import Carl from "@/assets/Judges/Carl_Navx.jpg";
+import Chanel from "@/assets/Judges/Chanel_coredao.jpg";
+import Cheryl from "@/assets/Judges/Cheryl_Law.jpg";
+import David_Kim from "@/assets/Judges/David_Kim.jpeg";
+import David from "@/assets/Judges/AIPost_davin.jpg";
+
 
 
 //icon-website
@@ -17,40 +21,42 @@ function JudgesDoc() {
 
   const JudgesArray = [
     {
-      name: "Damien",
-      company: "Binance\nGlobal Partnerships",
-      avatar: damien.src,
-      linkin: "https://www.linkedin.com/in/damien-ho-70339935/",
+      name: "Amy",
+      company: "Cetus\nBD Lead",
+      avatar: Amy.src,
     },
     {
-      name: "Henry",
-      company: "Meta\nGSR Sales Director",
-      avatar: henry.src,
-      linkin: "https://www.linkedin.com/in/lin-heng-07607988/",
+      name: "Antoine",
+      company: "ICP\nCo-Founder of ICP-Taiwan",
+      avatar: Antoine.src,
     },
     {
-      name: "Michael",
-      company: "Lead Capital\nCo-Founder",
-      avatar: michael.src,
-      linkin: "https://www.linkedin.com/in/michae1chen/",
+      name: "Carl",
+      company: "NAVI\nAPAC Growth Lead",
+      avatar: Carl.src,
     },
     {
-      name: "Josh",
-      company: "BingX\nAPAC Business Director ",
-      avatar: Josh.src,
+      name: "Chanel",
+      company: "CoreDAO\nCore Contributor ",
+      avatar: Chanel.src,
       linkin: "",
     },
     {
-      name: "Albert",
-      company: "Genopets\nFounder ",
-      avatar: Albert.src,
+      name: "Cheryl Law",
+      company: "Pudgy Penguins \nHead of Asia ",
+      avatar: Cheryl.src,
       linkin: "",
     },
     {
-      name: "Ryder",
-      company: "Google Cloud \n Field Sales Representative",
-      avatar: Ryder.src,
+      name: "David Kim",
+      company: "Trust Wallet \n Technical Lead",
+      avatar: David_Kim.src,
       linkin: "",
+    },
+    {
+      name: "David",
+      company: "AI Post\n Co-Founder",
+      avatar: David_Kim.src,
     },
   ];
   const JudgesData = {
