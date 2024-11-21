@@ -5,7 +5,7 @@ import trader0719 from "@/assets/Activity/trader0719.png";
 import After_party from "@/assets/Activity/After_party.png";
 import NTUFC from "@/assets/Activity/NTUFC.png";
 import BNBhackathon from "@/assets/Activity/BNBhackathon.jpg";
-import suievent from "@/assets/Activity/suievent.jpg";
+import suievent from "@/assets/Activity/SuiMover_event.png";
 
 import { useTranslation } from "next-i18next";
 
@@ -28,7 +28,7 @@ function EventsDoc() {
     },
     {
       pic: suievent.src,
-      date: `Nov.23, 2024 ~ Jan.11, 2024`,
+      date: `Nov.23, 2024 ~ Jan.11, 2025`,
       title: "Master Sui Move in 8 Lessons: A Quick Guide to Smart Contract Development",
       content: `This workshop offers an 8-lesson journey over two months, guiding developers through the basics to advanced topics for mastering the Sui Move programming language.。`,
       link: "https://lu.ma/eajq2r68",
