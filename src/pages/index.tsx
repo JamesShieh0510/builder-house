@@ -1,3 +1,4 @@
+import Head from "next/head";
 import FAQ from "@/components/FAQ/FAQ";
 import Judges from "@/components/Judges/Judges";
 import Main from "@/components/Main/Main";
@@ -61,13 +62,16 @@ export default function Home() {
 
   return (
     <>
+     <Head>
+        <title>Taiwan Builder House</title>
+      </Head>
       <Main />
       <TimeLine data={TimeLineData} data2={CityData} />
       <OverView data={OverViewData} />
       <Prizes data={prizeData} />
       {/* <GemHunter data={hunterData} /> */}
       {/* <Activity data={ActivityData} /> */}
-      {/* <Judges data={JudgesData} /> */}
+      {<Judges data={JudgesData} />}
       {/* TODO: change to speaker <Judges data={JudgesData} /> */}
       {/* <Agenda data={AgendaData} /> */}
       {<Events data={EventsData} /> }
