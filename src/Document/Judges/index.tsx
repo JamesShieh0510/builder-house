@@ -1,5 +1,7 @@
 import { useTranslation } from "next-i18next";
 
+import Lin from "@/assets/Judges/Director_Lin.jpg";
+import Hsieh from "@/assets/Judges/Director_Hsieh.jpg";
 import Amy from "@/assets/Judges/Amy_Cetus.png";
 import Antoine from "@/assets/Judges/Antoine.jpeg";
 import Carl from "@/assets/Judges/Carl_Navx.jpg";
@@ -20,6 +22,16 @@ function JudgesDoc() {
 
   const JudgesArray = [
     {
+      name: "林榮川",
+      company: "Director\nEconomic Development Bureau",
+      avatar: Lin.src,
+    },
+    {
+      name: "謝仕淵",
+      company: "Director\nBureau of Culture",
+      avatar: Hsieh.src,
+    },
+    {
       name: "Amy",
       company: "Cetus\nBD Lead",
       avatar: Amy.src,
@@ -38,24 +50,21 @@ function JudgesDoc() {
       name: "Chanel",
       company: "CoreDAO\nCore Contributor ",
       avatar: Chanel.src,
-      linkin: "",
     },
     {
       name: "Cheryl Law",
       company: "Pudgy Penguins \nHead of Asia ",
       avatar: Cheryl.src,
-      linkin: "",
     },
     {
       name: "David Kim",
       company: "Trust Wallet \n Technical Lead",
       avatar: David_Kim.src,
-      linkin: "",
     },
     {
       name: "David",
       company: "AI Post\n Co-Founder",
-      avatar: David_Kim.src,
+      avatar: David.src,
     },
   ];
   const JudgesData = {
