@@ -2,7 +2,6 @@ import { useTranslation } from "next-i18next";
 
 import Amy from "@/assets/Judges/Amy_Cetus.png";
 import Antoine from "@/assets/Judges/Antoine.jpeg";
-import b12ny from "@/assets/Judges/b12ny.JPG";
 import Carl from "@/assets/Judges/Carl_Navx.jpg";
 import Chanel from "@/assets/Judges/Chanel_coredao.jpg";
 import Cheryl from "@/assets/Judges/Cheryl_Law.jpg";
