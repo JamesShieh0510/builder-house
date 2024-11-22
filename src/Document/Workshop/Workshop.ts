@@ -7,7 +7,7 @@ export default function WorkshopDoc() {
             title: "From DOGE to the Moon: Unveiling the Crazy Ecosystem of Meme Coins on Solana",
             time: "14:10 - 15:00",
             description:
-              "Meme coins are sweeping the blockchain world, but how did they rise to prominence? In this session, we'll take you on a magical journey from Dogecoin to Shiba Inu, and explore various meme coins on Solana. Learn about the serious technology behind these "jokes" and how they influence market trends. Let's explore how meme culture collides with blockchain technology to spark new possibilities, possibly even changing future investment models.",
+              "Meme coins are sweeping the blockchain world, but how did they rise to prominence? In this session, we'll take you on a magical journey from Dogecoin to Shiba Inu, and explore various meme coins on Solana. Learn about the serious technology behind these jokes and how they influence market trends. Let's explore how meme culture collides with blockchain technology to spark new possibilities, possibly even changing future investment models.",
             organizers: ["成大區塊鏈研究社NCKU Blockchain Club", "XueDAO"],
           },
           {
