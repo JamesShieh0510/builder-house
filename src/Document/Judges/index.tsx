@@ -9,6 +9,19 @@ import Chanel from "@/assets/Judges/Chanel_coredao.jpg";
 import Cheryl from "@/assets/Judges/Cheryl_Law.jpg";
 import David_Kim from "@/assets/Judges/David_Kim.jpeg";
 import David from "@/assets/Judges/AIPost_davin.jpg";
+import Ethan from "@/assets/Judges/Ethan.jpg";
+import Igeuwu from "@/assets/Judges/igeuwu.jpg";
+import Jerry from "@/assets/Judges/jerry_gaia.jpg";
+import Kay from "@/assets/Judges/kay.jpeg";
+import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
+import Kyrie from "@/assets/Judges/kyrie.jpg";
+import Nana104 from "@/assets/Judges/nana104.jpg";
+import NUVA from "@/assets/Judges/NUVA.jpg";
+import Oliver from "@/assets/Judges/Oliver_Aggregata.jpeg";
+import Pro1 from "@/assets/Judges/pro1.png";
+import Ryder from "@/assets/Judges/Ryder.jpeg";
+import Scott from "@/assets/Judges/Scott.jpg";
+import Selina from "@/assets/Judges/Selina.jpg";
 
 
 
@@ -58,12 +71,17 @@ function JudgesDoc() {
     },
     {
       name: "David Kim",
-      company: "Trust Wallet \n Technical Lead",
+      company: "Trust Wallet \nTechnical Lead",
       avatar: David_Kim.src,
     },
     {
       name: "David",
-      company: "AI Post\n Co-Founder",
+      company: "AI Post\nCo-Founder",
+      avatar: David.src,
+    },
+    {
+      name: "Ethan",
+      company: "AC Capital\nFounding Partner ",
       avatar: David.src,
     },
   ];
