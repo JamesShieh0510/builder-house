@@ -2,9 +2,9 @@
 export default function WorkshopDoc() {
     return {
       Day1: {
-        Room1: [
+        Room1 NCKU BLOCKCHAIN CLUB WORKSHOP: [
           {
-            title: "TBH X NCKU BLOCKCHAIN CLUB WORKSHOP",
+            title: "TBH X ",
             time: "14:00 - 15:00",
             description:
               "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliquac.",
