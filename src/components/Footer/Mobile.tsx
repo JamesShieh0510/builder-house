@@ -89,7 +89,7 @@ export default function FooterMobile(props: any) {
             <div className={buttonStyle}>FAQ</div>
           </Link>
         </div>
-        <div className="font-medium text-white">© TAIWAN BUILDER HOUSE.</div>
+        <div className="font-medium text-white">© TAIWAN BUILDER HOUSE.<br></br> 主辦單位：卡米客動漫有限公司</div>
       </div>
     </footer>
   );
