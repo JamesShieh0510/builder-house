@@ -149,7 +149,7 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
-            href="/#Judges"
+            href="/#Speakers"
             passHref
             className="w-full"
             onClick={() => onClose()}
