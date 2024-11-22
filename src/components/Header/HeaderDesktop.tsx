@@ -33,7 +33,7 @@ export default function Desktop(props: any) {
                 <div className={buttonStyle}>Activity</div>
               </Link>
               <Link href="/#Judges" passHref>
-                <div className={buttonStyle}>JUDGES</div>
+                <div className={buttonStyle}>Speakers</div>
               </Link>
               <Link href="/#Events" passHref>
                 <div className={buttonStyle}>EVENTS</div>

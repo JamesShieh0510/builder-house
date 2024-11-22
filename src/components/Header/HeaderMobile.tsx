@@ -156,7 +156,7 @@ export default function Mobile(props: any) {
           >
             <div className="flex h-12 items-center pl-6">
               <div className="bg-primary bg-clip-text text-xl font-bold text-transparent">
-                JUDGES
+              Speakers
               </div>
               <div
                 className={`pl-3 text-base font-black ${

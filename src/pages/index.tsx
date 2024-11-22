@@ -40,6 +40,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
       "overView",
       "prize",
       "hunter",
+      "Workshop",
       "FAQ",
       "agenda",
       "judges",

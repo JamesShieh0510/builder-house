@@ -11,7 +11,7 @@ export default function Workshop(props: { data: any }) {
 
   return (
     <section className="py-16 bg-white">
-      <div className="text-center mb-8">
+      <div className="mb-8">
         <h1 className="text-3xl font-bold text-pink-500">WORKSHOP</h1>
         <p className="text-lg text-gray-600">工作坊</p>
       </div>
