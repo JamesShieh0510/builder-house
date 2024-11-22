@@ -83,7 +83,7 @@ export default function DesktopFooter(props: any) {
             </div>
           </div>
           <div className="mb-12 flex max-w-sm justify-end font-medium text-white">
-            © TAIWAN BUILDER HOUSE.
+          © TAIWAN BUILDER HOUSE. <br></br> 主辦單位：卡米客動漫有限公司
           </div>
         </div>
       </div>
