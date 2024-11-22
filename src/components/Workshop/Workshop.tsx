@@ -8,6 +8,12 @@ export default function Workshop(props: { data: any }) {
 
   const rooms = Object.keys(data[currentDay]);
 
+  // 定義 Room 標題映射
+  const roomTitles: { [key: number]: string } = {
+    1: "Room 1 : NCKU",
+    2: "Room 2 : SUI",
+  };
+
   return (
     <section className="py-16 bg-white">
       <div className="mb-8 px-4 md:px-40">
@@ -36,7 +42,9 @@ export default function Workshop(props: { data: any }) {
         </button>
       </div>
       <div className="flex items-center justify-start mb-6 px-4 md:px-40 gap-2">
-        <h2 className="bg-primary bg-clip-text text-[3rem] font-bold uppercase text-transparent">ROOM {currentRoom}</h2>
+        <h2 className="bg-primary bg-clip-text text-[3rem] font-bold uppercase text-transparent">
+          {roomTitles[currentRoom] || `Room ${currentRoom}`}
+        </h2>
         <button
           onClick={() =>
             setCurrentRoom((prev) => (prev > 1 ? prev - 1 : rooms.length))
