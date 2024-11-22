@@ -56,9 +56,9 @@ function JudgesDoc() {
       avatar: Antoine.src,
     },
     {
-      name: "Maxim Shen",
+      name: "Brad Lin",
       company: "NUVA\nFounder",
-      avatar: Maxim.src,
+      avatar: NUVA.src,
     },
     {
       name: "Carl",
@@ -111,9 +111,9 @@ function JudgesDoc() {
       avatar: Kyrie.src,
     },
     {
-      name: "Nana",
+      name: "Maxim Shen",
       company: "Anti Capital\nCEO",
-      avatar: Nana104.src,
+      avatar: Maxim.src,
     },
     {
       name: "Nana",
