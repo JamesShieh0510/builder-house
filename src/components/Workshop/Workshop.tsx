@@ -13,7 +13,7 @@ export default function Workshop(props: { data: any }) {
   //  1: "Room 1 : NCKU BLOCKCHAIN CLUB WORKSHOP",
   //  2: "Room 2 : WORKSHOP",
   //};
-  const roomDetails: { [key: number]: { title: string; location: string } } = {
+  const roomTitles: { [key: number]: { title: string; location: string } } = {
     1: { title: "Room 1 : NCKU BLOCKCHAIN CLUB WORKSHOP", location: "IHG" },
     2: { title: "Room 2 : SUI WORKSHOP", location: "Room 202" },
   };
