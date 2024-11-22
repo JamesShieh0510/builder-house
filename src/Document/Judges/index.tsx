@@ -82,7 +82,52 @@ function JudgesDoc() {
     {
       name: "Ethan",
       company: "AC Capital\nFounding Partner ",
-      avatar: David.src,
+      avatar: Ethan.src,
+    },
+    {
+      name: "Jerry",
+      company: "Gaia Information\nAccount Manager",
+      avatar: Jerry.src,
+    },
+    {
+      name: "Kay",
+      company: "HSK\nCore Contributor ",
+      avatar: Kay.src,
+    },
+    {
+      name: "Kinjo",
+      company: "AKINDO\nFounder ",
+      avatar: Kinjo.src,
+    },
+    {
+      name: "Kyrie",
+      company: "Typus\nCGO ",
+      avatar: Kyrie.src,
+    },
+    {
+      name: "Nana",
+      company: "104\nBrading Designer",
+      avatar: Nana104.src,
+    },
+    {
+      name: "Oliver",
+      company: "Aggregata\nCo-Founder",
+      avatar: Oliver.src,
+    },
+    {
+      name: "Oliver",
+      company: "Aggregata\nCo-Founder",
+      avatar: Oliver.src,
+    },
+    {
+      name: "Scott",
+      company: "Cashcashbot\nFounder",
+      avatar: Scott.src,
+    },
+    {
+      name: "Selina",
+      company: "GPTSavyy\nFounder",
+      avatar: Selina.src,
     },
   ];
   const JudgesData = {
