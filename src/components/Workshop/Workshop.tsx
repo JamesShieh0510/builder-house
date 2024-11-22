@@ -70,7 +70,10 @@ export default function Workshop(props: { data: any }) {
               title={item.title}
               time={item.time}
               description={item.description}
-              organizers={item.organizers}
+              speaker={item.speaker}
+              registerLink={item.registerLink}
+              //organizers={item.organizers}
+              
             />
           )
         )}
