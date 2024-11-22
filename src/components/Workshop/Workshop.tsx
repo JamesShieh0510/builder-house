@@ -50,7 +50,7 @@ export default function Workshop(props: { data: any }) {
           {roomTitles[currentRoom] || `Room ${currentRoom}`}
         </h2>
         <p className="text-lg font-medium text-gray-700">
-          Location: {roomDetails[currentRoom]?.location}
+          Location: {roomTitles[currentRoom]?.location}
         </p>
         <button
           onClick={() =>
