@@ -15,6 +15,7 @@ import Jerry from "@/assets/Judges/jerry_gaia.jpg";
 import Kay from "@/assets/Judges/kay.jpeg";
 import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
 import Kyrie from "@/assets/Judges/kyrie.jpg";
+import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
 import Nana104 from "@/assets/Judges/nana104.jpg";
 import NUVA from "@/assets/Judges/NUVA.jpg";
 import Oliver from "@/assets/Judges/Oliver_Aggregata.jpeg";
@@ -53,6 +54,11 @@ function JudgesDoc() {
       name: "Antoine",
       company: "ICP\nCo-Founder of ICP-Taiwan",
       avatar: Antoine.src,
+    },
+    {
+      name: "Maxim Shen",
+      company: "NUVA\nFounder",
+      avatar: Maxim.src,
     },
     {
       name: "Carl",
@@ -103,6 +109,11 @@ function JudgesDoc() {
       name: "Kyrie",
       company: "Typus\nCGO ",
       avatar: Kyrie.src,
+    },
+    {
+      name: "Nana",
+      company: "Anti Capital\nCEO",
+      avatar: Nana104.src,
     },
     {
       name: "Nana",
