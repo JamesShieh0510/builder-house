@@ -17,6 +17,7 @@ import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
 import Kyrie from "@/assets/Judges/kyrie.jpg";
 import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
 import Nana104 from "@/assets/Judges/nana104.jpg";
+import Newyellow from "@/assets/Judges/Newyellow_white.jpg";
 import NUVA from "@/assets/Judges/NUVA.jpg";
 import Oliver from "@/assets/Judges/Oliver_Aggregata.jpeg";
 import Pro1 from "@/assets/Judges/pro1.png";
@@ -119,6 +120,11 @@ function JudgesDoc() {
       name: "Nana",
       company: "104\nBrading Designer",
       avatar: Nana104.src,
+    },
+    {
+      name: "Newyellow",
+      company: "Generative Artist",
+      avatar: Newyellow.src,
     },
     {
       name: "Oliver",
