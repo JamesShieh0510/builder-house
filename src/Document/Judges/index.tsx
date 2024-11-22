@@ -132,11 +132,6 @@ function JudgesDoc() {
       avatar: Oliver.src,
     },
     {
-      name: "Oliver",
-      company: "Aggregata\nCo-Founder",
-      avatar: Oliver.src,
-    },
-    {
       name: "Scott",
       company: "Cashcashbot\nFounder",
       avatar: Scott.src,
