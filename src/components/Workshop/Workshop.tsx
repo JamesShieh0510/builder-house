@@ -49,7 +49,7 @@ export default function Workshop(props: { data: any }) {
         <h2 className="bg-primary bg-clip-text text-[3rem] font-bold uppercase text-transparent">
           {roomTitles[currentRoom] || `Room ${currentRoom}`}
         </h2>
-        <p className="text-lg font-medium text-gray-700">
+        <p className="text-lg font-medium text-gray-700 block mt-2">
           Location: {roomLocations[currentRoom]}
         </p>
         <button
