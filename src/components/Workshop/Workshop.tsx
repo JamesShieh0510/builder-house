@@ -10,8 +10,8 @@ export default function Workshop(props: { data: any }) {
 
   // 定義 Room 標題映射
   const roomTitles: { [key: number]: string } = {
-    1: "Room 1 : NCKU BLOCKCHAIN CLUB WORKSHOP",
-    2: "Room 2 : WORKSHOP",
+    1: "NCKU BLOCKCHAIN CLUB WORKSHOP",
+    2: "WORKSHOP 101",
   };
 
   return (
