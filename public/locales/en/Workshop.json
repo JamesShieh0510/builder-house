@@ -1,0 +1,51 @@
+{
+    "title": "Workshop",
+    "subTitle": "Explore our workshops!",
+    "day1": {
+      "room1": {
+        "workshop1": {
+          "title": "TBH X NCKU BLOCKCHAIN CLUB WORKSHOP",
+          "time": "14:00 - 15:00",
+          "description": "An in-depth exploration of blockchain innovation.",
+          "organizer1": "NCKU Blockchain Club",
+          "organizer2": "XueDAO"
+        },
+        "workshop2": {
+          "title": "Advanced Blockchain Applications",
+          "time": "15:30 - 16:30",
+          "description": "Discover the next generation of blockchain use cases.",
+          "organizer1": "ABC Team",
+          "organizer2": "XYZ Inc."
+        }
+      },
+      "room2": {
+        "workshop1": {
+          "title": "ROOM 2 WORKSHOP",
+          "time": "15:00 - 16:00",
+          "description": "Collaboration and blockchain technology.",
+          "organizer1": "Team A",
+          "organizer2": "Team B"
+        }
+      }
+    },
+    "day2": {
+      "room1": {
+        "workshop1": {
+          "title": "DAY 2 ROOM 1 WORKSHOP",
+          "time": "10:00 - 11:00",
+          "description": "Blockchain for sustainable development.",
+          "organizer1": "Team C",
+          "organizer2": "Team D"
+        }
+      },
+      "room2": {
+        "workshop1": {
+          "title": "DAY 2 ROOM 2 WORKSHOP",
+          "time": "12:00 - 13:00",
+          "description": "Building decentralized applications.",
+          "organizer1": "Team E",
+          "organizer2": "Team F"
+        }
+      }
+    }
+  }

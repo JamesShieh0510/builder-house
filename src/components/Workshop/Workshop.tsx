@@ -1,4 +1,3 @@
-// /components/Workshop/Workshop.tsx
 import React, { useState } from "react";
 import WorkshopCard from "./WorkshopCard";
 
@@ -11,11 +10,10 @@ export default function Workshop(props: { data: any }) {
 
   return (
     <section className="py-16 bg-white">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-pink-500">WORKSHOP</h1>
-        <p className="text-lg text-gray-600">工作坊</p>
+      <div className="mb-8 px-4 md:px-40">
+        <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent">WORKSHOP</h1>
       </div>
-      <div className="flex justify-center gap-4 mb-6">
+      <div className="flex mb-8 px-4 md:px-40 gap-4">
         <button
           className={`px-6 py-2 font-semibold rounded ${
             currentDay === "Day1"
@@ -37,21 +35,21 @@ export default function Workshop(props: { data: any }) {
           DAY 2
         </button>
       </div>
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-start mb-6 px-4 md:px-40 gap-2">
+        <h2 className="bg-primary bg-clip-text text-[3rem] font-bold uppercase text-transparent">ROOM {currentRoom}</h2>
         <button
           onClick={() =>
             setCurrentRoom((prev) => (prev > 1 ? prev - 1 : rooms.length))
           }
-          className="text-xl font-bold text-pink-500"
+          className="text-2xl font-bold text-pink-500 bg-white border-4 border-pink-500 px-2 py-1 rounded-lg shadow-md hover:bg-pink-500 hover:text-white transition"
         >
           {"<"}
         </button>
-        <h2 className="text-2xl font-bold text-pink-500">ROOM {currentRoom}</h2>
         <button
           onClick={() =>
             setCurrentRoom((prev) => (prev < rooms.length ? prev + 1 : 1))
           }
-          className="text-xl font-bold text-pink-500"
+          className="text-2xl font-bold text-pink-500 bg-white border-4 border-pink-500 px-2 py-1 rounded-lg shadow-md hover:bg-pink-500 hover:text-white transition"
         >
           {">"}
         </button>
