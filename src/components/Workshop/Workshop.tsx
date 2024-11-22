@@ -9,9 +9,13 @@ export default function Workshop(props: { data: any }) {
   const rooms = Object.keys(data[currentDay]);
 
   // 定義 Room 標題映射
-  const roomTitles: { [key: number]: string } = {
-    1: "Room 1 : NCKU BLOCKCHAIN CLUB WORKSHOP",
-    2: "Room 2 : WORKSHOP",
+  //const roomTitles: { [key: number]: string } = {
+  //  1: "Room 1 : NCKU BLOCKCHAIN CLUB WORKSHOP",
+  //  2: "Room 2 : WORKSHOP",
+  //};
+  const roomDetails: { [key: number]: { title: string; location: string } } = {
+    1: { title: "Room 1 : NCKU BLOCKCHAIN CLUB WORKSHOP", location: "IHG" },
+    2: { title: "Room 2 : SUI WORKSHOP", location: "Room 202" },
   };
 
   return (
@@ -45,6 +49,9 @@ export default function Workshop(props: { data: any }) {
         <h2 className="bg-primary bg-clip-text text-[3rem] font-bold uppercase text-transparent">
           {roomTitles[currentRoom] || `Room ${currentRoom}`}
         </h2>
+        <p className="text-lg font-medium text-gray-700">
+          Location: {roomDetails[currentRoom]?.location}
+        </p>
         <button
           onClick={() =>
             setCurrentRoom((prev) => (prev > 1 ? prev - 1 : rooms.length))
