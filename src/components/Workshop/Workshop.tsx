@@ -13,10 +13,6 @@ export default function Workshop(props: { data: any }) {
     1: "Room 1 : NCKU BLOCKCHAIN CLUB WORKSHOP",
     2: "Room 2 : WORKSHOP",
   };
-  const roomLocations: { [key: number]: string } = {
-    1: "IHG",
-    2: "Room 202",
-  };
 
   return (
     <section className="py-16 bg-white">
@@ -49,9 +45,6 @@ export default function Workshop(props: { data: any }) {
         <h2 className="bg-primary bg-clip-text text-[3rem] font-bold uppercase text-transparent">
           {roomTitles[currentRoom] || `Room ${currentRoom}`}
         </h2>
-        <p className="text-lg font-medium text-gray-700 block mt-2">
-          Location: {roomLocations[currentRoom]}
-        </p>
         <button
           onClick={() =>
             setCurrentRoom((prev) => (prev > 1 ? prev - 1 : rooms.length))
