@@ -75,10 +75,10 @@ export default function Home() {
       <Prizes data={prizeData} />
       {/* <GemHunter data={hunterData} /> */}
       {/* <Activity data={ActivityData} /> */}
-      <Workshop data={WorkshopData} />
       {<Judges data={JudgesData} />}
       {/* TODO: change to speaker <Judges data={JudgesData} /> */}
-      {/* <Agenda data={AgendaData} /> */}
+      { <Agenda data={AgendaData} /> }
+      <Workshop data={WorkshopData} />
       {<Events data={EventsData} /> }
       <Partners data={PartnersData} />
       <FAQ data={FAQData} />

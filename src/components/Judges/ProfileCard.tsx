@@ -15,7 +15,6 @@ export default function ProfileCard(props: {
 
   return (
     <div className="h-auto w-[150px] md:w-[200px] bg-white transition-all m-4 flex flex-col items-center"> 
-      {/* 縮小圖片 */}
       <Box
         className="h-[120px] md:h-[160px] w-[120px] md:w-[160px] mb-4"
         bgImg={props.avatar}
@@ -23,7 +22,6 @@ export default function ProfileCard(props: {
         bgRepeat="no-repeat"
         bgPosition="center"
       />
-      {/* 文字部分 */}
       <div className="text-center text-lg w-full">
         <div className="text-primary font-semibold">{props.name}</div>
         <div className="whitespace-pre-wrap text-sm font-medium text-[#949494] mt-1">
