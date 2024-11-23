@@ -42,7 +42,7 @@ export default function Workshop(props: { data: any }) {
         </button>
       </div>
       <div className="flex items-center justify-start mb-6 px-4 md:px-40 gap-2">
-        <h2 className="bg-primary bg-clip-text text-[3rem] font-bold uppercase text-transparent">
+        <h2 className="bg-primary bg-clip-text text-[2.5rem] font-bold uppercase text-transparent">
           {roomTitles[currentRoom] || `Room ${currentRoom}`}
         </h2>
         <button
