@@ -30,7 +30,7 @@ function AgendaDoc() {
       {
         time: "14:30",
         topic: "TBD",
-        subTitle: ["Host:Davin, AIPost, Co-Founder","Harrison, Owl Protocol, Head of BD","Ben, Lychee ACHO, Founder","Kevin, Mustaverse Digital, Founder"],
+        subTitle: ["Davin, AIPost, Co-Founder (Host)","Harrison, Owl Protocol, Head of BD","Ben, Lychee ACHO, Founder","Kevin, Mustaverse Digital, Founder"],
       },
       {
         time: "15:45",
@@ -52,7 +52,7 @@ function AgendaDoc() {
       {
         time: "14:00",
         topic: "TBD",
-        subTitle: ["Host:Ethan, AC Capital, Founding partner ","Amy, Cetus, Head of BD","Carl, NAVI, APAC Growth Lead","Kyrie, Typus, CGO"],
+        subTitle: ["Ethan, AC Capital, Founding Partner (Host)","Amy, Cetus, Head of BD","Carl, NAVI, APAC Growth Lead","Kyrie, Typus, CGO"],
       },
 
     ],
