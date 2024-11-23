@@ -18,13 +18,18 @@ function AgendaDoc() {
         subTitle: ["Jaden, Investor, Flow Traders","Ben, Partner, Radiance Ventures","Lai, Partner, Horizon Capital"],
       },
       {
-        time: "14:15",
-        topic: "L2 Interoperability",
-        subTitle: ["TBD"],
+        time: "13:30",
+        topic: "Opening",
+        subTitle: ["黃偉哲, Mayor, Tainan","林榮川, Director, Economic Development Bureau","謝仕淵, Director, Bureau of Culture"],
       },
       {
-        time: "15:00",
-        topic: "Empowering Web3 Startups",
+        time: "13:45",
+        topic: "Unlocking the potential of seamless interaction across L2 ",
+        subTitle: ["Host:Davin, AIPost, Co-Founder","Harrison, Owl Protocol, Head of BD","Ben, Lychee ACHO, Founder","Kevin, Mustaverse Digital, Founder"],
+      },
+      {
+        time: "14:30",
+        topic: "TBD",
         subTitle: ["TBD"],
       },
       {
