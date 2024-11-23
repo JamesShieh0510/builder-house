@@ -14,8 +14,8 @@ function AgendaDoc() {
       },
       {
         time: "11:15",
-        topic: "VC",
-        subTitle: ["TBD"],
+        topic: "TBD",
+        subTitle: ["Jaden, Investor, Flow Traders","Ben, Partner, Radiance Ventures","Lai, Partner, Horizon Capital"],
       },
       {
         time: "14:15",
