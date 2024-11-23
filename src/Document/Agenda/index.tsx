@@ -25,12 +25,12 @@ function AgendaDoc() {
       {
         time: "13:45",
         topic: "Unlocking the potential of seamless interaction across L2 ",
-        subTitle: ["Host:Davin, AIPost, Co-Founder","Harrison, Owl Protocol, Head of BD","Ben, Lychee ACHO, Founder","Kevin, Mustaverse Digital, Founder"],
+        subTitle: ["TBD"],
       },
       {
         time: "14:30",
         topic: "TBD",
-        subTitle: ["TBD"],
+        subTitle: ["Host:Davin, AIPost, Co-Founder","Harrison, Owl Protocol, Head of BD","Ben, Lychee ACHO, Founder","Kevin, Mustaverse Digital, Founder"],
       },
       {
         time: "15:45",
@@ -47,12 +47,12 @@ function AgendaDoc() {
       {
         time: "11:15",
         topic: "Bitcoin as Catalyst for Change:Exploring New Horizons",
-        subTitle: ["TBD"],
+        subTitle: ["Jenks Guo, Babylon Labs, Head of Developer Relations","Chanel, CoreDAO, Core Contributor"],
       },
       {
         time: "14:00",
-        topic: "SUI",
-        subTitle: ["TBD"],
+        topic: "TBD",
+        subTitle: ["Host:Ethan, AC Capital, Founding partner ","Amy, Cetus, Head of BD","Carl, NAVI, APAC Growth Lead","Kyrie, Typus, CGO"],
       },
 
     ],
