@@ -16,10 +16,10 @@ export default function Workshop(props: { data: any }) {
 
   return (
     <section className="py-16 bg-white">
-      <div className="mb-8 px-4 md:px-40">
+      <div className="mb-8 px-4 md:px-32">
         <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent">WORKSHOP</h1>
       </div>
-      <div className="flex mb-8 px-4 md:px-40 gap-4">
+      <div className="flex mb-8 px-4 md:px-32 gap-4">
         <button
           className={`px-6 py-2 font-semibold rounded ${
             currentDay === "Day1"
@@ -41,7 +41,7 @@ export default function Workshop(props: { data: any }) {
           DAY 2
         </button>
       </div>
-      <div className="flex items-center justify-start mb-6 px-4 md:px-40 gap-2">
+      <div className="flex items-center justify-start mb-6 px-4 md:px-32 gap-2">
         <h2 className="bg-primary bg-clip-text text-[2.5rem] font-bold uppercase text-transparent">
           {roomTitles[currentRoom] || `Room ${currentRoom}`}
         </h2>
