@@ -66,22 +66,37 @@ export default function Home() {
 
   return (
     <>
-     <Head>
+      <Head>
         <title>Taiwan Builder House</title>
       </Head>
       <Main />
-      <TimeLine data={TimeLineData} data2={CityData} />
-      <OverView data={OverViewData} />
-      <Prizes data={prizeData} />
-      {/* <GemHunter data={hunterData} /> */}
-      {/* <Activity data={ActivityData} /> */}
-      {/* TODO: change to speaker <Judges data={JudgesData} /> */}
-      { <Agenda data={AgendaData} /> }
-      <Workshop data={WorkshopData} />
-      {<Judges data={JudgesData} />}
-      {<Events data={EventsData} /> }
-      <Partners data={PartnersData} />
-      <FAQ data={FAQData} />
+      <div id="timeline">
+        <TimeLine data={TimeLineData} data2={CityData} />
+      </div>
+      <div id="overview">
+        <OverView data={OverViewData} />
+      </div>
+      <div id="prizes">
+        <Prizes data={prizeData} />
+      </div>
+      <div id="agenda">
+        <Agenda data={AgendaData} />
+      </div>
+      <div id="workshop">
+        <Workshop data={WorkshopData} />
+      </div>
+      <div id="speakers">
+        <Judges data={JudgesData} />
+      </div>
+      <div id="events">
+        <Events data={EventsData} />
+      </div>
+      <div id="partners">
+        <Partners data={PartnersData} />
+      </div>
+      <div id="faq">
+        <FAQ data={FAQData} />
+      </div>
     </>
   );
 }

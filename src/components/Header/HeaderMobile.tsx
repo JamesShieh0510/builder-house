@@ -111,59 +111,40 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
-            href="/#GemHunter"
+            href="/#workshop"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
             <div className="flex h-12 items-center pl-6">
               <div className="bg-primary bg-clip-text text-xl font-bold uppercase text-transparent">
-                Hunter
+                WORKSHOP
               </div>
               <div
                 className={`pl-3 text-base font-black ${
                   locale === "en" ? "hidden" : "flex text-black"
                 }`}
               >
-                賞金獵人
+                工作坊
               </div>
             </div>
           </Link>
           <Link
-            href="/#Activity"
-            passHref
-            className="w-full"
-            onClick={() => onClose()}
-          >
-            <div className="flex h-12 items-center pl-6">
-              <div className="bg-primary bg-clip-text text-xl font-bold uppercase text-transparent">
-                Activity
-              </div>
-              <div
-                className={`pl-3 text-base font-black ${
-                  locale === "en" ? "hidden" : "flex text-black"
-                }`}
-              >
-                活動
-              </div>
-            </div>
-          </Link>
-          <Link
-            href="/#Judges"
+            href="/#speakers"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
             <div className="flex h-12 items-center pl-6">
               <div className="bg-primary bg-clip-text text-xl font-bold text-transparent">
-              Judges
+              SPEAKERS
               </div>
               <div
                 className={`pl-3 text-base font-black ${
                   locale === "en" ? "hidden" : "flex text-black"
                 }`}
               >
-                裁判群
+                講者
               </div>
             </div>
           </Link>

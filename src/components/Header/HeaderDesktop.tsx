@@ -20,30 +20,27 @@ export default function Desktop(props: any) {
           </div>
           <div className="nav flex h-16 items-center justify-center gap-2 rounded-full bg-white px-6 xl:gap-4">
             <div className="flex gap-2 px-2 xl:gap-4">
-              <Link href="/#OverView" passHref>
-                <div className={buttonStyle}>OVERVIEW</div>
-              </Link>
-              <Link href="/#Prizes" passHref>
-                <div className={buttonStyle}>PRIZES</div>
-              </Link>
-              {/* <Link href="/#GemHunter" passHref>
-                <div className={buttonStyle}>Hunter</div>
-              </Link> */}
-              <Link href="/#Activity" passHref>
-                <div className={buttonStyle}>Activity</div>
-              </Link>
-              <Link href="/#Speakers" passHref>
-                <div className={buttonStyle}>Speakers</div>
-              </Link>
-              <Link href="/#Events" passHref>
-                <div className={buttonStyle}>EVENTS</div>
-              </Link>
-              <Link href="/#Judges" passHref>
-                <div className={buttonStyle}>Judges</div>
-              </Link>
-              <Link href="/#FAQ" passHref>
-                <div className={buttonStyle}>FAQ</div>
-              </Link>
+                <Link href="#overview" passHref>
+                  <div className={buttonStyle}>OVERVIEW</div>
+                </Link>
+                <Link href="#prizes" passHref>
+                  <div className={buttonStyle}>PRIZES</div>
+                </Link>
+                <Link href="#workshop" passHref>
+                  <div className={buttonStyle}>WORKSHOP</div>
+                </Link>
+                <Link href="#speakers" passHref>
+                  <div className={buttonStyle}>SPEAKERS</div>
+                </Link>
+                <Link href="#events" passHref>
+                 <div className={buttonStyle}>EVENTS</div>
+                </Link>
+                <Link href="#partners" passHref>
+                 <div className={buttonStyle}>PARTNERS</div>
+                </Link>
+                <Link href="#faq" passHref>
+                 <div className={buttonStyle}>FAQ</div>
+                </Link>
             </div>
             <div className="flex gap-6">
               <div className="flex h-12 w-[120px] items-center justify-center rounded-3xl bg-primary text-white transition-all xl:w-[120px] 2xl:w-[120px]">

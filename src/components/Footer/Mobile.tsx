@@ -64,30 +64,27 @@ export default function FooterMobile(props: any) {
         </div> */}
         </div>
         <div className="-ml-1 grid grid-cols-2 gap-x-10 gap-y-5 text-base font-medium">
-          <Link href="/#OverView" passHref>
-            <div className={buttonStyle}>OVERVIEW</div>
-          </Link>
-          <Link href="/#Prizes" passHref>
-            <div className={buttonStyle}>PRIZES</div>
-          </Link>
-          <Link href="/#GemHunter" passHref>
-            <div className={buttonStyle}>Hunter</div>
-          </Link>
-          <Link href="/#Activity" passHref>
-            <div className={buttonStyle}>Activity</div>
-          </Link>
-          <Link href="/#Speakers" passHref>
-            <div className={buttonStyle}>Speakers</div>
-          </Link>
-          <Link href="/#Events" passHref>
-            <div className={buttonStyle}>EVENTS</div>
-          </Link>
-          <Link href="/#Partners" passHref>
-            <div className={buttonStyle}>PARTNERS</div>
-          </Link>
-          <Link href="/#FAQ" passHref>
-            <div className={buttonStyle}>FAQ</div>
-          </Link>
+        <Link href="#overview" passHref>
+                  <div className={buttonStyle}>OVERVIEW</div>
+                </Link>
+                <Link href="#prizes" passHref>
+                  <div className={buttonStyle}>PRIZES</div>
+                </Link>
+                <Link href="#workshop" passHref>
+                  <div className={buttonStyle}>WORKSHOP</div>
+                </Link>
+                <Link href="#speakers" passHref>
+                  <div className={buttonStyle}>SPEAKERS</div>
+                </Link>
+                <Link href="#events" passHref>
+                 <div className={buttonStyle}>EVENTS</div>
+                </Link>
+                <Link href="#partners" passHref>
+                 <div className={buttonStyle}>PARTNERS</div>
+                </Link>
+                <Link href="#faq" passHref>
+                 <div className={buttonStyle}>FAQ</div>
+                </Link>
         </div>
         <div className="font-medium text-white">© TAIWAN BUILDER HOUSE.<br></br> 主辦單位：卡米客動漫有限公司</div>
       </div>
