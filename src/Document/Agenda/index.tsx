@@ -14,7 +14,7 @@ function AgendaDoc() {
       },
       {
         time: "11:15",
-        topic: "The next wave of venture capital in a decentralized economy",
+        topic: "The Next Wave of Venture Capital in a Decentralized Economy",
         subTitle: ["Jaden, Investor, Flow Traders","Ben, Partner, Radiance Ventures","Lai, Partner, Horizon Capital"],
       },
       {
@@ -24,7 +24,7 @@ function AgendaDoc() {
       },
       {
         time: "13:45",
-        topic: "Unlocking the potential of seamless interaction across L2 ",
+        topic: "Unlocking the Potential of Seamless Interaction Across L2 ",
         subTitle: ["TBD"],
       },
       {
@@ -46,7 +46,7 @@ function AgendaDoc() {
     Day2: [
       {
         time: "11:15",
-        topic: "Bitcoin as Catalyst for Change:Exploring New Horizons",
+        topic: "Bitcoin as Catalyst for Change : Exploring New Horizons",
         subTitle: ["Jenks Guo, Babylon Labs, Head of Developer Relations","Chanel, CoreDAO, Core Contributor"],
       },
       {
