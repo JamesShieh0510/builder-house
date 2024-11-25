@@ -109,7 +109,7 @@ function JudgesDoc() {
     {
       name: "Godot",
       company: "Manta Network\nHead of Research",
-      avatar: Ethan.src,
+      avatar: Godot.src,
     },
     {
       name: "Jerry",
