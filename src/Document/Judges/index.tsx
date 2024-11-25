@@ -14,6 +14,8 @@ import David from "@/assets/Judges/AIPost_davin.jpg";
 import Ethan from "@/assets/Judges/Ethan.jpg";
 import Godot from "@/assets/Judges/godot.jpg";
 import Igeuwu from "@/assets/Judges/igeuwu.jpg";
+import Jaden from "@/assets/Judges/Jaden.jpg";
+import Jenks_Guo from "@/assets/Judges/Jenks_Guo_speaker_photo_1.jpg";
 import Jerry from "@/assets/Judges/jerry_gaia.jpg";
 import Kay from "@/assets/Judges/kay.jpeg";
 import Kevin from "@/assets/Judges/Kevin_Isle.jpeg";
@@ -110,6 +112,16 @@ function JudgesDoc() {
       name: "Godot",
       company: "Manta Network\nHead of Research",
       avatar: Godot.src,
+    },
+    {
+      name: "Jaden",
+      company: "Flow Traders\nInvestor",
+      avatar: Jaden.src,
+    },
+    {
+      name: "Jenks Guo",
+      company: "Babylon Labs\nHead of DevRel",
+      avatar: Jenks_Guo.src,
     },
     {
       name: "Jerry",
