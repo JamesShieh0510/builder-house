@@ -4,15 +4,19 @@ import Lin from "@/assets/Judges/Director_Lin.jpg";
 import Hsieh from "@/assets/Judges/Director_Hsieh.jpg";
 import Amy from "@/assets/Judges/Amy_Cetus.png";
 import Antoine from "@/assets/Judges/Antoine.jpeg";
+import Alan from "@/assets/Judges/Alan_Torch.jpg";
+import Ben from "@/assets/Judges/Benjamin_Ong.jpeg";
 import Carl from "@/assets/Judges/Carl_Navx.jpg";
 import Chanel from "@/assets/Judges/Chanel_coredao.jpg";
 import Cheryl from "@/assets/Judges/Cheryl_Law.jpg";
 import David_Kim from "@/assets/Judges/David_Kim.jpeg";
 import David from "@/assets/Judges/AIPost_davin.jpg";
 import Ethan from "@/assets/Judges/Ethan.jpg";
+import Godot from "@/assets/Judges/godot.jpg";
 import Igeuwu from "@/assets/Judges/igeuwu.jpg";
 import Jerry from "@/assets/Judges/jerry_gaia.jpg";
 import Kay from "@/assets/Judges/kay.jpeg";
+import Kevin from "@/assets/Judges/Kevin_Isle.jpeg";
 import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
 import Kyrie from "@/assets/Judges/kyrie.jpg";
 import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
@@ -24,6 +28,7 @@ import Pro1 from "@/assets/Judges/pro1.png";
 import Ryder from "@/assets/Judges/Ryder.jpeg";
 import Scott from "@/assets/Judges/Scott.jpg";
 import Selina from "@/assets/Judges/Selina.jpg";
+import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
 
 
 
@@ -47,6 +52,11 @@ function JudgesDoc() {
       avatar: Hsieh.src,
     },
     {
+      name: "Benjamin Ong",
+      company: "Radiance\nPartner",
+      avatar: Ben.src,
+    },
+    {
       name: "Amy",
       company: "Cetus\nBD Lead",
       avatar: Amy.src,
@@ -55,6 +65,11 @@ function JudgesDoc() {
       name: "Antoine",
       company: "ICP\nCo-Founder of ICP-Taiwan",
       avatar: Antoine.src,
+    },
+    {
+      name: "Alan",
+      company: "Torch\nFounder",
+      avatar: Alan.src,
     },
     {
       name: "Brad Lin",
@@ -92,6 +107,11 @@ function JudgesDoc() {
       avatar: Ethan.src,
     },
     {
+      name: "Godot",
+      company: "Manta Network\nHead of Research",
+      avatar: Ethan.src,
+    },
+    {
       name: "Jerry",
       company: "Gaia Information\nAccount Manager",
       avatar: Jerry.src,
@@ -100,6 +120,11 @@ function JudgesDoc() {
       name: "Kay",
       company: "HSK\nCore Contributor ",
       avatar: Kay.src,
+    },
+    {
+      name: "Kevin",
+      company: "Isle\nFounder ",
+      avatar: Kevin.src,
     },
     {
       name: "Kinjo",
@@ -140,6 +165,11 @@ function JudgesDoc() {
       name: "Selina",
       company: "GPTSavyy\nFounder",
       avatar: Selina.src,
+    },
+    {
+      name: "Yang",
+      company: "Ton\nSyndicate",
+      avatar: Ton_Yang.src,
     },
   ];
   const JudgesData = {
