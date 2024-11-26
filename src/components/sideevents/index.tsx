@@ -29,7 +29,7 @@ export default function SideEvents({ data }: SideEventsProps) {
   );
 
   return (
-    <section id={data.id} className="min-h-screen bg-white px-6 py-16">
+    <section id={data.id} className="min-h-screen bg-white py-20">
       <div className="max-w-7xl mx-auto">
         <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent mb-8 px-4 md:px-32">
           {data.title.name}

@@ -9,6 +9,8 @@ import Activity from "@/components/Activity/Activity";
 import TimeLine from "@/components/TimeLine/TimeLine";
 import Workshop from "@/components/Workshop/Workshop";
 import GemHunter from "@/components/GemHunter/GemHunter";
+import CityGuide from "@/components/CityGuide";
+import CityGuideDoc from "@/Document/CityGuide";
 import PrizeDoc from "@/Document/Prize";
 import OverViewDoc from "@/Document/OverView";
 import HunterDoc from "@/Document/GemHunter";
@@ -65,7 +67,8 @@ export default function Home() {
   const EventsData = EventsDoc();
   const PartnersData = PartnersDoc();
   const WorkshopData = WorkshopDoc();
-  const SideEventsData = SideEventsDoc();
+  const SideEventsData = SideEventsDoc()
+  const CityGuideData = CityGuideDoc();
 
   return (
     <>
@@ -100,9 +103,13 @@ export default function Home() {
       <div id="partners">
         <Partners data={PartnersData} />
       </div>
+      <div id="cityguide">
+        <CityGuide data={CityGuideData} />
+      </div>
       <div id="faq">
         <FAQ data={FAQData} />
       </div>
+
     </>
   );
 }
