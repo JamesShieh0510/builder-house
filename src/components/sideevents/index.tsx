@@ -3,7 +3,6 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { StaticImageData } from "next/image";
 
-// 定义数据的类型
 type SideEvent = {
   title: string;
   link: string;
@@ -21,42 +20,36 @@ type SideEventsProps = {
 
 export default function SideEvents({ data }: SideEventsProps) {
   const autoplayRef = useRef(Autoplay({ delay: 3000 }));
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    autoplayRef.current,
-  ]);
-
-  const scrollPrev = () => emblaApi?.scrollPrev();
-  const scrollNext = () => emblaApi?.scrollNext();
+  const [emblaRef] = useEmblaCarousel(
+    {
+      loop: true,
+      align: "start",
+    },
+    [autoplayRef.current]
+  );
 
   return (
     <section id={data.id} className="min-h-screen bg-white px-6 py-16">
-      <div className="max-w-4xl mx-auto relative">
-        {/* 标题 */}
+      <div className="max-w-7xl mx-auto">
+        {/* 標題 */}
         <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent text-center mb-6">
           {data.title.name}
         </h1>
-        {/* 左按钮 */}
-        <button
-          onClick={scrollPrev}
-          className="absolute top-1/2 left-0 -translate-y-1/2 z-10 px-4 py-2 bg-pink-500 text-white font-bold rounded-full hover:bg-pink-600 transition"
-        >
-          &lt;
-        </button>
-        {/* 轮播区域 */}
+        {/* 輪播區域 */}
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex">
             {data.data.map((event, index) => (
               <div
                 key={index}
-                className="flex-[0_0_100%] p-6 flex justify-center"
+                className="flex-[0_0_100%] md:flex-[0_0_calc(33.333%-1rem)] p-4"
               >
                 <div className="flex flex-col items-center bg-white rounded-lg shadow-md p-6">
                   <img
-                    src={event.img.src} // 静态资源使用 src 属性
+                    src={event.img.src} // 靜態資源使用 src 屬性
                     alt={event.title}
-                    className="w-full h-64 object-cover rounded-lg mb-4"
+                    className="w-full h-40 md:h-64 object-cover rounded-lg mb-4"
                   />
-                  <h2 className="text-xl font-semibold text-primary mb-2">
+                  <h2 className="text-lg md:text-xl font-semibold text-primary mb-2 text-center">
                     {event.title}
                   </h2>
                   <a
@@ -72,13 +65,6 @@ export default function SideEvents({ data }: SideEventsProps) {
             ))}
           </div>
         </div>
-        {/* 右按钮 */}
-        <button
-          onClick={scrollNext}
-          className="absolute top-1/2 right-0 -translate-y-1/2 z-10 px-4 py-2 bg-pink-500 text-white font-bold rounded-full hover:bg-pink-600 transition"
-        >
-          &gt;
-        </button>
       </div>
     </section>
   );
