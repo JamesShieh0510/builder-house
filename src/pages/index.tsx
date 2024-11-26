@@ -20,7 +20,9 @@ import EventsData from "@/Document/Events";
 import TimeLineDoc from "@/Document/TimeLine";
 import CityDoc from "@/Document/City";
 import Agenda from "@/components/Agenda/Agenda";
+import SideEvents from "@/components/sideevents";
 import AgendaDoc from "@/Document/Agenda";
+import SideEventsDoc from "@/Document/sideevents";
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import JudgesDoc from "@/Document/Judges";
@@ -63,6 +65,7 @@ export default function Home() {
   const EventsData = EventsDoc();
   const PartnersData = PartnersDoc();
   const WorkshopData = WorkshopDoc();
+  const SideEventsData = SideEventsDoc();
 
   return (
     <>
@@ -90,6 +93,9 @@ export default function Home() {
       </div>
       <div id="events">
         <Events data={EventsData} />
+      </div>
+      <div id="sideevents">
+        <SideEvents data={SideEventsData} />
       </div>
       <div id="partners">
         <Partners data={PartnersData} />

@@ -102,32 +102,7 @@ export default function Events(props) {
             })}
           </Swiper>
         )}
-        <div className="flex w-full justify-end pt-10">
-          {expend ? (
-            <SlArrowUp
-              size="25"
-              className="cursor-pointer"
-              onClick={() => {
-                setLoading(true);
-                setTimeout(() => {
-                  setExpend(!expend);
-                  setLoading(false);
-                }, 500);
-              }}
-            />
-          ) : (
-            <div
-              className="flex cursor-pointer items-center gap-3 rounded-full border text-base text-white bg-primary h-12 w-44 justify-center"
-              onClick={() => {
-                openExternalLink(
-                  ""
-                );
-              }}
-            >
-              <a>FULL EVENT</a>
-            </div>
-          )}
-        </div>
+      
       </div>
     </Section>
   );
