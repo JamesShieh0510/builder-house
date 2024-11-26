@@ -6,6 +6,7 @@ import Amy from "@/assets/Judges/Amy_Cetus.png";
 import Antoine from "@/assets/Judges/Antoine.jpeg";
 import Alan from "@/assets/Judges/Alan_Torch.jpg";
 import Ben from "@/assets/Judges/Benjamin_Ong.jpeg";
+import Ben_Ho from "@/assets/Judges/Ben_Ho_Lychee.jpg";
 import Carl from "@/assets/Judges/Carl_Navx.jpg";
 import Chanel from "@/assets/Judges/Chanel_coredao.jpg";
 import Cheryl from "@/assets/Judges/Cheryl_Law.jpg";
@@ -19,6 +20,7 @@ import Jenks_Guo from "@/assets/Judges/Jenks_Guo_speaker_photo_1.jpg";
 import Jerry from "@/assets/Judges/jerry_gaia.jpg";
 import Kay from "@/assets/Judges/kay.jpeg";
 import Kevin from "@/assets/Judges/Kevin_Isle.jpeg";
+import Kevin_Chang from "@/assets/Judges/Kevin_Chang_Mustaverse.jpg";
 import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
 import Kyrie from "@/assets/Judges/kyrie.jpg";
 import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
@@ -72,6 +74,11 @@ function JudgesDoc() {
       name: "Alan",
       company: "Torch\nFounder",
       avatar: Alan.src,
+    },
+    {
+      name: "Ben Ho",
+      company: "Lychee & NoPFP Lab\nFounder",
+      avatar: Ben_Ho.src,
     },
     {
       name: "Brad Lin",
@@ -139,6 +146,11 @@ function JudgesDoc() {
       avatar: Kevin.src,
     },
     {
+      name: "Kevin Chang",
+      company: "Mustaverse\nFounder ",
+      avatar: Kevin_Chang.src,
+    },
+    {
       name: "Kinjo",
       company: "AKINDO\nFounder ",
       avatar: Kinjo.src,
@@ -170,7 +182,7 @@ function JudgesDoc() {
     },
     {
       name: "Scott",
-      company: "Cashcashbot\nFounder",
+      company: "CopeX\nFounder",
       avatar: Scott.src,
     },
     {
