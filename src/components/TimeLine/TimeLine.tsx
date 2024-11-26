@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import ReactPlayer from "react-player";
 // import line from "@/assets/line.svg";
 // import lineM from "@/assets/lineM.svg";
 // import sideBgT from "@/assets/sideBgT.svg";
@@ -185,7 +186,19 @@ export default function TimeLine(props: { data: any; data2: any }) {
         alt="TimeLine"
         className="w-full"
       /> */}
-      <div className="h-[250px] bg-gradient-to-b from-[#F77968] to-white" />
+      <div className="h-[250px] bg-[#F77968] to-white" />
+      <div className="w-full flex justify-center bg-gradient-to-b from-[#F77968] to-white py-10">
+  <iframe
+    width="1024"
+    height="536"
+    src="https://www.youtube.com/embed/a3feC9C4WQc"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+    className="rounded-lg shadow-lg"
+  ></iframe>
+</div>
     </>
   );
 }
