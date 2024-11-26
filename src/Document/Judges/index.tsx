@@ -26,17 +26,18 @@ import Kevin_Chang from "@/assets/Judges/Kevin_Chang_Mustaverse.jpg";
 import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
 import Kyrie from "@/assets/Judges/kyrie.jpg";
 import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
+import Martinet from "@/assets/Judges/Martinet_Lee.jpg";
 import Nana104 from "@/assets/Judges/nana104.jpg";
 import Newyellow from "@/assets/Judges/Newyellow_white.jpg";
 import NUVA from "@/assets/Judges/NUVA.jpg";
 import Oliver from "@/assets/Judges/Oliver_Aggregata.jpeg";
 import Pro1 from "@/assets/Judges/pro1.png";
+import Peter_Yang from "@/assets/Judges/Peter_Yang.jpg";
 import Ryder from "@/assets/Judges/Ryder.jpeg";
 import Scott from "@/assets/Judges/Scott.jpg";
 import Selina from "@/assets/Judges/Selina.jpg";
 import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
 import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
-
 
 
 
@@ -178,6 +179,11 @@ function JudgesDoc() {
       name: "Maxim Shen",
       company: "Anti Capital\nCEO",
       avatar: Maxim.src,
+    },
+    {
+      name: "Martinet Lee",
+      company: "Zircuit\nHead of Developer Relations",
+      avatar: Martinet.src,
     },
     {
       name: "Nana",
