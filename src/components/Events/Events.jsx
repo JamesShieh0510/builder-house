@@ -22,6 +22,7 @@ export default function Events(props) {
 
   return (
     <Section
+    
       title={{ title: data.title.name, color: data.title.color }}
       subTitle={data.subTitle}
       id={data.id}

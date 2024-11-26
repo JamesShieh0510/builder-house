@@ -41,17 +41,17 @@ function CityGuideDoc() {
             link: "",
         },
         {
-          name: "Silks Place Tainan",
-          description:
-            "A luxurious hotel located in the heart of Tainan, offering premium facilities and exceptional service.",
-          link: "https://www.silksplace-tainan.com",
-        },
+            name: "Crowne Plaza Tainan",
+            description:
+              "Situated near Sicao Bridge and Tainan National Park, this luxury hotel offers stunning views, excellent amenities, and easy access to Anping's historical sites.",
+            link: "https://www.cptainan.com/",
+          },
         {
-          name: "Shangri-La's Far Eastern Plaza Hotel Tainan",
-          description:
-            "A five-star hotel conveniently located near the Tainan Railway Station, providing top-notch hospitality.",
-          link: "https://www.shangri-la.com/tainan/fareasternplazashangrila",
-        },
+            name: "Formosa Yacht Resort",
+            description:
+              "Located in Tainan's Anping District, this luxury resort combines modern design and vacation comfort. Explore nearby Anping Old Street and Fort Zeelandia while enjoying top-notch facilities.",
+            link: "https://www.formosayacht.com.tw/",
+          },
         {
           name: "Hotel Cozzi Ximen Tainan",
           description:
