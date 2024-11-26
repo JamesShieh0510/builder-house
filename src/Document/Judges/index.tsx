@@ -2,6 +2,7 @@ import { useTranslation } from "next-i18next";
 
 import Lin from "@/assets/Judges/Director_Lin.jpg";
 import Hsieh from "@/assets/Judges/Director_Hsieh.jpg";
+import Zhuo from "@/assets/Judges/Director_ Zhuo.png";
 import Amy from "@/assets/Judges/Amy_Cetus.png";
 import Antoine from "@/assets/Judges/Antoine.jpeg";
 import Alan from "@/assets/Judges/Alan_Torch.jpg";
@@ -33,6 +34,8 @@ import Ryder from "@/assets/Judges/Ryder.jpeg";
 import Scott from "@/assets/Judges/Scott.jpg";
 import Selina from "@/assets/Judges/Selina.jpg";
 import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
+import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
+
 
 
 
@@ -54,6 +57,11 @@ function JudgesDoc() {
       name: "謝仕淵",
       company: "Director\nBureau of Culture",
       avatar: Hsieh.src,
+    },
+    {
+      name: "Dr. CH Cho",
+      company: "President\nInstitute for Information Industry",
+      avatar: Zhuo.src,
     },
     {
       name: "Benjamin Ong",
@@ -194,6 +202,11 @@ function JudgesDoc() {
       name: "Yang",
       company: "Ton\nSyndicate",
       avatar: Ton_Yang.src,
+    },
+    {
+      name: "Weike Li",
+      company: "COO\nAmber Group VC",
+      avatar: Weike_Li.src,
     },
   ];
   const JudgesData = {
