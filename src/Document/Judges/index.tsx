@@ -141,7 +141,7 @@ function JudgesDoc() {
       avatar: Kay.src,
     },
     {
-      name: "Kevin",
+      name: "Kevin Lin",
       company: "Isle\nFounder ",
       avatar: Kevin.src,
     },
