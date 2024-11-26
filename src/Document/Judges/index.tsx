@@ -1,5 +1,6 @@
 import { useTranslation } from "next-i18next";
 
+import Huang from "@/assets/Judges/Huang_Wei_Che.jpg";
 import Lin from "@/assets/Judges/Director_Lin.jpg";
 import Hsieh from "@/assets/Judges/Director_Hsieh.jpg";
 import Zhuo from "@/assets/Judges/Director_ Zhuo.png";
@@ -48,6 +49,11 @@ function JudgesDoc() {
   const { t } = useTranslation("judges");
 
   const JudgesArray = [
+    {
+      name: "黃偉哲",
+      company: "Mayor\nTainan",
+      avatar: Huang.src,
+    },
     {
       name: "林榮川",
       company: "Director\nEconomic Development Bureau",
