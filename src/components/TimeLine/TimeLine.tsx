@@ -21,11 +21,7 @@ export default function TimeLine(props: { data: any; data2: any }) {
     "flex h-[54px] z-20 w-[210px] items-center justify-center rounded-lg bg-white text-2xl font-bold text-primary";
   return (
     <>
-      {/* <img
-        src={isMobile ? sideBgTM.src : sideBgT.src}
-        alt="TimeLine"
-        className="mt-16 w-full"
-      /> */}
+    
       <div className="flex h-full w-full flex-col items-start gap-16 border-primary bg-secondary px-5 py-28 transition-all duration-300 lg:px-32 lg:py-32">
         <div className="z-10 flex flex-col items-start justify-start lg:items-start lg:justify-between">
           <div className="flex flex-col gap-6 lg:items-center lg:justify-center lg:gap-10">
