@@ -31,36 +31,22 @@ export default function SideEvents({ data }: SideEventsProps) {
   return (
     <section id={data.id} className="min-h-screen bg-white px-6 py-16">
       <div className="max-w-7xl mx-auto">
-        {/* 標題 */}
-        <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent text-center mb-6">
+        <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent mb-8 px-4 md:px-32">
           {data.title.name}
         </h1>
-        {/* 輪播區域 */}
         <div className="overflow-hidden" ref={emblaRef}>
-          <div className="flex">
+          <div className="flex gap-4">
             {data.data.map((event, index) => (
               <div
                 key={index}
-                className="flex-[0_0_100%] md:flex-[0_0_calc(33.333%-1rem)] p-4"
+                className="flex-[0_0_100%] md:flex-[0_0_calc(33.333%-1rem)] p-4 cursor-pointer"
+                onClick={() => window.open(event.link, "_blank")} 
               >
-                <div className="flex flex-col items-center bg-white rounded-lg shadow-md p-6">
-                  <img
-                    src={event.img.src} // 靜態資源使用 src 屬性
-                    alt={event.title}
-                    className="w-full h-40 md:h-64 object-cover rounded-lg mb-4"
-                  />
-                  <h2 className="text-lg md:text-xl font-semibold text-primary mb-2 text-center">
-                    {event.title}
-                  </h2>
-                  <a
-                    href={event.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-4 py-2 text-sm font-bold text-white bg-pink-500 rounded hover:bg-pink-600"
-                  >
-                    View
-                  </a>
-                </div>
+                <img
+                  src={event.img.src} 
+                  alt={event.title}
+                  className="w-full h-80 md:h-80 object-cover rounded-lg" 
+                />
               </div>
             ))}
           </div>

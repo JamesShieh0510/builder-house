@@ -33,7 +33,7 @@ function SideEventsDoc() {
         },
         {
           title: "黃新工作坊",
-          link: "https://lu.ma/ex3wj94v",
+          link: "https://lu.ma/085n2tlc",
           img: Workshop,
         },
       ],
