@@ -66,11 +66,6 @@ function JudgesDoc() {
       avatar: Hsieh.src,
     },
     {
-      name: "Dr. CH Cho",
-      company: "President\nInstitute for Information Industry",
-      avatar: Zhuo.src,
-    },
-    {
       name: "Benjamin Ong",
       company: "Radiance\nPartner",
       avatar: Ben.src,
