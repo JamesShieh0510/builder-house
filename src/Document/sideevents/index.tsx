@@ -31,11 +31,6 @@ function SideEventsDoc() {
           link: "https://lu.ma/q4pl3xfi",
           img: ClosingParty,
         },
-        {
-          title: "黃新工作坊",
-          link: "https://lu.ma/085n2tlc",
-          img: Workshop,
-        },
       ],
     };
   }
