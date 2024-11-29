@@ -99,6 +99,10 @@ import tzd from "@/assets/Partners/tzd.png";
 import tuhk from "@/assets/Partners/tuhk.png";
 import cryptowilson from "@/assets/Partners/cryptowilson.png";
 import su from "@/assets/Partners/su.png";
+import ai104 from "@/assets/Partners/104ai.jpg";
+import eulogo from "@/assets/Partners/eulogo.png"
+import gptsavy from "@/assets/Partners/gptsavyy logo .png"
+import uvicornsclub from "@/assets/Partners/unicornsclub.webp"
 
 import chain from "@/assets/Partners/chain.svg";
 import Huobi from "@/assets/Partners/Huobi.svg";
@@ -362,6 +366,10 @@ function PartnersDoc() {
     { pic: tuhk.src },
     { pic: cryptowilson.src }, 
     { pic: su.src },
+    { pic: ai104.src},
+    { pic: eulogo.src},
+    { pic: gptsavy.src},
+    { pic: uvicornsclub.src},
     // { pic: Silver.src, link: "" , w: "150"},
     // { pic: Face.src, link: "https://discord.gg/UK8rQjdhmc" , w: "150"},
     // { pic: LBFS.src, link: "https://linktr.ee/blockchain_zh" , w: "150"},
