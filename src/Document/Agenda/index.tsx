@@ -35,7 +35,7 @@ function AgendaDoc() {
       {
         time: "15:45",
         topic: "Account Abstraction",
-        subTitle: ["David Kim, Trust Wallet, "],
+        subTitle: ["David Kim, Trust Wallet, Technical Lead"],
       },
       {
         time: "16:15",

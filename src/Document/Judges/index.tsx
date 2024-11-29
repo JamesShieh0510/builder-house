@@ -6,7 +6,7 @@ import Hsieh from "@/assets/Judges/Director_Hsieh.jpg";
 import Zhuo from "@/assets/Judges/Director_ Zhuo.png";
 import Amy from "@/assets/Judges/Amy_Cetus.png";
 import Antoine from "@/assets/Judges/Antoine.jpeg";
-import Alan from "@/assets/Judges/Alan_Torch.jpg";
+import Maxey from "@/assets/Judges/Maxey.jpg";
 import Ben from "@/assets/Judges/Benjamin_Ong.jpeg";
 import Ben_Ho from "@/assets/Judges/Ben_Ho_Lychee.jpg";
 import Carl from "@/assets/Judges/Carl_Navx.jpg";
@@ -79,11 +79,6 @@ function JudgesDoc() {
       name: "Antoine",
       company: "ICP\nCo-Founder of ICP-Taiwan",
       avatar: Antoine.src,
-    },
-    {
-      name: "Alan",
-      company: "Torch\nFounder",
-      avatar: Alan.src,
     },
     {
       name: "Ben Ho",
@@ -179,6 +174,11 @@ function JudgesDoc() {
       name: "Martinet Lee",
       company: "Zircuit\nHead of Developer Relations",
       avatar: Martinet.src,
+    },
+    {
+      name: "Maxey",
+      company: "Torch\nFounder",
+      avatar: Maxey.src,
     },
     {
       name: "Nana",
