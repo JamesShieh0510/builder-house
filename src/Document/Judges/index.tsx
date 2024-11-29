@@ -121,6 +121,11 @@ function JudgesDoc() {
       avatar: Ethan.src,
     },
     {
+      name: "Eugenia",
+      company: "EU Free Life Academy\nFounder",
+      avatar: Igeuwu.src,
+    },
+    {
       name: "Godot",
       company: "Manta Network\nHead of Research",
       avatar: Godot.src,
@@ -185,11 +190,7 @@ function JudgesDoc() {
       company: "104\nBrading Designer",
       avatar: Nana104.src,
     },
-    {
-      name: "Newyellow",
-      company: "Generative Artist",
-      avatar: Newyellow.src,
-    },
+
     {
       name: "Oliver",
       company: "Aggregata\nCo-Founder",

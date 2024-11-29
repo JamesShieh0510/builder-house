@@ -20,30 +20,45 @@ function AgendaDoc() {
       {
         time: "13:30",
         topic: "Opening",
-        subTitle: ["黃偉哲, Mayor, Tainan","林榮川, Director, Economic Development Bureau","謝仕淵, Director, Bureau of Culture"],
+        subTitle: ["葉澤山, Deputy Mayor, Tainan","林榮川, Director, Economic Development Bureau","謝仕淵, Director, Bureau of Culture"],
       },
       {
-        time: "13:45",
-        topic: "Unlocking the Potential of Seamless Interaction Across L2 ",
-        subTitle: ["TBD"],
-      },
-      {
-        time: "14:30",
+        time: "14:00",
         topic: "TBD",
-        subTitle: ["Davin, AIPost, Co-Founder (Host)","Harrison, Owl Protocol, Head of BD","Ben, Lychee ACHO, Founder","Kevin, Mustaverse Digital, Founder"],
+        subTitle: ["Davin, Ai Post, Co-Founder (Host)","Brad Lin, NUVA, Founder","Eugenia, EU Free Life Academy, Founder","NANA, 104, Designer","Selina, GPTSavyy, Founder"],
       },
+      //{
+      //  time: "14:30",
+      //  topic: "TBD",
+      //  subTitle: ["Davin, AIPost, Co-Founder (Host)","Harrison, Owl Protocol, Head of BD","Ben, Lychee ACHO, Founder","Kevin, Mustaverse Digital, Founder"],
+      //},
       {
-        time: "15:45",
+        time: "14:45",
         topic: "Account Abstraction",
         subTitle: ["David Kim, Trust Wallet, Technical Lead"],
       },
       {
-        time: "16:15",
+        time: "15:00",
+        topic: "BSC Ecosystem",
+        subTitle: ["Claire Dang, Hooked Protocol, Head of BD","Leslie Hsu, Solv Protocol, COO","Nell, Seraph, Brand Director"],
+      },
+      {
+        time: "15:45",
+        topic: "TBD",
+        subTitle: ["Martinet Lee, Zircuit, Head of Developer Relations"],
+      },
+      {
+        time: "16:00",
         topic: "Future of Defi on Ton",
-        subTitle: ["TBD"],
+        subTitle: ["Maxey, Torch, Founder","Yang, Ton, Syndicate"],
       },
     ],
     Day2: [
+      {
+        time: "10:00",
+        topic: "Unlocking the Potential of Seamless Interaction Across L2 ",
+        subTitle: ["TBD"],
+      },
       {
         time: "11:15",
         topic: "Bitcoin as Catalyst for Change : Exploring New Horizons",
@@ -53,6 +68,16 @@ function AgendaDoc() {
         time: "14:00",
         topic: "TBD",
         subTitle: ["Ethan, AC Capital, Founding Partner (Host)","Amy, Cetus, Head of BD","Carl, NAVI, APAC Growth Lead","Kyrie, Typus, CGO"],
+      },
+      {
+        time: "14:45",
+        topic: "Empowing Web3 Startups",
+        subTitle: ["Oliver, Aggregata, Co-Founder","Craig, Isle Finance, Co-Founder","Scott, CopeX, Co-Founder"],
+      },
+      {
+        time: "15:30",
+        topic: "Demo",
+        subTitle: ["CopeX","Twin3.ai","Isle Finance","Aggregata"],
       },
 
     ],
