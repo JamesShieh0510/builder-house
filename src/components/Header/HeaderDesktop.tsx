@@ -11,6 +11,11 @@ export default function Desktop(props: any) {
 
   const buttonStyle =
     "text-sm text-primary w-16 xl:w-20 xl:text-md flex items-center justify-center hover:opacity-80 uppercase";
+
+  const handleSignUpClick = () => {
+    window.location.href = "https://app.moongate.id/e/tbh2024";
+  };
+
   return (
     <>
       <Box className="main w-full" display={{ base: "none", lg: "block" }}>
@@ -20,37 +25,34 @@ export default function Desktop(props: any) {
           </div>
           <div className="nav flex h-16 items-center justify-center gap-2 rounded-full bg-white px-6 xl:gap-4">
             <div className="flex gap-2 px-2 xl:gap-4">
-                <Link href="#overview" passHref>
-                  <div className={buttonStyle}>OVERVIEW</div>
-                </Link>
-                <Link href="#prizes" passHref>
-                  <div className={buttonStyle}>PRIZES</div>
-                </Link>
-                <Link href="#workshop" passHref>
-                  <div className={buttonStyle}>WORKSHOP</div>
-                </Link>
-                <Link href="#speakers" passHref>
-                  <div className={buttonStyle}>SPEAKERS</div>
-                </Link>
-                <Link href="#events" passHref>
-                 <div className={buttonStyle}>EVENTS</div>
-                </Link>
-                <Link href="#partners" passHref>
-                 <div className={buttonStyle}>PARTNERS</div>
-                </Link>
-                <Link href="#faq" passHref>
-                 <div className={buttonStyle}>FAQ</div>
-                </Link>
+              <Link href="#overview" passHref>
+                <div className={buttonStyle}>OVERVIEW</div>
+              </Link>
+              <Link href="#prizes" passHref>
+                <div className={buttonStyle}>PRIZES</div>
+              </Link>
+              <Link href="#workshop" passHref>
+                <div className={buttonStyle}>WORKSHOP</div>
+              </Link>
+              <Link href="#speakers" passHref>
+                <div className={buttonStyle}>SPEAKERS</div>
+              </Link>
+              <Link href="#events" passHref>
+                <div className={buttonStyle}>EVENTS</div>
+              </Link>
+              <Link href="#partners" passHref>
+                <div className={buttonStyle}>PARTNERS</div>
+              </Link>
+              <Link href="#faq" passHref>
+                <div className={buttonStyle}>FAQ</div>
+              </Link>
             </div>
             <div className="flex gap-6">
-              <div className="flex h-12 w-[120px] items-center justify-center rounded-3xl bg-primary text-white transition-all xl:w-[120px] 2xl:w-[120px]">
-                <div
-                  color="white"
-                  // contentClass="py-2 uppercase"
-                  // href="https://bit.ly/3pPWH4r"
-                >
-                  {locale === "en" ? "SIgn Up" : "報名"}
-                </div>
+              <div
+                className="flex h-12 w-[120px] items-center justify-center rounded-3xl bg-primary text-white transition-all xl:w-[120px] 2xl:w-[120px] cursor-pointer"
+                onClick={handleSignUpClick}
+              >
+                {locale === "en" ? "Sign Up" : "報名"}
               </div>
               {/* <div className="h-12 w-[1px] bg-gradient-to-r from-greenF to-greenT" /> */}
               <div>

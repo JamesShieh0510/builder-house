@@ -52,7 +52,7 @@ function JudgesDoc() {
   const JudgesArray = [
     {
       name: "葉澤山",
-      company: "deputy mayor\nTainan",
+      company: "Deputy mayor\nTainan",
       avatar: Yeh.src,
     },
     {
