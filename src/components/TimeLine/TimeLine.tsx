@@ -185,14 +185,12 @@ export default function TimeLine(props: { data: any; data2: any }) {
       <div className="h-[250px] bg-[#F77968] to-white" />
       <div className="w-full flex justify-center bg-gradient-to-b from-[#F77968] to-white py-10">
   <iframe
-    width="1024"
-    height="536"
     src="https://www.youtube.com/embed/a3feC9C4WQc"
     title="YouTube video player"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
-    className="rounded-lg shadow-lg"
+    className="rounded-lg shadow-lg w-[90%] max-w-[1024px] h-[50vw] md:h-[536px]"
   ></iframe>
 </div>
     </>

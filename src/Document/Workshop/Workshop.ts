@@ -33,13 +33,13 @@ export default function WorkshopDoc() {
         ],
         Room2: [
           {
-            title: "ROOM 2 WORKSHOP",
-            time: "15:00 - 16:00",
+            title: "TBD",
+            time: "",
             description:
-              "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliquac.",
+              "",
             //organizers: ["Team A", "Team B"],
-            speaker: "AAA", // 單一 Speaker
-            registerLink: "https://example.com/register",
+            speaker: "", // 單一 Speaker
+            registerLink: "",
           },
         ],
       },
@@ -72,13 +72,13 @@ export default function WorkshopDoc() {
         ],
         Room2: [
           {
-            title: "DAY 2 ROOM 2 WORKSHOP",
-            time: "12:00 - 13:00",
+            title: "TBD",
+            time: "",
             description:
-              "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliquac.",
+              "",
             //organizers: ["Team E", "Team F"],
-            speaker: "AAA", // 單一 Speaker
-            registerLink: "https://example.com/register",
+            speaker: "", // 單一 Speaker
+            registerLink: "",
           },
         ],
       },
