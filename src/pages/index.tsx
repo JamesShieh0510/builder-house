@@ -31,6 +31,8 @@ import JudgesDoc from "@/Document/Judges";
 import EventsDoc from "@/Document/Events";
 import PartnersDoc from "@/Document/Partners";
 import WorkshopDoc from "@/Document/Workshop/Workshop";
+import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Main/Main";
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
@@ -75,6 +77,7 @@ export default function Home() {
       <Head>
         <title>Taiwan Builder House</title>
       </Head>
+      <Header />
       <Main />
       <div id="timeline">
         <TimeLine data={TimeLineData} data2={CityData} />
@@ -106,10 +109,7 @@ export default function Home() {
       <div id="cityguide">
         <CityGuide data={CityGuideData} />
       </div>
-      <div id="faq">
-        <FAQ data={FAQData} />
-      </div>
-
+      <Footer />
     </>
   );
 }

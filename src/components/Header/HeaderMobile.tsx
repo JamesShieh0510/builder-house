@@ -187,7 +187,7 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
-            href="/#FAQ"
+            href="/FAQ"
             passHref
             className="w-full"
             onClick={() => onClose()}

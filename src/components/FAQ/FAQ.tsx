@@ -49,7 +49,6 @@ export default function FAQ(props: { data: any }) {
             </div>
           </div>
         </div>
-        <Footer />
       </Box>
     </>
   );
