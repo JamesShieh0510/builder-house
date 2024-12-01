@@ -73,40 +73,40 @@ export default function Mobile(props: any) {
             </div>
           </Flex>
           <Link
-            href="/#OverView"
+            href="/"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
             <div className="flex h-12 items-center pl-6">
               <div className="bg-primary bg-clip-text text-xl font-bold text-transparent">
-                OVERVIEW
+                HOME
               </div>
               <div
                 className={`pl-3 text-base font-black ${
                   locale === "en" ? "hidden" : "flex text-black"
                 }`}
               >
-                總覽
+                主頁
               </div>
             </div>
           </Link>
           <Link
-            href="/#Prizes"
+            href="/Agenda"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
             <div className="flex h-12 items-center pl-6">
               <div className="bg-primary bg-clip-text text-xl font-bold text-transparent">
-                PRIZES
+                AGENDA
               </div>
               <div
                 className={`pl-3 text-base font-black ${
                   locale === "en" ? "hidden" : "flex text-black"
                 }`}
               >
-                總獎金
+                行程表
               </div>
             </div>
           </Link>
@@ -149,7 +149,7 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
-            href="/#Events"
+            href="/Events"
             passHref
             className="w-full"
             onClick={() => onClose()}
@@ -168,21 +168,21 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
-            href="/#Partners"
+            href="/Cityguide"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
             <div className="flex h-12 items-center pl-6">
               <div className="bg-primary bg-clip-text text-xl font-bold text-transparent">
-                PARTNERS
+              CITYGUIDE
               </div>
               <div
                 className={`pl-3 text-base font-black ${
                   locale === "en" ? "hidden" : "fle text-black"
                 }`}
               >
-                合作夥伴
+                城市導覽
               </div>
             </div>
           </Link>

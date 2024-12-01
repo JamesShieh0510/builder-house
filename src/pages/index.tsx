@@ -88,17 +88,8 @@ export default function Home() {
       <div id="prizes">
         <Prizes data={prizeData} />
       </div>
-      <div id="agenda">
-        <Agenda data={AgendaData} />
-      </div>
       <div id="speakers">
         <Judges data={JudgesData} />
-      </div>
-      <div id="sideevents">
-        <SideEvents data={SideEventsData} />
-      </div>
-      <div id="events">
-        <Events data={EventsData} />
       </div>
       <div id="partners">
         <Partners data={PartnersData} />

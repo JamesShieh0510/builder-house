@@ -25,19 +25,20 @@ export default function Desktop(props: any) {
           </div>
           <div className="nav flex h-16 items-center justify-center gap-2 rounded-full bg-white px-6 xl:gap-4">
             <div className="flex gap-2 px-2 xl:gap-4">
-              <Link href="/#overview" passHref>
-                <div className={buttonStyle}>OVERVIEW</div>
-              </Link>
-              <Link href="/#prizes" passHref>
-                <div className={buttonStyle}>PRIZES</div>
-              </Link>
-              <Link href="/Workshop" passHref>
-                <div className={buttonStyle}>WORKSHOP</div>
+              <Link href="/" passHref>
+                <div className={buttonStyle}>HOME</div>
               </Link>
               <Link href="/#speakers" passHref>
                 <div className={buttonStyle}>SPEAKERS</div>
               </Link>
-              <Link href="/#events" passHref>
+              <Link href="/Agenda" passHref>
+                <div className={buttonStyle}>AGENDA</div>
+              </Link>
+              <Link href="/Workshop" passHref>
+                <div className={buttonStyle}>WORKSHOP</div>
+              </Link>
+
+              <Link href="/Events" passHref>
                 <div className={buttonStyle}>EVENTS</div>
               </Link>
               <Link href="/CityGuide" passHref>

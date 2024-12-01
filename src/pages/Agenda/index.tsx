@@ -1,26 +1,24 @@
 import React from "react";
-import Image from "next/image";
-import FAQ from "@/components/FAQ/FAQ";
-import FAQDoc from "@/Document/FAQ";
+import Agenda from "@/components/Agenda/Agenda";
+import AgendaDoc from "@/Document/Agenda";
 import Head from "next/head";
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-import top from "@/assets/top.jpeg";
 
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
     ...(await serverSideTranslations(locale ?? "en", [
-      "FAQ",
+      "agenda",
       "common",
     ])),
   },
 });
 
 export default function FAQPage() {
-  const FAQData = FAQDoc();
+  const AgendaData = AgendaDoc();
 
   return (
     <>
@@ -29,7 +27,7 @@ export default function FAQPage() {
       </Head>
       <Header />
       <div id="faq">
-        <FAQ data={FAQData} />
+        <Agenda data={AgendaData} />
       </div>
       <Footer />
     </>
