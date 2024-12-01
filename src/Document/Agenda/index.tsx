@@ -40,7 +40,7 @@ function AgendaDoc() {
       {
         time: "15:00",
         topic: "BSC Ecosystem",
-        subTitle: ["Claire Dang, Hooked Protocol, Head of BD","Leslie Hsu, Solv Protocol, COO","Nell, Seraph, Brand Director"],
+        subTitle: ["Claire Dang, Hooked Protocol, Head of BD","Nell, Seraph, Brand Director"],
       },
       {
         time: "15:45",
