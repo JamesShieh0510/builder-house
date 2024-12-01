@@ -77,7 +77,7 @@ export default function Home() {
       <Head>
         <title>Taiwan Builder House</title>
       </Head>
-      <Header />
+
       <Main />
       <div id="timeline">
         <TimeLine data={TimeLineData} data2={CityData} />
@@ -91,9 +91,6 @@ export default function Home() {
       <div id="agenda">
         <Agenda data={AgendaData} />
       </div>
-      <div id="workshop">
-        <Workshop data={WorkshopData} />
-      </div>
       <div id="speakers">
         <Judges data={JudgesData} />
       </div>
@@ -105,9 +102,6 @@ export default function Home() {
       </div>
       <div id="partners">
         <Partners data={PartnersData} />
-      </div>
-      <div id="cityguide">
-        <CityGuide data={CityGuideData} />
       </div>
       <Footer />
     </>

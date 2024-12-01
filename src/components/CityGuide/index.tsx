@@ -1,5 +1,6 @@
 import React from "react";
 
+
 type CityGuideProps = {
   data: {
     title: string;
@@ -10,8 +11,10 @@ type CityGuideProps = {
 };
 
 export default function CityGuide({ data }: CityGuideProps) {
+  
   return (
-    <section className="min-h-screen bg-white py-16">
+    <section className="min-h-screen bg-white py-24">
+
       <div className="mb-8 px-4 md:px-32">
         <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent">
           {data.title}

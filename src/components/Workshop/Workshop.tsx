@@ -8,14 +8,13 @@ export default function Workshop(props: { data: any }) {
 
   const rooms = Object.keys(data[currentDay]);
 
-  // 定義 Room 標題映射
   const roomTitles: { [key: number]: string } = {
     1: "NCKU BLOCKCHAIN CLUB WORKSHOP",
     2: "WORKSHOP 101",
   };
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-24 bg-white ">
       <div className="mb-8 px-4 md:px-32">
         <h1 className="bg-primary bg-clip-text text-[4rem] font-bold uppercase text-transparent">WORKSHOP</h1>
       </div>

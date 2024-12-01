@@ -31,7 +31,7 @@ export default function Desktop(props: any) {
               <Link href="/#prizes" passHref>
                 <div className={buttonStyle}>PRIZES</div>
               </Link>
-              <Link href="/#workshop" passHref>
+              <Link href="/Workshop" passHref>
                 <div className={buttonStyle}>WORKSHOP</div>
               </Link>
               <Link href="/#speakers" passHref>
@@ -40,8 +40,8 @@ export default function Desktop(props: any) {
               <Link href="/#events" passHref>
                 <div className={buttonStyle}>EVENTS</div>
               </Link>
-              <Link href="/#partners" passHref>
-                <div className={buttonStyle}>PARTNERS</div>
+              <Link href="/CityGuide" passHref>
+                <div className={buttonStyle}>CITYGUIDE</div>
               </Link>
               <Link href="/FAQ" passHref>
                 <div className={buttonStyle}>FAQ</div>
