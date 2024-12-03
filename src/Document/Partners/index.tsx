@@ -68,6 +68,7 @@ import cryptotimes from "@/assets/Partners/cryptotimes.svg";
 import blockbeats from "@/assets/Partners/blockbeats.png";
 import tokenpost from "@/assets/Partners/tokenpost.png";
 import blockmedia from "@/assets/Partners/blockmedia.png";
+import panews from "@/assets/Partners/PANews.png"
 
 // Community
 import gem from "@/assets/Partners/1000xgem.png";
@@ -333,7 +334,8 @@ function PartnersDoc() {
     { pic: cryptocity.src, link: "https://www.cryptocity.tw/" },
     { pic: marginatm.src, link: "https://marginatm.com/" },
     { pic: cryptotimes.src },
-    { pic: tokenpost.src, link: "https://tokenpost.com/" }
+    { pic: tokenpost.src, link: "https://tokenpost.com/" },
+    { pic: panews.src },
   ];
   const communityArr = [
     { pic: gem.src },

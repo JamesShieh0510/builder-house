@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/jason/Downloads/平均數函數/平均數函數/Project1/Project1",
+      "program": "/Users/jason/Downloads/平均數函數/平均數函數/Project1/Project1/build/Debug/outDebug"
+    }
+  ]
+}
