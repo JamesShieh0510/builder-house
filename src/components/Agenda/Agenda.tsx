@@ -3,39 +3,46 @@ import Section from "../Section/Section";
 import { LuClock3 } from "react-icons/lu";
 import { useBreakpointValue } from "@chakra-ui/react";
 
-export default function Agenda(props: { data: any }) {
-  const { data } = props;
+export default function Agenda(props: { data: any; stageName?: string }) {
+  const { data, stageName } = props;
   const isMobile = useBreakpointValue({ base: true, lg: false });
 
-  const [currentDay, setCurrentDay] = useState<"Day1" | "Day2">("Day1"); // 默認顯示 Day1
+  const [currentDay, setCurrentDay] = useState<"Day1" | "Day2">("Day1"); // 默认为 Day1
 
   return (
     <Section
-      title={{ title: data.title.name, color: data.title.color }}
+      title={{
+        title: `${stageName ? stageName + " " : ""}`,
+        color: data.title.color,
+      }}
       subTitle={data.subTitle}
       id={data.id}
     >
       <div className="flex mb-4 gap-4">
-        <button
-          className={`px-6 py-2 font-semibold rounded border-2 ${
-            currentDay === "Day1"
-              ? "bg-pink-500 text-white border-pink-500"
-              : "bg-gray-200 text-gray-800 border-gray-400"
-          }`}
-          onClick={() => setCurrentDay("Day1")}
-        >
-          Day 1
-        </button>
-        <button
-          className={`px-6 py-2 font-semibold rounded border-2 ${
-            currentDay === "Day2"
-              ? "bg-pink-500 text-white border-pink-500"
-              : "bg-gray-200 text-gray-800 border-gray-400"
-          }`}
-          onClick={() => setCurrentDay("Day2")}
-        >
-          Day 2
-        </button>
+        {data.data.Day1 && (
+          <button
+            className={`px-6 py-2 font-semibold rounded border-2 ${
+              currentDay === "Day1"
+                ? "bg-pink-500 text-white border-pink-500"
+                : "bg-gray-200 text-gray-800 border-gray-400"
+            }`}
+            onClick={() => setCurrentDay("Day1")}
+          >
+            Day 1
+          </button>
+        )}
+        {data.data.Day2 && (
+          <button
+            className={`px-6 py-2 font-semibold rounded border-2 ${
+              currentDay === "Day2"
+                ? "bg-pink-500 text-white border-pink-500"
+                : "bg-gray-200 text-gray-800 border-gray-400"
+            }`}
+            onClick={() => setCurrentDay("Day2")}
+          >
+            Day 2
+          </button>
+        )}
       </div>
       <div className="flex w-full flex-col text-black">
         {data.data[currentDay]?.map((item: any, index: any) => (

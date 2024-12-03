@@ -116,25 +116,7 @@ export default function Mobile(props: any) {
             className="w-full"
             onClick={() => onClose()}
           >
-            <div className="flex h-12 items-center pl-6">
-              <div className="bg-primary bg-clip-text text-xl font-bold uppercase text-transparent">
-                WORKSHOP
-              </div>
-              <div
-                className={`pl-3 text-base font-black ${
-                  locale === "en" ? "hidden" : "flex text-black"
-                }`}
-              >
-                工作坊
-              </div>
-            </div>
-          </Link>
-          <Link
-            href="/#speakers"
-            passHref
-            className="w-full"
-            onClick={() => onClose()}
-          >
+            
             <div className="flex h-12 items-center pl-6">
               <div className="bg-primary bg-clip-text text-xl font-bold text-transparent">
               SPEAKERS
@@ -149,7 +131,7 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
-            href="/Events"
+            href="/#events"
             passHref
             className="w-full"
             onClick={() => onClose()}

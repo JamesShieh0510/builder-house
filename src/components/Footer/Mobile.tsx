@@ -64,25 +64,22 @@ export default function FooterMobile(props: any) {
         </div> */}
         </div>
         <div className="-ml-1 grid grid-cols-2 gap-x-10 gap-y-5 text-base font-medium">
-        <Link href="#overview" passHref>
-                  <div className={buttonStyle}>OVERVIEW</div>
-                </Link>
-                <Link href="#prizes" passHref>
-                  <div className={buttonStyle}>PRIZES</div>
-                </Link>
-                <Link href="#workshop" passHref>
-                  <div className={buttonStyle}>WORKSHOP</div>
+        <Link href="/" passHref>
+                  <div className={buttonStyle}>HOME</div>
                 </Link>
                 <Link href="#speakers" passHref>
                   <div className={buttonStyle}>SPEAKERS</div>
                 </Link>
-                <Link href="#events" passHref>
-                 <div className={buttonStyle}>EVENTS</div>
+                <Link href="#speakers" passHref>
+                  <div className={buttonStyle}>SPEAKERS</div>
                 </Link>
-                <Link href="#partners" passHref>
-                 <div className={buttonStyle}>PARTNERS</div>
+                <Link href="/Agenda" passHref>
+                 <div className={buttonStyle}>AGENDA</div>
                 </Link>
-                <Link href="#faq" passHref>
+                <Link href="/CityGuide" passHref>
+                 <div className={buttonStyle}>CITYGUIDE</div>
+                </Link>
+                <Link href="/FAQ" passHref>
                  <div className={buttonStyle}>FAQ</div>
                 </Link>
         </div>

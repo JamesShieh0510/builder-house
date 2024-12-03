@@ -30,16 +30,12 @@ export default function Desktop(props: any) {
               </Link>
               <Link href="/#speakers" passHref>
                 <div className={buttonStyle}>SPEAKERS</div>
+              </Link>           
+              <Link href="/#events" passHref>
+                <div className={buttonStyle}>EVENTS</div>
               </Link>
               <Link href="/Agenda" passHref>
                 <div className={buttonStyle}>AGENDA</div>
-              </Link>
-              <Link href="/Workshop" passHref>
-                <div className={buttonStyle}>WORKSHOP</div>
-              </Link>
-
-              <Link href="/Events" passHref>
-                <div className={buttonStyle}>EVENTS</div>
               </Link>
               <Link href="/CityGuide" passHref>
                 <div className={buttonStyle}>CITYGUIDE</div>
