@@ -6,15 +6,20 @@ import Hsieh from "@/assets/Judges/Director_Hsieh.jpg";
 import Zhuo from "@/assets/Judges/Director_ Zhuo.png";
 import Amy from "@/assets/Judges/Amy_Cetus.png";
 import Antoine from "@/assets/Judges/Antoine.jpeg";
+import Artemis from "@/assets/Judges/Artemis.jpg";
 import Asher from "@/assets/Judges/Asher_L.jpg";
 import Maxey from "@/assets/Judges/Maxey.jpg";
 import Ben from "@/assets/Judges/Benjamin_Ong.jpeg";
 import Ben_Ho from "@/assets/Judges/Ben_Ho_Lychee.jpg";
 import Carl from "@/assets/Judges/Carl_Navx.jpg";
+import Chairman_Huang from "@/assets/Judges/Chairman_Huang.png";
 import Chanel from "@/assets/Judges/Chanel_coredao.jpg";
 import Cheryl from "@/assets/Judges/Cheryl_Law.jpg";
+import Claire_Dang from "@/assets/Judges/Claire_Dang.jpg";
 import David_Kim from "@/assets/Judges/David_Kim.jpeg";
 import Davin from "@/assets/Judges/AIPost_davin.jpg";
+import Directir_Tai from "@/assets/Judges/Directir_Tai.png";
+import Director_Chung from "@/assets/Judges/Director_Chung.png";
 import Ethan from "@/assets/Judges/Ethan.jpg";
 import Godot from "@/assets/Judges/godot.jpg";
 import Harrison from "@/assets/Judges/Harrison_Goldsmith.jpg";
@@ -31,8 +36,8 @@ import Kyrie from "@/assets/Judges/kyrie.jpg";
 import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
 import Martinet from "@/assets/Judges/Martinet_Lee.jpg";
 import Nana104 from "@/assets/Judges/nana104.jpg";
-import Newyellow from "@/assets/Judges/Newyellow_white.jpg";
 import NUVA from "@/assets/Judges/NUVA.jpg";
+import nell from "@/assets/Judges/nell.jpg";
 import Oliver from "@/assets/Judges/Oliver_Aggregata.jpeg";
 import pancake from "@/assets/Judges/pancake_che.jpg";
 import Pro1 from "@/assets/Judges/pro1.png";
@@ -40,10 +45,11 @@ import Peter_Yang from "@/assets/Judges/Peter_Yang.jpg";
 import Ryder from "@/assets/Judges/Ryder.jpeg";
 import Scott from "@/assets/Judges/Scott.jpg";
 import Selina from "@/assets/Judges/Selina.jpg";
+import Sean_Tao from "@/assets/Judges/Sean_Tao.jpg";
 import Singa from "@/assets/Judges/SINGA_GAO.jpg";
+import Sunny_Wu from "@/assets/Judges/Sunny_Wu.jpg";
 import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
 import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
-
 
 
 //icon-website
@@ -71,6 +77,21 @@ function JudgesDoc() {
       avatar: Hsieh.src,
     },
     {
+      name: "黃仲銘",
+      company: "nChairman\nInstitute for Information Industry (III)",
+      avatar: Chairman_Huang.src,
+    },
+    {
+      name: "戴偉峻",
+      company: "Director\nArtificial Intelligence Innovation Institute",
+      avatar: Directir_Tai.src,
+    },
+    {
+      name: "鍾松剛",
+      company: "Deputy Director\nCybersecurity Technology Institute",
+      avatar: Director_Chung.src,
+    },
+    {
       name: "Benjamin Ong",
       company: "Radiance\nPartner",
       avatar: Ben.src,
@@ -79,6 +100,11 @@ function JudgesDoc() {
       name: "Amy",
       company: "Cetus\nBD Lead",
       avatar: Amy.src,
+    },
+    {
+      name: "Artemis",
+      company: "THENA\nGrowth Lead ",
+      avatar: Artemis.src,
     },
     {
       name: "Asher L",
@@ -104,6 +130,11 @@ function JudgesDoc() {
       name: "Carl",
       company: "NAVI\nAPAC Growth Lead",
       avatar: Carl.src,
+    },
+    {
+      name: "Claire Dang",
+      company: "Hooked Protocol \nBD Head",
+      avatar: Claire_Dang.src,
     },
     {
       name: "Chanel",
@@ -211,6 +242,11 @@ function JudgesDoc() {
       avatar: Nana104.src,
     },
     {
+      name: "Nell",
+      company: "Seraph \nBrand Director",
+      avatar: nell.src,
+    },
+    {
       name: "Oliver",
       company: "Aggregata\nCo-Founder",
       avatar: Oliver.src,
@@ -226,9 +262,19 @@ function JudgesDoc() {
       avatar: Scott.src,
     },
     {
+      name: "Sean_Tao",
+      company: "OpenSocial\nCo-Founder",
+      avatar: Sean_Tao.src,
+    },
+    {
       name: "Selina",
       company: "GPTSavyy\nFounder",
       avatar: Selina.src,
+    },
+    {
+      name: "Sunny Wu",
+      company: "Asus Metaverse\nCEO",
+      avatar: Sunny_Wu.src,
     },
     {
       name: "Sinka Gao",
