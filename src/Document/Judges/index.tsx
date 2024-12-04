@@ -78,7 +78,7 @@ function JudgesDoc() {
     },
     {
       name: "黃仲銘",
-      company: "nChairman\nInstitute for Information Industry (III)",
+      company: "Chairman\nInstitute for Information Industry (III)",
       avatar: Chairman_Huang.src,
     },
     {
