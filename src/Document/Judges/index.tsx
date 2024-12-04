@@ -35,6 +35,7 @@ import Kelvin_Yan from "@/assets/Judges/Kelvin_Yan.jpg";
 import Kevin_Chang from "@/assets/Judges/Kevin_Chang_Mustaverse.jpg";
 import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
 import Kyrie from "@/assets/Judges/kyrie.jpg";
+import lulu from "@/assets/Judges/luluisangry.jpg";
 import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
 import Martinet from "@/assets/Judges/Martinet_Lee.jpg";
 import Nana104 from "@/assets/Judges/nana104.jpg";
@@ -232,6 +233,11 @@ function JudgesDoc() {
       name: "Kyrie",
       company: "Typus\nCGO ",
       avatar: Kyrie.src,
+    },
+    {
+      name: "Lulu",
+      company: "BeWater\nPartner",
+      avatar: lulu.src,
     },
     {
       name: "Maxim Shen",
