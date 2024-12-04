@@ -85,9 +85,7 @@ export default function Home() {
       <div id="overview">
         <OverView data={OverViewData} />
       </div>
-      <div id="prizes">
-        <Prizes data={prizeData} />
-      </div>
+
       <div id="speakers">
         <Judges data={JudgesData} />
       </div>
