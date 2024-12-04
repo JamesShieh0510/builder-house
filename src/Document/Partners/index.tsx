@@ -8,6 +8,8 @@ import aipost from "@/assets/Partners/aipost.png";
 // Strategy
 import tbw2024 from "@/assets/Partners/tbw2024.png";
 import TABEI from "@/assets/Partners/TABEI.png";
+import III from "@/assets/Partners/III.jpg";
+
 
 // Partner
 import movement from "@/assets/Partners/movement.png";
@@ -21,6 +23,12 @@ import akindo from "@/assets/Partners/akindo.png";
 import moongate from "@/assets/Partners/moongate.svg";
 import coredao from "@/assets/Partners/coredao.png";
 import icp from "@/assets/Partners/icp.png";
+import inn from "@/assets/Partners/inn.png"
+import Caldera from "@/assets/Partners/Caldera.png"
+import kenja from "@/assets/Partners/kenja.png"
+
+
+
 
 // Vc
 import okx from "@/assets/Partners/okx.svg";
@@ -28,7 +36,6 @@ import HorizonCapital from "@/assets/Partners/HorizonCapital_20.png";
 import pressstartcapital from "@/assets/Partners/PressStartCapital.png";
 import ac from "@/assets/Partners/accapital.svg";
 import anti from "@/assets/Partners/anticapital.png";
-import click from "@/assets/Partners/clickcapital.png";
 import meerkat from "@/assets/Partners/meerkatventures.png";
 import cdetrading from "@/assets/Partners/CDETrading.png";
 import horizon from "@/assets/Partners/horizoncapital.png";
@@ -69,6 +76,11 @@ import blockbeats from "@/assets/Partners/blockbeats.png";
 import tokenpost from "@/assets/Partners/tokenpost.png";
 import blockmedia from "@/assets/Partners/blockmedia.png";
 import panews from "@/assets/Partners/PANews.png"
+import xmedia from "@/assets/Partners/0xmedia.png"
+import GAWE from "@/assets/Partners/GAWE.png"
+import kungfo from "@/assets/Partners/kungfo.png"
+
+
 
 // Community
 import gem from "@/assets/Partners/1000xgem.png";
@@ -226,7 +238,8 @@ function PartnersDoc() {
     { pic: aipost.src, link: "https://aiposthub.com/" },
   ];
   const strategicArr = [
-    { pic: tbw2024.src, link: "" },
+    { pic: III.src, link: "https://www.iii.org.tw/en" },
+    { pic: tbw2024.src, link: "https://www.taipeiblockchainweek.com/" },
     { pic: TABEI.src, link: "https://www.chain.tw/" },
     // { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
     // { pic: Tst.src, link: "https://www.startupterrace.tw/" },
@@ -240,6 +253,8 @@ function PartnersDoc() {
     { pic: Ref.src, link: "https://www.ref.finance/" },
   ];
   const partnersArr = [
+    { pic: inn.src },
+    { pic: kenja.src },
     { pic: movement.src, link: "https://movementlabs.xyz/" },
     { pic: scroll.src, link: "https://scroll.io/", w: "100" },
     { pic: icp.src, link: "https://internetcomputer.org/" },
@@ -251,16 +266,11 @@ function PartnersDoc() {
     { pic: akindo.src, link: "https://akindo.io/" },
     { pic: moongate.src, link: "https://www.moongate.id/" },
     { pic: coredao.src, link: "https://coredao.org/" },
+    { pic: Caldera.src, link: "https://www.caldera.xyz/" },
     // { pic: Eos.src, link: "https://eosnetwork.com/", w: "200" },
     // { pic: Chainlink.src, link: "https://tezos.com/", w: "200" },
     // { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
-    // { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
-    // { pic: Okx.src, link: "https://www.okx.com/" },
-    // { pic: term.src, link: "https://termstructure.com/" },
-    // { pic: Pionex.src, link: "https://www.pionex.com/" },
-    // { pic: Typus.src, link: "https://typus.finance/" },
     // { pic: BTSE.src, link: "https://www.btse.com/en/home" },
-    // { pic: ikala.src, link: "" },
   ];
 
   const vcArr = [
@@ -336,6 +346,10 @@ function PartnersDoc() {
     { pic: cryptotimes.src },
     { pic: tokenpost.src, link: "https://tokenpost.com/" },
     { pic: panews.src },
+    { pic: xmedia.src },
+    { pic: GAWE.src },
+    { pic: kungfo.src },
+
   ];
   const communityArr = [
     { pic: gem.src },
