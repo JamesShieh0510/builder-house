@@ -280,7 +280,6 @@ function PartnersDoc() {
     { pic: ac.src, link: "https://accapital.io/" },
     { pic: anti.src, link: "https://anticapital.ai/" },
     // { pic: horizon.src }, // Dark
-    { pic: click.src },
     { pic: meerkat.src },
     { pic: cdetrading.src },
   ];
