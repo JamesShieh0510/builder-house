@@ -21,6 +21,7 @@ import Davin from "@/assets/Judges/AIPost_davin.jpg";
 import Directir_Tai from "@/assets/Judges/Directir_Tai.png";
 import Director_Chung from "@/assets/Judges/Director_Chung.png";
 import Ethan from "@/assets/Judges/Ethan.jpg";
+import Edward from "@/assets/Judges/Edward_JH_Liao.jpg";
 import Godot from "@/assets/Judges/godot.jpg";
 import Harrison from "@/assets/Judges/Harrison_Goldsmith.jpg";
 import Igeuwu from "@/assets/Judges/igeuwu.jpg";
@@ -30,6 +31,7 @@ import Jenks_Guo from "@/assets/Judges/Jenks_Guo_speaker_photo_1.jpg";
 import Jerry from "@/assets/Judges/jerry_gaia.jpg";
 import Kay from "@/assets/Judges/kay.jpeg";
 import Kevin from "@/assets/Judges/Kevin_Isle.jpeg";
+import Kelvin_Yan from "@/assets/Judges/Kelvin_Yan.jpg";
 import Kevin_Chang from "@/assets/Judges/Kevin_Chang_Mustaverse.jpg";
 import Kinjo from "@/assets/Judges/kinjo_akindo.jpg";
 import Kyrie from "@/assets/Judges/kyrie.jpg";
@@ -80,6 +82,11 @@ function JudgesDoc() {
       name: "黃仲銘",
       company: "Chairman\nInstitute for Information Industry (III)",
       avatar: Chairman_Huang.src,
+    },
+    {
+      name: "Edward Liao",
+      company: "INNOLUX\nAssociate VP and General Manager of Intelligent Automatic Solutions Business Center",
+      avatar: Edward.src,
     },
     {
       name: "戴偉峻",
@@ -200,6 +207,11 @@ function JudgesDoc() {
       name: "Kay",
       company: "HSK\nCore Contributor ",
       avatar: Kay.src,
+    },
+    {
+      name: "Kelvin Yan",
+      company: "BuzzUp\nGeneral Manager",
+      avatar: Kelvin_Yan.src,
     },
     {
       name: "Kevin Lin",
