@@ -255,6 +255,7 @@ function PartnersDoc() {
   const partnersArr = [
     { pic: inn.src },
     { pic: kenja.src },
+    { pic: Orderly.src, link: "https://orderly.network/"},
     { pic: movement.src, link: "https://movementlabs.xyz/" },
     { pic: scroll.src, link: "https://scroll.io/", w: "100" },
     { pic: icp.src, link: "https://internetcomputer.org/" },
