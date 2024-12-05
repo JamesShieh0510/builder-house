@@ -18,6 +18,7 @@ import Cheryl from "@/assets/Judges/Cheryl_Law.jpg";
 import Claire_Dang from "@/assets/Judges/Claire_Dang.jpg";
 import David_Kim from "@/assets/Judges/David_Kim.jpeg";
 import Davin from "@/assets/Judges/AIPost_davin.jpg";
+import dawin from "@/assets/Judges/dawin.jpg";
 import Directir_Tai from "@/assets/Judges/Directir_Tai.png";
 import Director_Chung from "@/assets/Judges/Director_Chung.png";
 import Ethan from "@/assets/Judges/Ethan.jpg";
@@ -26,6 +27,7 @@ import Godot from "@/assets/Judges/godot.jpg";
 import Harrison from "@/assets/Judges/Harrison_Goldsmith.jpg";
 import Igeuwu from "@/assets/Judges/igeuwu.jpg";
 import Jaden from "@/assets/Judges/Jaden.jpg";
+import Jason_Cheng from "@/assets/Judges/Jason_Cheng.jpeg";
 import Josh from "@/assets/Judges/Josh_Lu.jpg";
 import Jenks_Guo from "@/assets/Judges/Jenks_Guo_speaker_photo_1.jpg";
 import Jerry from "@/assets/Judges/jerry_gaia.jpg";
@@ -38,6 +40,7 @@ import Kyrie from "@/assets/Judges/kyrie.jpg";
 import lulu from "@/assets/Judges/luluisangry.jpg";
 import Maxim from "@/assets/Judges/Maxim_Shen.jpg";
 import Martinet from "@/assets/Judges/Martinet_Lee.jpg";
+import Ming_Wen from "@/assets/Judges/Ming_Wen.jpeg";
 import Nana104 from "@/assets/Judges/nana104.jpg";
 import NUVA from "@/assets/Judges/NUVA.jpg";
 import nell from "@/assets/Judges/nell.jpg";
@@ -51,7 +54,9 @@ import Selina from "@/assets/Judges/Selina.jpg";
 import Sean_Tao from "@/assets/Judges/Sean_Tao.jpg";
 import Singa from "@/assets/Judges/SINGA_GAO.jpg";
 import Sunny_Wu from "@/assets/Judges/Sunny_Wu.jpg";
+import TAKO from "@/assets/Judges/TAKO.png";
 import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
+import WOODY from "@/assets/Judges/WOODY.png";
 import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
 
 
@@ -165,6 +170,11 @@ function JudgesDoc() {
       avatar: Davin.src,
     },
     {
+      name: "Dawin",
+      company: "DawinCorp\nFounder",
+      avatar: dawin.src,
+    },
+    {
       name: "Ethan",
       company: "AC Capital\nFounding Partner ",
       avatar: Ethan.src,
@@ -193,6 +203,11 @@ function JudgesDoc() {
       name: "Jaden",
       company: "Flow Traders\nInvestor",
       avatar: Jaden.src,
+    },
+    {
+      name: "Jason Cheng",
+      company: "Domin Network\nCEO",
+      avatar: Jason_Cheng.src,
     },
     {
       name: "Jenks Guo",
@@ -255,6 +270,11 @@ function JudgesDoc() {
       avatar: Maxey.src,
     },
     {
+      name: "Ming Wen",
+      company: "Twin3.ai\nFounder",
+      avatar: Ming_Wen.src,
+    },
+    {
       name: "Nana",
       company: "104\nProduct Designer",
       avatar: Nana104.src,
@@ -300,6 +320,11 @@ function JudgesDoc() {
       avatar: Singa.src,
     },
     {
+      name: "Juile",
+      company: "Tako Protocol\nGrowth Head",
+      avatar: TAKO.src,
+    },
+    {
       name: "Yang",
       company: "Ton\nSyndicate",
       avatar: Ton_Yang.src,
@@ -308,6 +333,11 @@ function JudgesDoc() {
       name: "Weike Li",
       company: "COO\nAmber Group VC",
       avatar: Weike_Li.src,
+    },
+    {
+      name: "Woody Cheng",
+      company: "SecuX\nCOO",
+      avatar: WOODY.src,
     },
   ];
   const JudgesData = {
