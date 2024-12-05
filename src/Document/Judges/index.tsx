@@ -54,6 +54,7 @@ import Selina from "@/assets/Judges/Selina.jpg";
 import Sean_Tao from "@/assets/Judges/Sean_Tao.jpg";
 import Singa from "@/assets/Judges/SINGA_GAO.jpg";
 import Sunny_Wu from "@/assets/Judges/Sunny_Wu.jpg";
+import Sunny from "@/assets/Judges/sunny.jpeg";
 import TAKO from "@/assets/Judges/TAKO.png";
 import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
 import WOODY from "@/assets/Judges/WOODY.png";
@@ -312,6 +313,11 @@ function JudgesDoc() {
     {
       name: "Sunny Wu",
       company: "Asus Metaverse\nCEO",
+      avatar: Sunny_Wu.src,
+    },
+    {
+      name: "Sunny Teng",
+      company: "Merlin Chain\nBD Head",
       avatar: Sunny_Wu.src,
     },
     {
