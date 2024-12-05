@@ -26,7 +26,7 @@ function AgendaDoc() {
         {
           time: "11:15",
           topic: "The Next Wave of Venture Capital in a Decentralized Economy",
-          subTitle: ["Jaden, Investor, Flow Traders","Ben, Partner, Radiance Ventures","Lai, Partner, Horizon Capital","Josh, Bing Ventures, APAC Investment Department Director"],
+          subTitle: ["Jaden, Investor, Flow Traders","Ben, Partner, Radiance Ventures","Weike Li, COO, Amber Group VC","Josh, Bing Ventures, APAC Investment Department Director"],
         },
         {
           time: "13:30",

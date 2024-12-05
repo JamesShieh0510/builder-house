@@ -303,7 +303,7 @@ function PartnersDoc() {
     //{ pic: oneblock.src, link: "https://x.com/OneBlock_" },
     //{ pic: amphi.src, link: "https://amphi.space/" },
     { pic: aggregata.src, link: "https://aggregata.xyz/" },
-    //{ pic: uxlink.src, link: "https://www.uxlink.io/" },
+    { pic: uxlink.src, link: "https://www.uxlink.io/" },
     { pic: twin3ai.src }
   ];
 
@@ -380,7 +380,7 @@ function PartnersDoc() {
     { pic: z.src },
     { pic: pudgy.src },
     { pic: da.src },
-    { pic: tzd.src },
+    //{ pic: tzd.src },
     { pic: tuhk.src },
     { pic: cryptowilson.src }, 
     { pic: su.src },

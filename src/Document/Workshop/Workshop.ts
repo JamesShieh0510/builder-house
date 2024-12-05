@@ -4,6 +4,34 @@ export default function WorkshopDoc() {
       Day1: {
         Room1: [
           {
+            title: "Revolutionizing Software Development in the Web3 Era: A Comparative Approach",
+            time: "14:10 - 15:00",
+            description:
+              "This workshop explores the evolution of software development from traditional systems to Web3. It highlights key differences in workflows, tools, and methodologies, emphasizing decentralization, smart contracts, and blockchain. Participants will gain insights into adapting to Web3 processes and leveraging its unique opportunities.",
+            //organizers: ["Team A", "Team B"],
+            speaker: "Aaron, 閎旺, CEO", // 單一 Speaker
+            registerLink: "",
+          },
+          {
+            title: "TBD",
+            time: "15:10 - 16:00",
+            description:
+              "",
+            //organizers: ["Team E", "Team F"],
+            speaker: "蔡崑洲, Lawyer", // 單一 Speaker
+            registerLink: "",
+          },
+          {
+            title: "Foundry deployment library: forge_deploy",
+            time: "16:10 - 17:00",
+            description:
+              "This workshop introduces forge_deploy, a library designed for deploying contracts, highlighting its features and usage. Developers will learn reference patterns for writing deployment scripts and gain insights into the current developer ecosystem and the role of open-source contributions.",
+            speaker: "Chi, Smart Contract Engineer, 閎旺",
+            registerLink: "",
+          },
+        ],
+        Room2: [
+          {
             title: "From DOGE to the Moon: Unveiling the Crazy Ecosystem of Meme Coins on Solana",
             time: "14:10 - 15:00",
             description:
@@ -29,17 +57,6 @@ export default function WorkshopDoc() {
             //organizers: ["成大區塊鏈研究社NCKU Blockchain Club", "XueDAO"],
             speaker: " ", // 單一 Speaker
             registerLink: "https://lu.ma/pd07v2uk",
-          },
-        ],
-        Room2: [
-          {
-            title: "TBD",
-            time: "",
-            description:
-              "",
-            //organizers: ["Team A", "Team B"],
-            speaker: "", // 單一 Speaker
-            registerLink: "",
           },
         ],
       },
