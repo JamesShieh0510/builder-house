@@ -137,8 +137,8 @@ function AgendaDoc() {
       Day1: [
         {
           time: "14:00",
-          topic: "Round Table Discussion 1",
-          subTitle: ["Participant X", "Participant Y"],
+          topic: "Setting the Stage for Defi Adoption",
+          subTitle: ["Chef kids, Head Chef (Virtual)"],
         },
         // Round Table 的 Day1 数据
       ],

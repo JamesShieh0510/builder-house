@@ -9,8 +9,8 @@ export default function Workshop(props: { data: any }) {
   const rooms = Object.keys(data[currentDay]);
 
   const roomTitles: { [key: number]: string } = {
-    1: "NCKU BLOCKCHAIN CLUB WORKSHOP",
-    2: "WORKSHOP 101",
+    1: "AXIOM Room",
+    2: "NCKU BLOCKCHAIN CLUB Room",
   };
 
   return (
