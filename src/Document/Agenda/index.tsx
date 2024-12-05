@@ -74,7 +74,7 @@ function AgendaDoc() {
         {
           time: "11:15",
           topic: "Bitcoin as Catalyst for Change : Exploring New Horizons",
-          subTitle: ["Lulu, BeWater, Partner","Sunny Teng, Merlin Chain, BD Head","Jenks Guo, Babylon Labs, Head of Developer Relations","Chanel, CoreDAO, Core Contributor"],
+          subTitle: ["Lulu, BeWater, Partner (Host)","Sunny Teng, Merlin Chain, BD Head","Jenks Guo, Babylon Labs, Head of Developer Relations","Chanel, CoreDAO, Core Contributor"],
         },
         {
           time: "14:00",
