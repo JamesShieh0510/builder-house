@@ -63,20 +63,20 @@ export default function WorkshopDoc() {
       Day2: {
         Room1: [
           {
-            title: "New Ways to Get Rich Through Staking: Unveiling the Mysteries of Ethereum PoS Staking",
+            title: "What to Expect in the Coming Years for Ethereum",
             time: "14:10 - 15:00",
+            description:
+              "",
+            speaker: "Chang-wu Chen, imToken, Chief Scientist",
+            registerLink: "",
+          },
+          {
+            title: "New Ways to Get Rich Through Staking: Unveiling the Mysteries of Ethereum PoS Staking",
+            time: "15:10 - 16:00",
             description:
               "Want to know how to earn while you sleep by staking Ethereum? As Ethereum transitions from PoW (Proof of Work) to PoS (Proof of Stake), staking has become the new hotspot. In this session, we'll delve into the operational mechanism of Ethereum PoS, teaching you how to participate in staking and earn passive income. We'll also discuss the concept of re-staking and how to maximize your returns. This is an unmissable opportunity to enhance your wealth!",
             speaker: " ", // 單一 Speaker
             registerLink: "https://lu.ma/nmz41azb",
-          },
-          {
-            title: "What the Heck Is EVM? Unveiling the Mystery Behind Smart Contracts",
-            time: "15:10 - 16:00",
-            description:
-              "Smart contracts have always been called the soul of blockchain, but how do they actually work? What role does EVM (Ethereum Virtual Machine) play in all this? In this part, we'll use easy-to-understand language to help you grasp how EVM operates and delve into how smart contracts are written, deployed, and executed. Whether or not you have programming experience, you'll find answers here and discover the infinite possibilities of smart contracts.",
-            speaker: " ", // 單一 Speaker
-            registerLink: "https://lu.ma/srynhd2c",
           },
           {
             title: "From Pitfalls to Pinnacles: Crazy Stories of Web3 Entrepreneurs",
