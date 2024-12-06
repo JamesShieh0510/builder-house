@@ -318,7 +318,7 @@ function JudgesDoc() {
     {
       name: "Sunny Teng",
       company: "Merlin Chain\nBD Head",
-      avatar: Sunny_Wu.src,
+      avatar: Sunny.src,
     },
     {
       name: "Sinka Gao",
