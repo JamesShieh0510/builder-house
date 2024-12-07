@@ -2,17 +2,19 @@ import React, { useState } from "react";
 import Section from "../Section/Section";
 import { LuClock3 } from "react-icons/lu";
 import { useBreakpointValue } from "@chakra-ui/react";
+import { useTranslation } from "next-i18next";
 
 export default function Agenda(props: { data: any; stageName?: string }) {
   const { data, stageName } = props;
   const isMobile = useBreakpointValue({ base: true, lg: false });
+  const { t } = useTranslation("agenda");
 
-  const [currentDay, setCurrentDay] = useState<"Day1" | "Day2">("Day1"); // 默认为 Day1
+  const [currentDay, setCurrentDay] = useState<"Day1" | "Day2">("Day1");
 
   return (
     <Section
       title={{
-        title: `${stageName ? stageName + " " : ""}`,
+        title: `${stageName ? t(stageName) + " " : ""}${data.title.name}`,
         color: data.title.color,
       }}
       subTitle={data.subTitle}
@@ -28,7 +30,7 @@ export default function Agenda(props: { data: any; stageName?: string }) {
             }`}
             onClick={() => setCurrentDay("Day1")}
           >
-            Day 1
+            {t("day1")}
           </button>
         )}
         {data.data.Day2 && (
@@ -40,7 +42,7 @@ export default function Agenda(props: { data: any; stageName?: string }) {
             }`}
             onClick={() => setCurrentDay("Day2")}
           >
-            Day 2
+            {t("day2")}
           </button>
         )}
       </div>

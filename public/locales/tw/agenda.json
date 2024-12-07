@@ -1,4 +1,191 @@
 {
-  "title": "agenda",
-  "subTitle": "議程"
+  "title": "",
+  "subTitle": "",
+  "day1": "第一天",
+  "day2": "第二天",
+  "Main Stage": "主舞台",
+  "Radiance Stage": "Radiance 舞台",
+  "Round Table": "圓桌論壇",
+
+  "MainStage": {
+    "Day1": {
+      "item1": {
+        "time": "09:30",
+        "topic": "開幕致詞",
+        "subTitle": ["TBD"]
+      },
+      "item2": {
+        "time": "09:45",
+        "topic": "待定議程",
+        "subTitle": ["Edward Liao, INNOLUX, 副總暨IASBC總經理"]
+      },
+      "item3": {
+        "time": "11:00",
+        "topic": "AI是否扼殺了批判性思考？",
+        "subTitle": ["Brad Lin, NUVA, 創辦人"]
+      },
+      "item4": {
+        "time": "11:15",
+        "topic": "去中心化經濟中的新風潮創投",
+        "subTitle": [
+          "Jaden, Investor, Flow Traders",
+          "Ben, Partner, Radiance Ventures",
+          "Lai, Partner, Horizon Capital",
+          "Josh, Bing Ventures, 亞太投資部門總監"
+        ]
+      },
+      "item5": {
+        "time": "13:30",
+        "topic": "開幕致詞",
+        "subTitle": [
+          "葉澤山, 台南市副市長",
+          "林榮川, 經濟發展局局長",
+          "謝仕淵, 文化局局長"
+        ]
+      },
+      "item6": {
+        "time": "13:45",
+        "topic": "AI驅動的數位轉型：探索創新與實務應用",
+        "subTitle": [
+          "林榮川, 經濟發展局局長 (主持)",
+          "謝仕淵, 文化局局長",
+          "戴偉峻, 人工智慧創新研究院院長"
+        ]
+      },
+      "item7": {
+        "time": "14:15",
+        "topic": "塑造未來：AI創新重塑產業標準",
+        "subTitle": [
+          "Davin, Ai Post, 共同創辦人(主持)",
+          "Brad Lin, NUVA, 創辦人",
+          "Eugenia, EU Free Life Academy, 創辦人",
+          "NANA, 104, 設計師",
+          "Selina, GPTSavyy, 創辦人"
+        ]
+      },
+      "item8": {
+        "time": "15:00",
+        "topic": "帳戶抽象化 (Account Abstraction)",
+        "subTitle": ["David Kim, Trust Wallet, 技術主管"]
+      },
+      "item9": {
+        "time": "15:15",
+        "topic": "BSC 生態系",
+        "subTitle": [
+          "Claire Dang, Hooked Protocol, BD主管",
+          "Artemis, THENA, 成長主管",
+          "Nell, Seraph, 品牌總監"
+        ]
+      },
+      "item10": {
+        "time": "15:45",
+        "topic": "Web3 資安",
+        "subTitle": ["Chang-Wu Chen, imToken, 首席科學家"]
+      }
+    },
+    "Day2": {
+      "item1": {
+        "time": "10:00",
+        "topic": "釋放 L2 無縫互動的潛力",
+        "subTitle": ["TBD"]
+      },
+      "item2": {
+        "time": "11:00",
+        "topic": "待定議程",
+        "subTitle": ["Martinet Lee, Zircuit, 開發者關係負責人"]
+      },
+      "item3": {
+        "time": "11:15",
+        "topic": "比特幣作為變革催化劑：探索新領域",
+        "subTitle": [
+          "Lulu, BeWater, 合夥人",
+          "Jenks Guo, Babylon Labs, 開發者關係主管",
+          "Chanel, CoreDAO, 核心貢獻者"
+        ]
+      },
+      "item4": {
+        "time": "14:00",
+        "topic": "待定議程",
+        "subTitle": [
+          "Ethan, AC Capital, 創始合夥人(主持)",
+          "Amy, Cetus, BD主管",
+          "Carl, NAVI, 亞太區成長主管",
+          "Kyrie, Typus, CGO"
+        ]
+      },
+      "item5": {
+        "time": "14:45",
+        "topic": "賦能 Web3 新創",
+        "subTitle": [
+          "Oliver, Aggregata, 共同創辦人",
+          "Craig, Isle Finance, 共同創辦人",
+          "Scott, CopeX, 共同創辦人"
+        ]
+      },
+      "item6": {
+        "time": "15:30",
+        "topic": "Demo 展示",
+        "subTitle": ["CopeX", "Twin3.ai", "Isle Finance", "Aggregata"]
+      }
+    }
+  },
+
+  "RadianceStage": {
+    "Day1": {
+      "item1": {
+        "time": "11:45",
+        "topic": "打造你的個人 AI 大腦 - Notebooklm 的魅力揭祕",
+        "subTitle": ["Selina, GPTSavyy, 創辦人"]
+      },
+      "item2": {
+        "time": "15:00",
+        "topic": "在數位自由時代，AI 如何重塑自媒體",
+        "subTitle": ["Eugenia叡一, EU Free Life Academy, 創辦人"]
+      },
+      "item3": {
+        "time": "15:15",
+        "topic": "利用 AI 在六個月內打造 5 萬粉絲的 Instagram",
+        "subTitle": ["NANA, 104, 產品設計師"]
+      },
+      "item4": {
+        "time": "15:30",
+        "topic": "Ton 上的 DeFi 未來",
+        "subTitle": ["Maxey, Torch, 創辦人", "Yang, Ton, Syndicate"]
+      }
+    },
+    "Day2": {
+      "item1": {
+        "time": "11:15",
+        "topic": "錢包抽象化、鏈抽象化與鏈上消費者",
+        "subTitle": [
+          "Davin, AIPost, 共同創辦人(主持)",
+          "Harrison, Owl Protocol, BD主管",
+          "Ben, Lychee ACHO, 創辦人",
+          "Kevin, Mustaverse Digital, 創辦人"
+        ]
+      },
+      "item2": {
+        "time": "14:00",
+        "topic": "牛市交易規則：資本輪動與注意力經濟的關聯",
+        "subTitle": ["DA Capital"]
+      }
+    }
+  },
+
+  "RoundTable": {
+    "Day1": {
+      "item1": {
+        "time": "14:00",
+        "topic": "圓桌討論 1",
+        "subTitle": ["Participant X", "Participant Y"]
+      }
+    },
+    "Day2": {
+      "item1": {
+        "time": "15:00",
+        "topic": "圓桌討論 2",
+        "subTitle": ["Participant Z", "Participant W"]
+      }
+    }
+  }
 }
