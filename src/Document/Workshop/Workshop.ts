@@ -63,6 +63,33 @@ export default function WorkshopDoc() {
       Day2: {
         Room1: [
           {
+            title: "TBD",
+            time: "14:10 - 15:00",
+            description:
+              "",
+            speaker: "Martinet Lee, Zircuit, Head of Developer Relations ",
+            registerLink: "",
+          },
+          {
+            title: "Revolutionizing BTC Yield Generation with Core",
+            time: "15:10 - 16:00",
+            description:
+              "",
+            speaker: "Chanel, CoreDAO, Core Contributor", // 單一 Speaker
+            registerLink: "",
+          },
+          {
+            title: "TBD",
+            time: "16:10 - 17:00",
+            description:
+              "",
+            //organizers: ["Team E", "Team F"],
+            speaker: "", // 單一 Speaker
+            registerLink: "",
+          },
+        ],
+        Room2: [
+          {
             title: "What to Expect in the Coming Years for Ethereum",
             time: "14:10 - 15:00",
             description:
@@ -85,17 +112,6 @@ export default function WorkshopDoc() {
               "Curious about what it's like to start a business in the blockchain field? We've invited Web3 entrepreneurs who have faced countless challenges and achieved success to share their real stories. They'll talk about the entire process from the birth of an initial idea, fundraising, to product launch. Hear how they overcame technical difficulties, market competition, and regulatory challenges to stand firm in this rapidly changing industry. If you're interested in blockchain entrepreneurship, this is a rare learning opportunity!",
             speaker: " ", // 單一 Speaker
             registerLink: "https://lu.ma/o4k8busf",
-          },
-        ],
-        Room2: [
-          {
-            title: "TBD",
-            time: "",
-            description:
-              "",
-            //organizers: ["Team E", "Team F"],
-            speaker: "", // 單一 Speaker
-            registerLink: "",
           },
         ],
       },
