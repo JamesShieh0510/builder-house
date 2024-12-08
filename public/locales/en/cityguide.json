@@ -1,0 +1,94 @@
+{
+    "title": "CITY GUIDE",
+    "subTitle": "Tainan: The City of Angels",
+    "description": "Located in the southern part of Taiwan, Tainan is the oldest city on the island. With a rich cultural heritage, delicious street food, and numerous historical sites, it's often called the cultural capital of Taiwan. Explore the ancient temples, stroll through old streets, and immerse yourself in the unique ambiance of this beautiful city.",
+    "placesTitle": "PLACES WE RECOMMEND",
+    "accommodationsTitle": "ACCOMMODATION RECOMMENDATIONS",
+    "transportationTitle": "TRANSPORTATION",
+  
+    "places": [
+      {
+        "name": "Chihkan Tower (Fort Provintia)",
+        "description": "A historic landmark showcasing cultural and architectural history.",
+        "link": "https://www.travelking.com.tw/eng/tourguide/scenery104752.html"
+      },
+      {
+        "name": "Anping Old Street",
+        "description": "A charming old street with local snacks and traditional goods.",
+        "link": "https://www.travelking.com.tw/eng/tourguide/scenery105186.html"
+      },
+      {
+        "name": "Tainan Confucius Temple",
+        "description": "The oldest Confucius temple in Taiwan, rich in cultural experience.",
+        "link": "https://www.travelking.com.tw/eng/tourguide/scenery104736.html"
+      },
+      {
+        "name": "Garden Night Market",
+        "description": "A vibrant night market offering incredible street food and shopping.",
+        "link": "https://www.travelking.com.tw/eng/tourguide/scenery105207.html"
+      },
+      {
+        "name": "Shennong Street",
+        "description": "A historic street with traditional architecture and unique boutiques.",
+        "link": "https://www.travelking.com.tw/eng/tourguide/scenery105000.html"
+      },
+      {
+        "name": "Anping Tree House",
+        "description": "Where nature and history collide, a surreal site to explore.",
+        "link": "https://www.travelking.com.tw/eng/tourguide/scenery105187.html"
+      }
+    ],
+  
+    "accommodations": [
+      {
+        "name": "Crowne Plaza Tainan",
+        "description": "Luxury hotel with stunning views and easy access to historical sites.",
+        "link": "https://www.cptainan.com/"
+      },
+      {
+        "name": "Formosa Yacht Resort",
+        "description": "Modern design, top-notch facilities near Anping Old Street.",
+        "link": "https://www.formosayacht.com.tw/"
+      },
+      {
+        "name": "Hotel Cozzi Ximen Tainan",
+        "description": "Stylish and modern, near popular attractions.",
+        "link": "https://www.hotelcozzi.com/en/tainan/"
+      },
+      {
+        "name": "U.I.J. Hotel & Hostel",
+        "description": "Trendy boutique hotel offering various accommodation styles.",
+        "link": "https://uijhotel.com/"
+      },
+      {
+        "name": "Tayih Landis Hotel Tainan",
+        "description": "Luxurious hotel near shopping districts with spacious rooms.",
+        "link": "https://www.landishotelsresorts.com/en/TAINAN"
+      }
+    ],
+  
+    "transportation": [
+      {
+        "type": "High-Speed Rail (HSR) + Shuttle",
+        "routes": [
+          {
+            "route": "Tainan Airport Bus → HSR Tainan Station → Tainan High-Speed Rail",
+            "duration": "About 1 hr 15 mins",
+            "details": "Buy tickets at station. Shuttle every 30 mins."
+          }
+        ]
+      },
+      {
+        "type": "Direct Bus + TRA Train",
+        "routes": [
+          {
+            "route": "Tainan Airport → Tainan or Chiayi Railway Station",
+            "duration": "About 1 hr",
+            "details": "Frequent bus connections. Buy train tickets at station."
+          }
+        ]
+      }
+    ],
+  
+    "mapImage": "/map_of_tainan.png"
+  }

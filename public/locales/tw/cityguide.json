@@ -1,0 +1,94 @@
+{
+    "title": "城市指南",
+    "subTitle": "台南：天使之城",
+    "description": "台南位於台灣南部，是台灣最古老的城市。擁有深厚的文化底蘊、美味的街頭小吃以及眾多歷史遺跡，被稱為台灣的文化首都。探索古老的廟宇、漫步在老街，沈浸於這座美麗城市獨特的氛圍中。",
+    "placesTitle": "我們推薦的景點",
+    "accommodationsTitle": "住宿推薦",
+    "transportationTitle": "交通資訊",
+  
+    "places": [
+      {
+        "name": "赤崁樓",
+        "description": "見證台南的文化與建築歷史的標誌性古蹟。",
+        "link": "https://www.twtainan.net/zh-tw/attractions/detail/4473"
+      },
+      {
+        "name": "安平老街",
+        "description": "充滿本地小吃與傳統商品的迷人老街。",
+        "link": "https://www.twtainan.net/zh-tw/attractions/detail/2512"
+      },
+      {
+        "name": "台南孔廟",
+        "description": "台灣最古老的孔廟，文化底蘊深厚，環境寧靜。",
+        "link": "https://www.twtainan.net/zh-tw/attractions/detail/4409"
+      },
+      {
+        "name": "花園夜市",
+        "description": "台南最大最熱鬧的夜市之一，匯聚多樣美食與商品。",
+        "link": "https://www.twtainan.net/zh-tw/attractions/detail/4602"
+      },
+      {
+        "name": "神農街",
+        "description": "富有傳統建築特色的歷史老街，擁有獨特的咖啡廳與小店。",
+        "link": "https://www.twtainan.net/zh-tw/attractions/detail/4408"
+      },
+      {
+        "name": "安平樹屋",
+        "description": "自然與歷史交織的奇妙景點，綠蔭環繞的古老倉庫。",
+        "link": "https://www.twtainan.net/zh-tw/attractions/detail/4434"
+      }
+    ],
+  
+    "accommodations": [
+      {
+        "name": "台南大員皇冠假日酒店",
+        "description": "臨近四草大橋與台江國家公園，擁有絕美景觀與頂級設施。",
+        "link": "https://www.cptainan.com/"
+      },
+      {
+        "name": "福爾摩沙遊艇渡假村",
+        "description": "位於安平區的現代化度假村，鄰近安平老街。",
+        "link": "https://www.formosayacht.com.tw/"
+      },
+      {
+        "name": "和逸酒店台南西門館",
+        "description": "時尚且現代，鄰近熱門景點，適合商務與觀光旅客。",
+        "link": "https://www.hotelcozzi.com/zh-tw/tainan/"
+      },
+      {
+        "name": "友愛街旅館",
+        "description": "時髦的精品旅店，提供多種住宿型態，適合預算有限的旅客。",
+        "link": "https://uijhotel.com/"
+      },
+      {
+        "name": "台南大億麗緻酒店",
+        "description": "位於商圈附近的豪華酒店，客房寬敞，設施齊全。",
+        "link": "https://www.landishotelsresorts.com/zh-tw/TAINAN"
+      }
+    ],
+  
+    "transportation": [
+      {
+        "type": "高鐵 + 接駁車",
+        "routes": [
+          {
+            "route": "台南機場巴士 → 高鐵台南站 → 台南高鐵",
+            "duration": "約1小時15分",
+            "details": "可於車站購票，每30分鐘一班接駁車。"
+          }
+        ]
+      },
+      {
+        "type": "直達巴士 + 台鐵",
+        "routes": [
+          {
+            "route": "台南機場 → 台南或嘉義火車站",
+            "duration": "約1小時",
+            "details": "班次頻繁，可於車站購買車票。"
+          }
+        ]
+      }
+    ],
+  
+    "mapImage": "/map_of_tainan.png"
+  }
