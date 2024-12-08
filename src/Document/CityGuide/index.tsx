@@ -82,26 +82,31 @@ function CityGuideDoc() {
         name: "Former British Tait & Co. Merchant House",
         description: "The green hills remain, and the sunsets linger. Experience the rich historical atmosphere.",
         image: r1.src,
+        link: "",
       },
       {
         name: "Xishe Xilong Temple",
         description: "A historic temple well-preserved and worth a visit.",
         image: r2.src,
+        link: "",
       },
       {
         name: "Anping Harbor National Historical Scenic Area",
         description: "A national park with beautiful scenery, perfect for family outings.",
         image: r3.src,
+        link: "",
       },
       {
         name: "Anping Old Street",
         description: "A perfect place to enjoy local snacks and handmade crafts.",
         image: r4.src,
+        link: "",
       },
       {
         name: "Anping Tianhou Temple",
         description: "A historic Tianhou Temple with a rich cultural heritage, perfect for history enthusiasts.",
         image: r5.src,
+        link: "",
       },
     ],
   };
