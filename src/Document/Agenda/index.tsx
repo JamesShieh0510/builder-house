@@ -3,10 +3,6 @@ import { useTranslation } from "next-i18next";
 function AgendaDoc() {
   const { t } = useTranslation("agenda");
 
-  // 將原本硬編碼改用 t() 從 agenda.json 中取得
-  // 並使用 { returnObjects: true } 取得 array 格式的 subTitle
-
-  // MainStage Day1
   const mainStageDay1 = Array.from({ length: 10 }, (_, i) => {
     const index = i + 1;
     return {
@@ -16,7 +12,6 @@ function AgendaDoc() {
     };
   });
 
-  // MainStage Day2
   const mainStageDay2 = Array.from({ length: 6 }, (_, i) => {
     const index = i + 1;
     return {
@@ -26,7 +21,6 @@ function AgendaDoc() {
     };
   });
 
-  // RadianceStage Day1 (4 items)
   const radianceStageDay1 = Array.from({ length: 4 }, (_, i) => {
     const index = i + 1;
     return {
@@ -36,7 +30,6 @@ function AgendaDoc() {
     };
   });
 
-  // RadianceStage Day2 (2 items)
   const radianceStageDay2 = Array.from({ length: 2 }, (_, i) => {
     const index = i + 1;
     return {
@@ -46,7 +39,6 @@ function AgendaDoc() {
     };
   });
 
-  // RoundTable Day1 (1 item)
   const roundTableDay1 = [
     {
       time: t("RoundTable.Day1.item1.time"),
@@ -54,8 +46,6 @@ function AgendaDoc() {
       subTitle: t("RoundTable.Day1.item1.subTitle", { returnObjects: true })
     }
   ];
-
-  // RoundTable Day2 (1 item)
   const roundTableDay2 = [
     {
       time: t("RoundTable.Day2.item1.time"),

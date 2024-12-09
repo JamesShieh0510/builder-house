@@ -267,7 +267,7 @@ function PartnersDoc() {
     { pic: akindo.src, link: "https://akindo.io/" },
     { pic: moongate.src, link: "https://www.moongate.id/" },
     { pic: coredao.src, link: "https://coredao.org/" },
-    { pic: Caldera.src, link: "https://www.caldera.xyz/" },
+    // { pic: Caldera.src, link: "https://www.caldera.xyz/" },
     // { pic: Eos.src, link: "https://eosnetwork.com/", w: "200" },
     // { pic: Chainlink.src, link: "https://tezos.com/", w: "200" },
     // { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
