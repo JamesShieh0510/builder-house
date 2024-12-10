@@ -4,11 +4,14 @@ import tainan from "@/assets/Partners/tainan.png";
 import radiance from "@/assets/Partners/radiance.png";
 import zombie from "@/assets/Partners/zombie.svg";
 import aipost from "@/assets/Partners/aipost.png";
+import TW3A from "@/assets/Partners/TW3A.png";
 
 // Strategy
 import tbw2024 from "@/assets/Partners/tbw2024.png";
 import TABEI from "@/assets/Partners/TABEI.png";
 import III from "@/assets/Partners/III.jpg";
+import ChannelDAO from "@/assets/Partners/ChannelDAO.png";
+
 
 
 // Partner
@@ -26,6 +29,7 @@ import icp from "@/assets/Partners/icp.png";
 import inn from "@/assets/Partners/inn.png"
 import Caldera from "@/assets/Partners/Caldera.png"
 import kenja from "@/assets/Partners/kenja.png"
+import blockrobbit from "@/assets/Partners/blockrobbit.png"
 
 
 
@@ -236,11 +240,13 @@ function PartnersDoc() {
     { pic: radiance.src, link: "https://radianceventures.io/" },
     { pic: zombie.src, link: "https://zombit.info/" },
     { pic: aipost.src, link: "https://aiposthub.com/" },
+    { pic: TW3A.src },
   ];
   const strategicArr = [
     { pic: III.src, link: "https://www.iii.org.tw/en" },
     { pic: tbw2024.src, link: "https://www.taipeiblockchainweek.com/" },
     { pic: TABEI.src, link: "https://www.chain.tw/" },
+    { pic: ChannelDAO.src },
     // { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
     // { pic: Tst.src, link: "https://www.startupterrace.tw/" },
     // { pic: Gosmart.src, link: "https://www.citiesgosmart.org/" },
@@ -267,6 +273,8 @@ function PartnersDoc() {
     { pic: akindo.src, link: "https://akindo.io/" },
     { pic: moongate.src, link: "https://www.moongate.id/" },
     { pic: coredao.src, link: "https://coredao.org/" },
+    { pic: blockrobbit.src },
+
     // { pic: Caldera.src, link: "https://www.caldera.xyz/" },
     // { pic: Eos.src, link: "https://eosnetwork.com/", w: "200" },
     // { pic: Chainlink.src, link: "https://tezos.com/", w: "200" },
