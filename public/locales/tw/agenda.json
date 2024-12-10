@@ -22,7 +22,7 @@
       "item3": {
         "time": "11:00",
         "topic": "AI是否扼殺了批判性思考？",
-        "subTitle": ["Brad Lin, NUVA, 創辦人"]
+        "subTitle": ["Brad Lin, NUVA, Founder"]
       },
       "item4": {
         "time": "11:15",
@@ -30,7 +30,6 @@
         "subTitle": [
           "Jaden, Investor, Flow Traders",
           "Ben, Partner, Radiance Ventures",
-          "Lai, Partner, Horizon Capital",
           "Josh, Bing Ventures, 亞太投資部門總監"
         ]
       },
@@ -56,31 +55,31 @@
         "time": "14:15",
         "topic": "塑造未來：AI創新重塑產業標準",
         "subTitle": [
-          "Davin, Ai Post, 共同創辦人(主持)",
-          "Brad Lin, NUVA, 創辦人",
-          "Eugenia, EU Free Life Academy, 創辦人",
-          "NANA, 104, 設計師",
-          "Selina, GPTSavyy, 創辦人"
+          "Davin, Ai Post, Co-Founder(Host)",
+          "Brad Lin, NUVA, Founder",
+          "Eugenia, EU Free Life Academy, Founder",
+          "NANA, 104, Product Designer",
+          "Selina, GPTSavyy, Founder"
         ]
       },
       "item8": {
         "time": "15:00",
         "topic": "帳戶抽象化 (Account Abstraction)",
-        "subTitle": ["David Kim, Trust Wallet, 技術主管"]
+        "subTitle": ["David Kim, Trust Wallet, Tech Lead"]
       },
       "item9": {
         "time": "15:15",
         "topic": "BSC 生態系",
         "subTitle": [
-          "Claire Dang, Hooked Protocol, BD主管",
-          "Artemis, THENA, 成長主管",
-          "Nell, Seraph, 品牌總監"
+          "Claire Dang, Hooked Protocol, BD Head",
+          "Artemis, THENA, Growth Lead ",
+          "Nell, Seraph, Brand Director"
         ]
       },
       "item10": {
-        "time": "15:45",
-        "topic": "Web3 資安",
-        "subTitle": ["Chang-Wu Chen, imToken, 首席科學家"]
+        "time": "16:15",
+        "topic": "Demo",
+        "subTitle": ["BuzzUp", "Aggregata", "Twin3.ai", "Bitdoctor"]
       }
     },
     "Day2": {
@@ -92,15 +91,16 @@
       "item2": {
         "time": "11:00",
         "topic": "待定議程",
-        "subTitle": ["Martinet Lee, Zircuit, 開發者關係負責人"]
+        "subTitle": ["Martinet Lee, Zircuit, Head of Developer Relations "]
       },
       "item3": {
         "time": "11:15",
         "topic": "比特幣作為變革催化劑：探索新領域",
         "subTitle": [
-          "Lulu, BeWater, 合夥人",
-          "Jenks Guo, Babylon Labs, 開發者關係主管",
-          "Chanel, CoreDAO, 核心貢獻者"
+          "Lulu, BeWater, Partner",
+          "Jenks Guo, Babylon Labs, Head of DevRel",
+          "Sunny Teng, Merlin, BD Head",
+          "Chanel, CoreDAO, Core Contributor "
         ]
       },
       "item4": {
@@ -108,8 +108,8 @@
         "topic": "待定議程",
         "subTitle": [
           "Ethan, AC Capital, 創始合夥人(主持)",
-          "Amy, Cetus, BD主管",
-          "Carl, NAVI, 亞太區成長主管",
+          "Amy, Cetus, BD Head",
+          "Carl, NAVI, APAC Growth Lead",
           "Kyrie, Typus, CGO"
         ]
       },
@@ -117,15 +117,15 @@
         "time": "14:45",
         "topic": "賦能 Web3 新創",
         "subTitle": [
-          "Oliver, Aggregata, 共同創辦人",
-          "Craig, Isle Finance, 共同創辦人",
-          "Scott, CopeX, 共同創辦人"
+          "Oliver, Aggregata, Co-Founder",
+          "Craig, Isle Finance, Co-Founder",
+          "Scott, CopeX, Co-Founder"
         ]
       },
       "item6": {
         "time": "15:30",
-        "topic": "Demo 展示",
-        "subTitle": ["CopeX", "Twin3.ai", "Isle Finance", "Aggregata"]
+        "topic": "Demo",
+        "subTitle": ["CopeX", "Isle Finance"]
       }
     }
   },
@@ -135,22 +135,22 @@
       "item1": {
         "time": "11:45",
         "topic": "打造你的個人 AI 大腦 - Notebooklm 的魅力揭祕",
-        "subTitle": ["Selina, GPTSavyy, 創辦人"]
+        "subTitle": ["Selina, GPTSavyy, Founder"]
       },
       "item2": {
         "time": "15:00",
         "topic": "在數位自由時代，AI 如何重塑自媒體",
-        "subTitle": ["Eugenia叡一, EU Free Life Academy, 創辦人"]
+        "subTitle": ["Eugenia叡一, EU Free Life Academy, Founder"]
       },
       "item3": {
         "time": "15:15",
         "topic": "利用 AI 在六個月內打造 5 萬粉絲的 Instagram",
-        "subTitle": ["NANA, 104, 產品設計師"]
+        "subTitle": ["NANA, 104, Product Designer"]
       },
       "item4": {
         "time": "15:30",
         "topic": "Ton 上的 DeFi 未來",
-        "subTitle": ["Maxey, Torch, 創辦人", "Yang, Ton, Syndicate"]
+        "subTitle": ["Maxey, Torch, Founder", "Yang, Ton, Syndicate"]
       }
     },
     "Day2": {
@@ -158,10 +158,10 @@
         "time": "11:15",
         "topic": "錢包抽象化、鏈抽象化與鏈上消費者",
         "subTitle": [
-          "Davin, AIPost, 共同創辦人(主持)",
-          "Harrison, Owl Protocol, BD主管",
-          "Ben, Lychee ACHO, 創辦人",
-          "Kevin, Mustaverse Digital, 創辦人"
+          "Davin, AIPost, Co-Founder(Host)",
+          "Harrison, Owl Protocol, BD Head",
+          "Ben, Lychee ACHO, Founder",
+          "Kevin, Mustaverse Digital, Founder"
         ]
       },
       "item2": {

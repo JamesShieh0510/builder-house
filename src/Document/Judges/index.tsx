@@ -336,11 +336,6 @@ function JudgesDoc() {
       avatar: Ton_Yang.src,
     },
     {
-      name: "Weike Li",
-      company: "COO\nAmber Group VC",
-      avatar: Weike_Li.src,
-    },
-    {
       name: "Woody Cheng",
       company: "SecuX\nCOO",
       avatar: WOODY.src,

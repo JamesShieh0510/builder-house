@@ -30,7 +30,6 @@
         "subTitle": [
           "Jaden, Investor, Flow Traders",
           "Ben, Partner, Radiance Ventures",
-          "Lai, Partner, Horizon Capital",
           "Josh, Bing Ventures, APAC Investment Department Director"
         ]
       },
@@ -72,15 +71,15 @@
         "time": "15:15",
         "topic": "BSC Ecosystem",
         "subTitle": [
-          "Claire Dang, Hooked Protocol, Head of BD",
+          "Claire Dang, Hooked Protocol, BD Head",
           "Artemis, THENA, Growth Lead",
           "Nell, Seraph, Brand Director"
         ]
       },
       "item10": {
-        "time": "15:45",
-        "topic": "Web3 Security",
-        "subTitle": ["Chang-Wu Chen, imToken, Chief Scientist"]
+        "time": "16:15",
+        "topic": "Demo",
+        "subTitle": ["BuzzUp", "Aggregata", "Twin3.ai", "Bitdoctor"]
       }
     },
     "Day2": {
@@ -100,6 +99,7 @@
         "subTitle": [
           "Lulu, BeWater, Partner",
           "Jenks Guo, Babylon Labs, Head of Developer Relations",
+          "Sunny Teng, Merlin, BD Head",
           "Chanel, CoreDAO, Core Contributor"
         ]
       },
@@ -108,7 +108,7 @@
         "topic": "TBD",
         "subTitle": [
           "Ethan, AC Capital, Founding Partner (Host)",
-          "Amy, Cetus, Head of BD",
+          "Amy, Cetus, BD Head",
           "Carl, NAVI, APAC Growth Lead",
           "Kyrie, Typus, CGO"
         ]
@@ -125,7 +125,7 @@
       "item6": {
         "time": "15:30",
         "topic": "Demo",
-        "subTitle": ["CopeX", "Twin3.ai", "Isle Finance", "Aggregata"]
+        "subTitle": ["CopeX", "Isle Finance"]
       }
     }
   },
