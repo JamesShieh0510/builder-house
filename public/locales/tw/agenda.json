@@ -178,23 +178,38 @@
   "RadianceStage": {
     "Day1": {
       "item1": {
-        "time": "11:45",
-        "topic": "打造你的個人 AI 大腦 - Notebooklm 的魅力揭祕",
-        "subTitle": ["Selina, GPTSavyy, Founder"]
+        "time": "10:30",
+        "topic": "AI應用的風險管理：防詐技術與資訊安全",
+        "subTitle": ["TBD"]
       },
       "item2": {
-        "time": "15:00",
-        "topic": "在數位自由時代，AI 如何重塑自媒體",
-        "subTitle": ["Eugenia叡一, EU Free Life Academy, Founder"]
+        "time": "11:45",
+        "topic": "打造專屬AI大腦- 揭開 Notebooklm的魔法",
+        "subTitle": ["Selina, GPTSavyy, Founder"]
       },
       "item3": {
-        "time": "15:15",
-        "topic": "利用 AI 在六個月內打造 5 萬粉絲的 Instagram",
-        "subTitle": ["NANA, 104, Product Designer"]
+        "time": "11:15",
+        "topic": "區塊安全",
+        "subTitle": ["Dr.Woody Cheng, CCO, SecuX"]
       },
       "item4": {
+        "time": "11:45",
+        "topic": "Google 地圖AI商機佈局",
+        "subTitle": ["Jen Cheng Wei, 知識科技, CEO"]
+      },
+      "item5": {
+        "time": "15:00",
+        "topic": "數位自由時代：AI如何重塑自媒體的玩法",
+        "subTitle": ["Eugenia叡一, EU Free Life Academy, Founder"]
+      },
+      "item6": {
+        "time": "15:15",
+        "topic": "如何靠AI在六個月打造5萬粉IG",
+        "subTitle": ["NANA, 104, Product Designer"]
+      },
+      "item7": {
         "time": "15:30",
-        "topic": "Ton 上的 DeFi 未來",
+        "topic": "Ton上的未來Defi",
         "subTitle": ["Maxey, Torch, Founder", "Yang, Ton, Syndicate"]
       }
     },

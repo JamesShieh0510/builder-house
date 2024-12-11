@@ -12,7 +12,7 @@ function AgendaDoc() {
     };
   });
 
-  const mainStageDay2 = Array.from({ length: 6 }, (_, i) => {
+  const mainStageDay2 = Array.from({ length: 7 }, (_, i) => {
     const index = i + 1;
     return {
       time: t(`MainStage.Day2.item${index}.time`),
@@ -21,7 +21,7 @@ function AgendaDoc() {
     };
   });
 
-  const radianceStageDay1 = Array.from({ length: 4 }, (_, i) => {
+  const radianceStageDay1 = Array.from({ length: 8 }, (_, i) => {
     const index = i + 1;
     return {
       time: t(`RadianceStage.Day1.item${index}.time`),

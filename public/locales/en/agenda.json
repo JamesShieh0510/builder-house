@@ -178,21 +178,36 @@
   "RadianceStage": {
     "Day1": {
       "item1": {
+        "time": "10:30",
+        "topic": "Risk Management in AI Applications: Anti-Fraud Techniques and Information Security",
+        "subTitle": ["TBD"]
+      },
+      "item2": {
         "time": "11:45",
         "topic": "Building Your Personal AI Brain - Unveiling the Magic of Notebooklm",
         "subTitle": ["Selina, GPTSavyy, Founder"]
       },
-      "item2": {
+      "item3": {
+        "time": "11:15",
+        "topic": "Blockchain Security",
+        "subTitle": ["Dr.Woody Cheng, CCO, SecuX"]
+      },
+      "item4": {
+        "time": "11:45",
+        "topic": "Google Maps AI business opportunity layout",
+        "subTitle": ["Jen Cheng Wei, FlashAaim Inc, CEO"]
+      },
+      "item5": {
         "time": "15:00",
         "topic": "How AI is Reshaping Self-Media in the Digital Freedom Era",
         "subTitle": ["Eugenia叡一, EU Free Life Academy, Founder"]
       },
-      "item3": {
+      "item6": {
         "time": "15:15",
         "topic": "Using AI to Grow a 50K-Follower Instagram in Six Months",
         "subTitle": ["NANA, 104, Product Designer"]
       },
-      "item4": {
+      "item7": {
         "time": "15:30",
         "topic": "Future of Defi on Ton",
         "subTitle": ["Maxey, Torch, Founder", "Yang, Ton, Syndicate"]
