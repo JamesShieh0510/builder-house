@@ -3,12 +3,19 @@ import { useTranslation } from "next-i18next";
 function AgendaDoc() {
   const { t } = useTranslation("agenda");
 
+  const normalizeSubTitle = (subTitle: any) => {
+    // 確保 subTitle 是數組
+    return Array.isArray(subTitle) ? subTitle : [subTitle];
+  };
+
   const mainStageDay1 = Array.from({ length: 13 }, (_, i) => {
     const index = i + 1;
     return {
       time: t(`MainStage.Day1.item${index}.time`),
       topic: t(`MainStage.Day1.item${index}.topic`),
-      subTitle: t(`MainStage.Day1.item${index}.subTitle`, { returnObjects: true })
+      subTitle: normalizeSubTitle(
+        t(`MainStage.Day1.item${index}.subTitle`, { returnObjects: true })
+      ),
     };
   });
 
@@ -17,16 +24,20 @@ function AgendaDoc() {
     return {
       time: t(`MainStage.Day2.item${index}.time`),
       topic: t(`MainStage.Day2.item${index}.topic`),
-      subTitle: t(`MainStage.Day2.item${index}.subTitle`, { returnObjects: true })
+      subTitle: normalizeSubTitle(
+        t(`MainStage.Day2.item${index}.subTitle`, { returnObjects: true })
+      ),
     };
   });
 
-  const radianceStageDay1 = Array.from({ length: 8 }, (_, i) => {
+  const radianceStageDay1 = Array.from({ length: 7 }, (_, i) => {
     const index = i + 1;
     return {
       time: t(`RadianceStage.Day1.item${index}.time`),
       topic: t(`RadianceStage.Day1.item${index}.topic`),
-      subTitle: t(`RadianceStage.Day1.item${index}.subTitle`, { returnObjects: true })
+      subTitle: normalizeSubTitle(
+        t(`RadianceStage.Day1.item${index}.subTitle`, { returnObjects: true })
+      ),
     };
   });
 
@@ -35,7 +46,9 @@ function AgendaDoc() {
     return {
       time: t(`RadianceStage.Day2.item${index}.time`),
       topic: t(`RadianceStage.Day2.item${index}.topic`),
-      subTitle: t(`RadianceStage.Day2.item${index}.subTitle`, { returnObjects: true })
+      subTitle: normalizeSubTitle(
+        t(`RadianceStage.Day2.item${index}.subTitle`, { returnObjects: true })
+      ),
     };
   });
 
@@ -43,15 +56,20 @@ function AgendaDoc() {
     {
       time: t("RoundTable.Day1.item1.time"),
       topic: t("RoundTable.Day1.item1.topic"),
-      subTitle: t("RoundTable.Day1.item1.subTitle", { returnObjects: true })
-    }
+      subTitle: normalizeSubTitle(
+        t("RoundTable.Day1.item1.subTitle", { returnObjects: true })
+      ),
+    },
   ];
+
   const roundTableDay2 = [
     {
       time: t("RoundTable.Day2.item1.time"),
       topic: t("RoundTable.Day2.item1.topic"),
-      subTitle: t("RoundTable.Day2.item1.subTitle", { returnObjects: true })
-    }
+      subTitle: normalizeSubTitle(
+        t("RoundTable.Day2.item1.subTitle", { returnObjects: true })
+      ),
+    },
   ];
 
   const agendaData = {
