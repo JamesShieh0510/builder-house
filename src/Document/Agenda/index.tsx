@@ -3,7 +3,7 @@ import { useTranslation } from "next-i18next";
 function AgendaDoc() {
   const { t } = useTranslation("agenda");
 
-  const mainStageDay1 = Array.from({ length: 11 }, (_, i) => {
+  const mainStageDay1 = Array.from({ length: 13 }, (_, i) => {
     const index = i + 1;
     return {
       time: t(`MainStage.Day1.item${index}.time`),

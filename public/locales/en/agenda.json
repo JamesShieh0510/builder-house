@@ -20,12 +20,7 @@
         "subTitle": ["Edward Liao, INNOLUX, Associate VP and General Manager of IASBC"]
       },
       "item3": {
-        "time": "11:00",
-        "topic": "Is AI Killing Critical Thinking?",
-        "subTitle": ["Brad Lin, NUVA, Founder"]
-      },
-      "item4": {
-        "time": "11:15",
+        "time": "10:30",
         "topic": "The Next Wave of Venture Capital in a Decentralized Economy",
         "subTitle": [
           "Jaden, Investor, Flow Traders",
@@ -33,7 +28,20 @@
           "Josh, Bing Ventures, APAC Investment Department Director"
         ]
       },
+      "item4": {
+        "time": "11:15",
+        "topic": "Is AI Killing Critical Thinking?",
+        "subTitle": ["Brad Lin, NUVA, Founder"]
+      },
       "item5": {
+        "time": "11:30",
+        "topic": "TBD",
+        "subTitle": [
+          "Sinka Gao, Founder, Delphinus Lab ",
+          "Joe, Movement, APAC BD"
+        ]
+      },
+      "item6": {
         "time": "13:30",
         "topic": "Opening",
         "subTitle": [
@@ -42,7 +50,7 @@
           "謝仕淵, Director, Bureau of Culture"
         ]
       },
-      "item6": {
+      "item7": {
         "time": "13:45",
         "topic": "AI-Powered Digital Transformation: Exploring Innovation and Real-World Applications",
         "subTitle": [
@@ -51,7 +59,7 @@
           "戴偉峻, Director, Artificial Intelligence Innovation Institute"
         ]
       },
-      "item7": {
+      "item8": {
         "time": "14:15",
         "topic": "Shaping Tomorrow: AI Innovations Redefining Industry Standards",
         "subTitle": [
@@ -62,29 +70,46 @@
           "Selina, GPTSavyy, Founder"
         ]
       },
-      "item8": {
+      "item9": {
         "time": "15:00",
         "topic": "Account Abstraction",
         "subTitle": ["David Kim, Trust Wallet, Technical Lead"]
       },
-      "item11": {
-        "time": "15:00",
-        "topic": "Account111 Abstraction",
-        "subTitle": ["David Kim, Trust Wallet, Technical Lead"]
-      },
-      "item9": {
+      "item10": {
         "time": "15:15",
-        "topic": "BSC Ecosystem",
+        "topic": "Exploring new approaches to user growth, engagement, and marketing strategies",
         "subTitle": [
-          "Claire Dang, Hooked Protocol, BD Head",
-          "Artemis, THENA, Growth Lead",
-          "Nell, Seraph, Brand Director"
+          "Dawin, DAWIN, Co-Founder (Host)",
+          "Julie, Tako Protocol, Head Growth", 
+          "Sunny Wu, Asusmetaverse, CEO",
+          "MOZ, Akindo, Founder"
         ]
       },
-      "item10": {
-        "time": "16:15",
+      "item11": {
+        "time": "15:45",
+        "topic": "Unifying DeFi Liquidity For The Next Bull Run",
+        "subTitle": ["Ran Yi, Co-founder, Orderly Network"]
+      },
+      "item12": {
+        "time": "14:45",
+        "topic": "Empowing Web3 Startups",
+        "subTitle": [
+          "Jerry, Gaia, Account Manager",
+          "Twin3.ai, Ming Wen, Founder",
+          "BuzzUp, Kelvin Yan, General Manager",
+          "Bitdoctor, Asher L, Co-Founder",
+          "PUNDI.AI"
+        ]
+      },
+      "item13": {
+        "time": "16:30",
         "topic": "Demo",
-        "subTitle": ["BuzzUp", "Aggregata", "Twin3.ai", "Bitdoctor"]
+        "subTitle": [
+          "Twin3.ai",
+          "Pundi.ai",
+          "BuzzUp",
+          "Bitdoctor"
+        ]
       }
     },
     "Day2": {
