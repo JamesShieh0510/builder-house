@@ -94,7 +94,7 @@
         "time": "14:45",
         "topic": "Empowing Web3 Startups",
         "subTitle": [
-          "Jerry, Gaia, Account Manager",
+          "Jerry, Gaia, Account Manager (Host)",
           "Twin3.ai, Ming Wen, Founder",
           "BuzzUp, Kelvin Yan, General Manager",
           "Bitdoctor, Asher L, Co-Founder",
@@ -135,9 +135,9 @@
       },
       "item4": {
         "time": "14:00",
-        "topic": "待定議程",
+        "topic": "Sui上的DeFi未來：構建協同的Sui生態系統",
         "subTitle": [
-          "Ethan, AC Capital, 創始合夥人(主持)",
+          "Ethan, AC Capital, Founding Partner (Host)",
           "Amy, Cetus, BD Head",
           "Carl, NAVI, APAC Growth Lead",
           "Kyrie, Typus, CGO"
@@ -145,17 +145,32 @@
       },
       "item5": {
         "time": "14:45",
-        "topic": "賦能 Web3 新創",
+        "topic": "為什麼選擇建構在BNB上：探索未來發展路線圖",
         "subTitle": [
+          "Artemis, THENA, Growth Lead",
+          "Claire Dang, Hooked Protocol, BD Head",
+          "Nell, Seraph, Brand Director"
+        ]
+      },
+      "item6": {
+        "time": "15:15",
+        "topic": "TBD",
+        "subTitle": ["MOZ, Akindo, Founder", "Antoine, ICP Taiwan, Co-Founder"]
+      },
+      "item7": {
+        "time": "15:45",
+        "topic": "賦能Web3初創企業",
+        "subTitle": [
+          "Ben, Lychee Acho, Founder (Host)",
           "Oliver, Aggregata, Co-Founder",
           "Craig, Isle Finance, Co-Founder",
           "Scott, CopeX, Co-Founder"
         ]
       },
-      "item6": {
-        "time": "15:30",
+      "item8": {
+        "time": "16:15",
         "topic": "Demo",
-        "subTitle": ["CopeX", "Isle Finance"]
+        "subTitle": ["Aggregata", "CopeX", "Isle Finance"]
       }
     }
   },

@@ -127,7 +127,7 @@
         "time": "11:15",
         "topic": "Bitcoin as Catalyst for Change : Exploring New Horizons",
         "subTitle": [
-          "Lulu, BeWater, Partner",
+          "Lulu, BeWater, Partner (Host)",
           "Jenks Guo, Babylon Labs, Head of Developer Relations",
           "Sunny Teng, Merlin, BD Head",
           "Chanel, CoreDAO, Core Contributor"
@@ -135,7 +135,7 @@
       },
       "item4": {
         "time": "14:00",
-        "topic": "TBD",
+        "topic": "The Future of DeFi on Sui:Building a Synergistic Sui Ecosystem",
         "subTitle": [
           "Ethan, AC Capital, Founding Partner (Host)",
           "Amy, Cetus, BD Head",
@@ -145,17 +145,32 @@
       },
       "item5": {
         "time": "14:45",
+        "topic": "Why Build on BNB: Exploring the Future Roadmap",
+        "subTitle": [
+          "Artemis, THENA, Growth Lead",
+          "Claire Dang, Hooked Protocol, BD Head",
+          "Nell, Seraph, Brand Director"
+        ]
+      },
+      "item6": {
+        "time": "15:15",
+        "topic": "TBD",
+        "subTitle": ["MOZ, Akindo, Founder", "Antoine, ICP Taiwan, Co-Founder"]
+      },
+      "item7": {
+        "time": "15:45",
         "topic": "Empowing Web3 Startups",
         "subTitle": [
+          "Ben, Lychee Acho, Founder (Host)",
           "Oliver, Aggregata, Co-Founder",
           "Craig, Isle Finance, Co-Founder",
           "Scott, CopeX, Co-Founder"
         ]
       },
-      "item6": {
-        "time": "15:30",
+      "item8": {
+        "time": "16:15",
         "topic": "Demo",
-        "subTitle": ["CopeX", "Isle Finance"]
+        "subTitle": ["Aggregata", "CopeX", "Isle Finance"]
       }
     }
   },
