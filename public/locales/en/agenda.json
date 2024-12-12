@@ -17,7 +17,7 @@
       "item2": {
         "time": "09:45",
         "topic": "TBD",
-        "subTitle": ["Edward Liao, INNOLUX, Associate VP and General Manager of IASBC"]
+        "subTitle": ["Edward Liao, INNOLUX Associate VP and General Manager of IAS BU"]
       },
       "item3": {
         "time": "10:30",
@@ -35,7 +35,7 @@
       },
       "item5": {
         "time": "11:30",
-        "topic": "TBD",
+        "topic": "(ZK)Privacy Meets Scalability: Can We Have Both?",
         "subTitle": [
           "Sinka Gao, Founder, Delphinus Lab ",
           "Joe, Movement, APAC BD"
@@ -47,7 +47,7 @@
         "subTitle": [
           "葉澤山, Deputy Mayor, Tainan",
           "林榮川, Director, Economic Development Bureau",
-          "謝仕淵, Director, Bureau of Culture"
+          "戴偉峻, Director, Artificial Intelligence Innovation Institute"
         ]
       },
       "item7": {
@@ -85,6 +85,7 @@
           "MOZ, Akindo, Founder"
         ]
       },
+
       "item11": {
         "time": "15:45",
         "topic": "Unifying DeFi Liquidity For The Next Bull Run",
