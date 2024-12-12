@@ -16,15 +16,10 @@
       },
       "item2": {
         "time": "09:45",
-        "topic": "待定議程",
+        "topic": "「燈塔工廠」如何透過 Al/大數據提升競爭力",
         "subTitle": ["廖健宏,INNOLUX 協理 暨 IAS BU 總經理"]
       },
       "item3": {
-        "time": "10:30",
-        "topic": "AI是否扼殺了批判性思考？",
-        "subTitle": ["Brad Lin, NUVA, 創辦人"]
-      },
-      "item4": {
         "time": "11:00",
         "topic": "去中心化經濟中的新風潮創投",
         "subTitle": [
@@ -33,6 +28,11 @@
           "Lai, Partner, Horizon Capital",
           "Josh, Bing Ventures, 亞太投資部門總監"
         ]
+      },
+      "item4": {
+        "time": "11:15",
+        "topic": "AI 扼殺思考，嗎？",
+        "subTitle": ["Brad Lin, NUVA, 創辦人"]
       },
       "item5": {
         "time": "11:30",
@@ -92,7 +92,7 @@
         "subTitle": ["Chang-Wu Chen, imToken, 首席科學家"]
       },
       "item12": {
-        "time": "14:45",
+        "time": "16:00",
         "topic": "Empowing Web3 Startups",
         "subTitle": [
           "Jerry, Gaia, Account Manager",
@@ -135,7 +135,7 @@
       },
       "item4": {
         "time": "14:00",
-        "topic": "待定議程",
+        "topic": "Why Build on BNB: Exploring the Future Roadmap",
         "subTitle": [
           "Ethan, AC Capital, 創始合夥人(主持)",
           "Amy, Cetus, BD主管",
@@ -145,6 +145,20 @@
       },
       "item5": {
         "time": "14:45",
+        "topic": "Why Build on BNB: Exploring the Future Roadmap",
+        "subTitle": [
+          "Artemis, THENA, Growth Lead",
+          "Claire Dang, Hooked Protocol, BD Head",
+          "Nell, Seraph, Brand Director"
+        ]
+      },
+      "item6": {
+        "time": "15:15",
+        "topic": "TBD",
+        "subTitle": ["MOZ, Akindo, Founder", "Antoine, ICP Taiwan, Co-Founder"]
+      },
+      "item7": {
+        "time": "15:45",
         "topic": "賦能 Web3 新創",
         "subTitle": [
           "Oliver, Aggregata, 共同創辦人",
@@ -152,10 +166,10 @@
           "Scott, CopeX, 共同創辦人"
         ]
       },
-      "item6": {
-        "time": "15:30",
-        "topic": "Demo 展示",
-        "subTitle": ["CopeX", "Twin3.ai", "Isle Finance", "Aggregata"]
+      "item8": {
+        "time": "16:15",
+        "topic": "Demo",
+        "subTitle": ["Aggregata", "CopeX", "Isle Finance"]
       }
     }
   },
@@ -163,21 +177,36 @@
   "RadianceStage": {
     "Day1": {
       "item1": {
-        "time": "11:45",
+        "time": "10:30",
+        "topic": "AI應用的風險管理：防詐技術與資訊安全",
+        "subTitle": ["TBD"]
+      },
+      "item2": {
+        "time": "11:00",
         "topic": "打造你的個人 AI 大腦 - Notebooklm 的魅力揭祕",
         "subTitle": ["Selina, GPTSavyy, 創辦人"]
       },
-      "item2": {
+      "item3": {
+        "time": "11:15",
+        "topic": "錢包安全",
+        "subTitle": ["Dr.Woody Cheng, CCO, SecuX"]
+      },
+      "item4": {
+        "time": "11:45",
+        "topic": "Google 地圖AI商機佈局",
+        "subTitle": ["Jen Cheng Wei, FlashAaim Inc, CEO"]
+      },
+      "item5": {
         "time": "15:00",
         "topic": "在數位自由時代，AI 如何重塑自媒體",
         "subTitle": ["Eugenia叡一, EU Free Life Academy, 創辦人"]
       },
-      "item3": {
+      "item6": {
         "time": "15:15",
         "topic": "利用 AI 在六個月內打造 5 萬粉絲的 Instagram",
         "subTitle": ["NANA, 104, 產品設計師"]
       },
-      "item4": {
+      "item7": {
         "time": "15:30",
         "topic": "Ton 上的 DeFi 未來",
         "subTitle": ["Maxey, Torch, 創辦人", "Yang, Ton, Syndicate"]
@@ -198,6 +227,16 @@
         "time": "14:00",
         "topic": "牛市交易規則：資本輪動與注意力經濟的關聯",
         "subTitle": ["DA Capital"]
+      },
+      "item3": {
+        "time": "14:00",
+        "topic": "Women leading the way and redefining roles in Web3",
+        "subTitle": [
+          "Banana, Grenade ",
+          "Carey, BitMEX",
+          "Jane, TaZhiDAO, Contributer ",
+          "Zoe, Arcade Galaxy , Marketing Head"
+        ]
       }
     }
   },

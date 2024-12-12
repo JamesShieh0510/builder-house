@@ -16,7 +16,7 @@
       },
       "item2": {
         "time": "09:45",
-        "topic": "TBD",
+        "topic": "How 'Lighthouse Factory ' Leverages Al and Big Data to Enhance Competitiveness",
         "subTitle": ["Edward Liao, INNOLUX Associate VP and General Manager of IAS BU"]
       },
       "item3": {
@@ -92,7 +92,7 @@
         "subTitle": ["Ran Yi, Co-founder, Orderly Network"]
       },
       "item12": {
-        "time": "14:45",
+        "time": "16:00",
         "topic": "Empowing Web3 Startups",
         "subTitle": [
           "Jerry, Gaia, Account Manager",
@@ -185,7 +185,7 @@
         "subTitle": ["TBD"]
       },
       "item2": {
-        "time": "11:45",
+        "time": "11:00",
         "topic": "Building Your Personal AI Brain - Unveiling the Magic of Notebooklm",
         "subTitle": ["Selina, GPTSavyy, Founder"]
       },
@@ -230,6 +230,16 @@
         "time": "14:00",
         "topic": "Rules for Trading in a Bull Market: The Link Between Capital Rotation and the Attention Economy",
         "subTitle": ["DA Capital"]
+      },
+      "item3": {
+        "time": "14:00",
+        "topic": "Women leading the way and redefining roles in Web3",
+        "subTitle": [
+          "Banana, Grenade ",
+          "Carey, BitMEX",
+          "Jane, TaZhiDAO, Contributer ",
+          "Zoe, Arcade Galaxy , Marketing Head"
+        ]
       }
     }
   },
