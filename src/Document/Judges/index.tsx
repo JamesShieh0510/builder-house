@@ -59,7 +59,7 @@ import TAKO from "@/assets/Judges/TAKO.png";
 import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
 import WOODY from "@/assets/Judges/WOODY.png";
 import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
-
+import Tian_Tsair from "@/assets/Judges/Tain-Tsair.jpg"
 
 //icon-website
 //icon-twitter
@@ -79,6 +79,11 @@ function JudgesDoc() {
       name: "林榮川",
       company: "Director\nEconomic Development Bureau",
       avatar: Lin.src,
+    },
+    {
+      name: "許添財",
+      company: "Chairman\nCommerce Development Research Institute",
+      avatar: Tian_Tsair.src,
     },
     {
       name: "謝仕淵",
