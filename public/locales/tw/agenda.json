@@ -25,7 +25,7 @@
       },
       "item3": {
         "time": "10:15",
-        "topic": "TBD",
+        "topic": "A Glimpse into Radiance’s Lifestyle",
         "subTitle": ["Ben, Partner, Radiance Ventures"]
       },
       "item4": {
@@ -33,8 +33,8 @@
         "topic": "去中心化經濟中的新風潮創投",
         "subTitle": [
           "Jaden, Investor, Flow Traders",
-          "Ben, Partner, Radiance Ventures",
-          "Lai, Partner, Horizon Capital",
+          "Audery Yang, Partner, Radiance Ventures",
+          "Andrea Chang, Partner, Oak Grove Ventures",
           "Josh, Bing Ventures, APAC Investment Director"
         ]
       },
@@ -83,7 +83,7 @@
 
       "item10": {
         "time": "15:00",
-        "topic": "帳戶抽象化 (Account Abstraction)",
+        "topic": "Blockchain Security",
         "subTitle": ["David Kim, Trust Wallet, Technical Lead"]
       },
       "item11": {
@@ -198,7 +198,7 @@
         "subTitle": ["Sung-Kang Chung, Deputy Director,Cybersecurity Technology Institute (CSTI), III"]
       },
       "item2": {
-        "time": "11:00",
+        "time": "11:15",
         "topic": "打造你的個人 AI 大腦 - Notebooklm 的魅力揭祕",
         "subTitle": ["Selina, GPTSavyy, Founder"]
       },
@@ -230,14 +230,19 @@
       "item8": {
         "time": "16:00",
         "topic": "Students Panel",
-        "subTitle": [""]
+        "subTitle": [
+          "Hank Liu, NCKU Blockchain Club ",
+          "Leon Liu, USC Blockchain ",
+          "Ryan Lin, BEA Co-founder",
+          "Hung Lin, TKU Blockchain "
+        ]
       }
 
     },
     "Day2": {
       "item1": {
         "time": "11:00",
-        "topic": "Pancake Swap",
+        "topic": "Setting the Stage for Defi Adoption",
         "subTitle": ["Chef Kids, Head Chef, Pancake Swap "]
       },
       "item2": {
@@ -251,11 +256,16 @@
         ]
       },
       "item3": {
+        "time": "14:00",
+        "topic": "Build Next-gen dApps With Zk Coprocessor",
+        "subTitle": ["Brevis,, brevis.network"]
+      },
+      "item4": {
         "time": "14:15",
         "topic": "牛市交易規則：資本輪動與注意力經濟的關聯",
         "subTitle": ["DA Capital"]
       },
-      "item4": {
+      "item5": {
         "time": "15:00",
         "topic": "Women leading the way and redefining roles in Web3",
         "subTitle": [
@@ -265,12 +275,12 @@
           "Zoe, Arcade Galaxy , Marketing Head"
         ]
       },
-      "item5": {
+      "item6": {
         "time": "15:30",
         "topic": "Account Abstraction",
         "subTitle": ["David Kim (Trust Wallet)"]
       },
-      "item6": {
+      "item7": {
         "time": "15:45",
         "topic": "MEME COIN",
         "subTitle": [

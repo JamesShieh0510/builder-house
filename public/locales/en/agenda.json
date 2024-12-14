@@ -24,7 +24,7 @@
       },
       "item3": {
         "time": "10:15",
-        "topic": "TBD",
+        "topic": "A Glimpse into Radiance’s Lifestyle",
         "subTitle": ["Ben, Partner, Radiance Ventures"]
       },
       "item4": {
@@ -32,8 +32,9 @@
         "topic": "The Next Wave of Venture Capital in a Decentralized Economy",
         "subTitle": [
           "Jaden, Investor, Flow Traders",
-          "Ben, Partner, Radiance Ventures",
-          "Josh, Bing Ventures, APAC Investment Department Director"
+          "Audery Yang, Partner, Radiance Ventures",
+          "Andrea Chang, Partner, Oak Grove Ventures",
+          "Josh, Bing Ventures, APAC Investment Director"
         ]
       },
       "item5": {
@@ -80,7 +81,7 @@
       },
       "item10": {
         "time": "15:00",
-        "topic": "Account Abstraction",
+        "topic": "Blockchain Security",
         "subTitle": ["David Kim, Trust Wallet, Technical Lead"]
       },
       "item11": {
@@ -197,7 +198,7 @@
         "subTitle": ["Sung-Kang Chung, Deputy Director,Cybersecurity Technology Institute (CSTI), III"]
       },
       "item2": {
-        "time": "11:00",
+        "time": "11:15",
         "topic": "Building Your Personal AI Brain - Unveiling the Magic of Notebooklm",
         "subTitle": ["Selina, GPTSavyy, Founder"]
       },
@@ -229,14 +230,19 @@
       "item8": {
         "time": "16:00",
         "topic": "Students Panel",
-        "subTitle": [""]
+        "subTitle": [
+          "Hank Liu, NCKU Blockchain Club ",
+          "Leon Liu, USC Blockchain ",
+          "Ryan Lin, BEA Co-founder",
+          "Hung Lin, TKU Blockchain "
+        ]
       }
 
     },
     "Day2": {
       "item1": {
         "time": "11:00",
-        "topic": "Pancake Swap",
+        "topic": "Setting the Stage for Defi Adoption",
         "subTitle": ["Chef Kids, Head Chef, Pancake Swap "]
       },
       "item2": {
@@ -250,11 +256,16 @@
         ]
       },
       "item3": {
+        "time": "14:00",
+        "topic": "Build Next-gen dApps With Zk Coprocessor",
+        "subTitle": ["Brevis,, brevis.network"]
+      },
+      "item4": {
         "time": "14:15",
         "topic": "Rules for Trading in a Bull Market: The Link Between Capital Rotation and the Attention Economy",
         "subTitle": ["DA Capital"]
       },
-      "item4": {
+      "item5": {
         "time": "15:00",
         "topic": "Women leading the way and redefining roles in Web3",
         "subTitle": [
@@ -264,12 +275,12 @@
           "Zoe, Arcade Galaxy , Marketing Head"
         ]
       },
-      "item5": {
+      "item6": {
         "time": "15:30",
         "topic": "Account Abstraction",
         "subTitle": ["David Kim (Trust Wallet)"]
       },
-      "item6": {
+      "item7": {
         "time": "15:45",
         "topic": "MEME COIN",
         "subTitle": [
