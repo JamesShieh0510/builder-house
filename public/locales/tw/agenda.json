@@ -266,21 +266,11 @@
         ]
       },
       "item5": {
-        "time": "15:00",
-        "topic": "Women leading the way and redefining roles in Web3",
-        "subTitle": [
-          "Banana, Grenade ",
-          "Carey, BitMEX",
-          "Jane, TaZhiDAO, Contributer ",
-          "Zoe, Arcade Galaxy , Marketing Head"
-        ]
-      },
-      "item6": {
         "time": "15:30",
         "topic": "Account Abstraction",
         "subTitle": ["David Kim (Trust Wallet)"]
       },
-      "item7": {
+      "item6": {
         "time": "15:45",
         "topic": "MEME COIN",
         "subTitle": [
