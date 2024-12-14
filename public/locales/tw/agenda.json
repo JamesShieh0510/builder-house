@@ -12,7 +12,11 @@
       "item1": {
         "time": "09:30",
         "topic": "開幕致詞",
-        "subTitle": ["TBD"]
+        "subTitle": [
+          "Tain-Tsair Hsu, Chairman, Commerce Development Research Institute ",
+          "Audery Yang, Partner, Radiance Ventures",
+          "Davin, Co-Founder, AI Post"
+        ]
       },
       "item2": {
         "time": "09:45",
@@ -20,7 +24,12 @@
         "subTitle": ["廖健宏,INNOLUX 協理 暨 IAS 總經理"]
       },
       "item3": {
-        "time": "11:00",
+        "time": "10:15",
+        "topic": "TBD",
+        "subTitle": ["Ben, Partner, Radiance Ventures"]
+      },
+      "item4": {
+        "time": "10:30",
         "topic": "去中心化經濟中的新風潮創投",
         "subTitle": [
           "Jaden, Investor, Flow Traders",
@@ -29,12 +38,12 @@
           "Josh, Bing Ventures, APAC Investment Director"
         ]
       },
-      "item4": {
+      "item5": {
         "time": "11:15",
         "topic": "AI 扼殺思考，嗎？",
         "subTitle": ["Brad Lin, NUVA, Founder"]
       },
-      "item5": {
+      "item6": {
         "time": "11:30",
         "topic": "(ZK)Privacy Meets Scalability: Can We Have Both?",
         "subTitle": [
@@ -42,7 +51,7 @@
           "Joe, Movement, APAC BD"
         ]
       },
-      "item6": {
+      "item7": {
         "time": "13:30",
         "topic": "開幕致詞",
         "subTitle": [
@@ -51,7 +60,7 @@
           "戴偉峻, 資策會人工智慧研究院院長"
         ]
       },
-      "item7": {
+      "item8": {
         "time": "13:45",
         "topic": "AI驅動的數位轉型：探索創新與實務應用",
         "subTitle": [
@@ -60,7 +69,7 @@
           "戴偉峻, 資策會人工智慧研究院院長"
         ]
       },
-      "item8": {
+      "item9": {
         "time": "14:15",
         "topic": "塑造未來：AI創新重塑產業標準",
         "subTitle": [
@@ -72,12 +81,12 @@
         ]
       },
 
-      "item9": {
+      "item10": {
         "time": "15:00",
         "topic": "帳戶抽象化 (Account Abstraction)",
         "subTitle": ["David Kim, Trust Wallet, Technical Lead"]
       },
-      "item10": {
+      "item11": {
         "time": "15:15",
         "topic": "探索用戶增長、參與度提升和行銷策略的新方法",
         "subTitle": [
@@ -87,12 +96,12 @@
           "Jason, Domin Network, Founder"
         ]
       },
-      "item11": {
+      "item12": {
         "time": "15:45",
         "topic": "統一 DeFi 流動性迎接下一波牛市",
         "subTitle": ["Ran Yi, Co-founder, Orderly Network"]
       },
-      "item12": {
+      "item13": {
         "time": "16:00",
         "topic": "Empowing Web3 Startups",
         "subTitle": [
@@ -103,9 +112,9 @@
           "Pundi.ai"
         ]
       },
-      "item13": {
+      "item14": {
         "time": "16:30",
-        "topic": "Demo",
+        "topic": "Taiwan Builder House Demo Day",
         "subTitle": [
           "Twin3.ai",
           "Pundi.ai",
@@ -118,7 +127,11 @@
       "item1": {
         "time": "10:00",
         "topic": "釋放 L2 無縫互動的潛力",
-        "subTitle": ["TBD"]
+        "subTitle": [
+          "Cynthia, Contributor, BuilderDAO",
+          "Peter Yang, Head of BD, Scroll",
+          "Martinet Lee, Head of Developer Relations, Zircuit"
+        ]
       },
       "item2": {
         "time": "11:00",
@@ -146,7 +159,7 @@
         ]
       },
       "item5": {
-        "time": "14:45",
+        "time": "14:30",
         "topic": "為什麼選擇構建在 BNB 上：探索未來路線圖",
         "subTitle": [
           "Artemis, THENA, Growth Lead",
@@ -155,12 +168,12 @@
         ]
       },
       "item6": {
-        "time": "15:15",
+        "time": "15:00",
         "topic": "TBD",
         "subTitle": ["MOZ, Akindo, Founder", "Antoine, ICP Taiwan, Co-Founder"]
       },
       "item7": {
-        "time": "15:45",
+        "time": "15:30",
         "topic": "賦能 Web3 新創",
         "subTitle": [
           "Ben, Lychee Acho, Founder (Host)",
@@ -170,8 +183,8 @@
         ]
       },
       "item8": {
-        "time": "16:15",
-        "topic": "Demo",
+        "time": "16:00",
+        "topic": "Taiwan Builder House Demo Day",
         "subTitle": ["Aggregata", "CopeX", "Isle Finance"]
       }
     }
@@ -190,14 +203,14 @@
         "subTitle": ["Selina, GPTSavyy, Founder"]
       },
       "item3": {
-        "time": "11:15",
-        "topic": "錢包安全",
-        "subTitle": ["Dr.Woody Cheng, CCO, SecuX"]
+        "time": "11:30",
+        "topic": "Google 地圖AI商機佈局",
+        "subTitle": ["Jen Cheng Wei, FlashAaim Inc, CEO"]
       },
       "item4": {
         "time": "11:45",
-        "topic": "Google 地圖AI商機佈局",
-        "subTitle": ["Jen Cheng Wei, FlashAaim Inc, CEO"]
+        "topic": "TBD",
+        "subTitle": ["Jerry, Account Manager, Gaia"]
       },
       "item5": {
         "time": "15:00",
@@ -206,17 +219,28 @@
       },
       "item6": {
         "time": "15:15",
+        "topic": "Ton 上的 DeFi 未來",
+        "subTitle": ["Maxey, Torch, Founder", "Yang, Ton, Syndicate"]
+      },
+      "item7": {
+        "time": "15:45",
         "topic": "利用 AI 在六個月內打造 5 萬粉絲的 Instagram",
         "subTitle": ["NANA, 104, 產品設計師"]
       },
-      "item7": {
-        "time": "15:30",
-        "topic": "Ton 上的 DeFi 未來",
-        "subTitle": ["Maxey, Torch, Founder", "Yang, Ton, Syndicate"]
+      "item8": {
+        "time": "16:00",
+        "topic": "Students Panel",
+        "subTitle": [""]
       }
+
     },
     "Day2": {
       "item1": {
+        "time": "11:00",
+        "topic": "Pancake Swap",
+        "subTitle": ["Chef Kids, Head Chef, Pancake Swap "]
+      },
+      "item2": {
         "time": "11:15",
         "topic": "錢包抽象化、鏈抽象化與鏈上消費者",
         "subTitle": [
@@ -226,13 +250,13 @@
           "Kevin, Mustaverse Digital, Founder"
         ]
       },
-      "item2": {
-        "time": "14:00",
+      "item3": {
+        "time": "14:15",
         "topic": "牛市交易規則：資本輪動與注意力經濟的關聯",
         "subTitle": ["DA Capital"]
       },
-      "item3": {
-        "time": "14:00",
+      "item4": {
+        "time": "15:00",
         "topic": "Women leading the way and redefining roles in Web3",
         "subTitle": [
           "Banana, Grenade ",
@@ -240,7 +264,29 @@
           "Jane, TaZhiDAO, Contributer ",
           "Zoe, Arcade Galaxy , Marketing Head"
         ]
-      }
+      },
+      "item5": {
+        "time": "15:00",
+        "topic": "Women leading the way and redefining roles in Web3",
+        "subTitle": [
+          "Banana, Grenade ",
+          "Carey, BitMEX",
+          "Jane, TaZhiDAO, Contributer ",
+          "Zoe, Arcade Galaxy , Marketing Head"
+        ]
+      },
+      "item6": {
+        "time": "15:30",
+        "topic": "Account Abstraction",
+        "subTitle": ["David Kim (Trust Wallet)"]
+      },
+      "item7": {
+        "time": "15:45",
+        "topic": "MEME COIN",
+        "subTitle": [
+          "Sabibro CashCashBot,Founder",
+          "Ethan,AC Capital,Founding partner"
+        ]
     }
   },
 

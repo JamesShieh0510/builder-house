@@ -12,7 +12,10 @@
       "item1": {
         "time": "09:30",
         "topic": "Opening",
-        "subTitle": ["TBD"]
+        "subTitle": [  
+          "Tain-Tsair Hsu, Chairman, Commerce Development Research Institute ",
+        "Audery Yang, Partner, Radiance Ventures",
+        "Davin, Co-Founder, AI Post"]
       },
       "item2": {
         "time": "09:45",
@@ -20,6 +23,11 @@
         "subTitle": ["Edward Liao, INNOLUX Associate VP and General Manager of IAS BU"]
       },
       "item3": {
+        "time": "10:15",
+        "topic": "TBD",
+        "subTitle": ["Ben, Partner, Radiance Ventures"]
+      },
+      "item4": {
         "time": "10:30",
         "topic": "The Next Wave of Venture Capital in a Decentralized Economy",
         "subTitle": [
@@ -28,12 +36,12 @@
           "Josh, Bing Ventures, APAC Investment Department Director"
         ]
       },
-      "item4": {
+      "item5": {
         "time": "11:15",
         "topic": "Is AI Killing Critical Thinking?",
         "subTitle": ["Brad Lin, NUVA, Founder"]
       },
-      "item5": {
+      "item6": {
         "time": "11:30",
         "topic": "(ZK)Privacy Meets Scalability: Can We Have Both?",
         "subTitle": [
@@ -41,7 +49,7 @@
           "Joe, Movement, APAC BD"
         ]
       },
-      "item6": {
+      "item7": {
         "time": "13:30",
         "topic": "Opening",
         "subTitle": [
@@ -50,7 +58,7 @@
           "戴偉峻, Director, Artificial Intelligence Innovation Institute"
         ]
       },
-      "item7": {
+      "item8": {
         "time": "13:45",
         "topic": "AI-Powered Digital Transformation: Exploring Innovation and Real-World Applications",
         "subTitle": [
@@ -59,7 +67,7 @@
           "戴偉峻, Director, Artificial Intelligence Innovation Institute"
         ]
       },
-      "item8": {
+      "item9": {
         "time": "14:15",
         "topic": "Shaping Tomorrow: AI Innovations Redefining Industry Standards",
         "subTitle": [
@@ -70,12 +78,12 @@
           "Selina, GPTSavyy, Founder"
         ]
       },
-      "item9": {
+      "item10": {
         "time": "15:00",
         "topic": "Account Abstraction",
         "subTitle": ["David Kim, Trust Wallet, Technical Lead"]
       },
-      "item10": {
+      "item11": {
         "time": "15:15",
         "topic": "Exploring new approaches to user growth, engagement, and marketing strategies",
         "subTitle": [
@@ -86,12 +94,12 @@
         ]
       },
 
-      "item11": {
+      "item12": {
         "time": "15:45",
         "topic": "Unifying DeFi Liquidity For The Next Bull Run",
         "subTitle": ["Ran Yi, Co-founder, Orderly Network"]
       },
-      "item12": {
+      "item13": {
         "time": "16:00",
         "topic": "Empowing Web3 Startups",
         "subTitle": [
@@ -102,9 +110,9 @@
           "Pundi.ai"
         ]
       },
-      "item13": {
+      "item14": {
         "time": "16:30",
-        "topic": "Demo",
+        "topic": "Taiwan Builder House Demo Day",
         "subTitle": [
           "Twin3.ai",
           "Pundi.ai",
@@ -118,7 +126,11 @@
       "item1": {
         "time": "10:00",
         "topic": "Unlocking the Potential of Seamless Interaction Across L2",
-        "subTitle": ["TBD"]
+        "subTitle": [
+          "Cynthia, Contributor, BuilderDAO",
+          "Peter Yang, Head of BD, Scroll",
+          "Martinet Lee, Head of Developer Relations, Zircuit"
+        ]
       },
       "item2": {
         "time": "11:00",
@@ -146,7 +158,7 @@
         ]
       },
       "item5": {
-        "time": "14:45",
+        "time": "14:30",
         "topic": "Why Build on BNB: Exploring the Future Roadmap",
         "subTitle": [
           "Artemis, THENA, Growth Lead",
@@ -155,12 +167,12 @@
         ]
       },
       "item6": {
-        "time": "15:15",
+        "time": "15:00",
         "topic": "TBD",
         "subTitle": ["MOZ, Akindo, Founder", "Antoine, ICP Taiwan, Co-Founder"]
       },
       "item7": {
-        "time": "15:45",
+        "time": "15:30",
         "topic": "Empowing Web3 Startups",
         "subTitle": [
           "Ben, Lychee Acho, Founder (Host)",
@@ -170,8 +182,8 @@
         ]
       },
       "item8": {
-        "time": "16:15",
-        "topic": "Demo",
+        "time": "16:00",
+        "topic": "Taiwan Builder House Demo Day",
         "subTitle": ["Aggregata", "CopeX", "Isle Finance"]
       }
     }
@@ -190,14 +202,14 @@
         "subTitle": ["Selina, GPTSavyy, Founder"]
       },
       "item3": {
-        "time": "11:15",
-        "topic": "Blockchain Security",
-        "subTitle": ["Dr.Woody Cheng, CCO, SecuX"]
+        "time": "11:30",
+        "topic": "Google Maps AI business opportunity layout",
+        "subTitle": ["Jen Cheng Wei, FlashAaim Inc, CEO"]
       },
       "item4": {
         "time": "11:45",
-        "topic": "Google Maps AI business opportunity layout",
-        "subTitle": ["Jen Cheng Wei, FlashAaim Inc, CEO"]
+        "topic": "TBD",
+        "subTitle": ["Jerry, Account Manager, Gaia"]
       },
       "item5": {
         "time": "15:00",
@@ -206,17 +218,28 @@
       },
       "item6": {
         "time": "15:15",
+        "topic": "Future of Defi on Ton",
+        "subTitle": ["Maxey, Torch, Founder", "Yang, Ton, Syndicate"]
+      },
+      "item7": {
+        "time": "15:45",
         "topic": "Using AI to Grow a 50K-Follower Instagram in Six Months",
         "subTitle": ["NANA, 104, Product Designer"]
       },
-      "item7": {
-        "time": "15:30",
-        "topic": "Future of Defi on Ton",
-        "subTitle": ["Maxey, Torch, Founder", "Yang, Ton, Syndicate"]
+      "item8": {
+        "time": "16:00",
+        "topic": "Students Panel",
+        "subTitle": [""]
       }
+
     },
     "Day2": {
       "item1": {
+        "time": "11:00",
+        "topic": "Pancake Swap",
+        "subTitle": ["Chef Kids, Head Chef, Pancake Swap "]
+      },
+      "item2": {
         "time": "11:15",
         "topic": "Wallet Abstraction, Chain Abstraction, Onchain Consumer",
         "subTitle": [
@@ -226,19 +249,32 @@
           "Kevin, Mustaverse Digital, Founder"
         ]
       },
-      "item2": {
-        "time": "14:00",
+      "item3": {
+        "time": "14:15",
         "topic": "Rules for Trading in a Bull Market: The Link Between Capital Rotation and the Attention Economy",
         "subTitle": ["DA Capital"]
       },
-      "item3": {
-        "time": "14:00",
+      "item4": {
+        "time": "15:00",
         "topic": "Women leading the way and redefining roles in Web3",
         "subTitle": [
           "Banana, Grenade ",
           "Carey, BitMEX",
           "Jane, TaZhiDAO, Contributer ",
           "Zoe, Arcade Galaxy , Marketing Head"
+        ]
+      },
+      "item5": {
+        "time": "15:30",
+        "topic": "Account Abstraction",
+        "subTitle": ["David Kim (Trust Wallet)"]
+      },
+      "item6": {
+        "time": "15:45",
+        "topic": "MEME COIN",
+        "subTitle": [
+          "Sabibro CashCashBot,Founder",
+          "Ethan,AC Capital,Founding partner"
         ]
       }
     }
