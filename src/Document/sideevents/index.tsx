@@ -3,6 +3,7 @@ import YachtParty from "@/assets/Sideevents/TBH_YachtParty.png"
 import PrivateDinner from "@/assets/Sideevents/TBH_PrivateDinner.png"
 import ClosingParty from "@/assets/Sideevents/TBH_ClosingParty.png"
 import Workshop from "@/assets/Sideevents/TBH_workshop.png"
+import Cheers from "@/assets/Sideevents/TBH_Cheers.png"
 
 
 function SideEventsDoc() {
@@ -17,9 +18,9 @@ function SideEventsDoc() {
           img: NCKUWorkshop,
         },
         {
-          title: "遊艇派對 (150人)",
-          link: "https://lu.ma/oxp3s9g2",
-          img: YachtParty,
+          title: "2024 Taiwan Builder House : The Builder’s Cheers",
+          link: "https://lu.ma/l7o8ph5b",
+          img: Cheers,
         },
         {
           title: "PRIVATE DINNER",
