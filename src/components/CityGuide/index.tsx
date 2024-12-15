@@ -78,7 +78,7 @@ export default function CityGuide({ data }: CityGuideProps) {
   </h2>
   <div className="w-full h-[400px] rounded-lg overflow-hidden">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.416030720588!2d120.16724491558222!3d22.9964948844636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76821b9f73d1%3A0x7b084c19a704a65c!2sAnping%20Old%20Street!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
+      src="https://www.google.com/maps/d/u/0/embed?mid=1lH0vvHGlLLZAT1ONHVxIlzEh9d5Ksz0&ehbc=2E312F" 
       width="100%"
       height="100%"
       style={{ border: 0 }}
