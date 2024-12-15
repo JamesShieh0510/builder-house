@@ -135,7 +135,7 @@
       },
       "item2": {
         "time": "11:00",
-        "topic": "待定議程",
+        "topic": "The Next Generation L2 Zircuit & Sequencer-Level Security",
         "subTitle": ["Martinet Lee, Zircuit, 開發者關係負責人"]
       },
       "item3": {
@@ -169,7 +169,7 @@
       },
       "item6": {
         "time": "15:00",
-        "topic": "TBD",
+        "topic": "Community as Catalyst: Igniting a builder ecosystem",
         "subTitle": ["MOZ, Akindo, Founder", "Antoine, ICP Taiwan, Co-Founder"]
       },
       "item7": {
@@ -258,7 +258,7 @@
       "item3": {
         "time": "14:00",
         "topic": "Build Next-gen dApps With Zk Coprocessor",
-        "subTitle": ["Brevis,, brevis.network"]
+        "subTitle": ["Michael, Co-founder of Brevis"]
       },
       "item4": {
         "time": "14:15",
