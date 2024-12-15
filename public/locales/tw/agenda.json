@@ -190,36 +190,46 @@
         "subTitle": ["Sung-Kang Chung, Deputy Director,Cybersecurity Technology Institute (CSTI), III"]
       },
       "item2": {
+        "time": "10:45",
+        "topic": "以 KOL 角度看台灣區塊鏈生態圈",
+        "subTitle": [
+          "SRon, ChannelDAO, Contributor (host)",
+          "拉菲, KOL",
+          "小飛, KOL",
+          "Kenji, Blave, COO"
+        ]
+      },
+      "item3": {
         "time": "11:15",
         "topic": "打造你的個人 AI 大腦 - Notebooklm 的魅力揭祕",
         "subTitle": ["Selina, GPTSavyy, Founder"]
       },
-      "item3": {
+      "item4": {
         "time": "11:30",
         "topic": "Google 地圖AI商機佈局",
         "subTitle": ["Jen Cheng Wei, FlashAaim Inc, CEO"]
       },
-      "item4": {
+      "item5": {
         "time": "11:45",
         "topic": "TBD",
         "subTitle": ["Jerry, Account Manager, Gaia"]
       },
-      "item5": {
+      "item6": {
         "time": "15:00",
         "topic": "在數位自由時代，AI 如何重塑自媒體",
         "subTitle": ["Eugenia叡一, EU Free Life Academy, Founder"]
       },
-      "item6": {
+      "item7": {
         "time": "15:15",
         "topic": "Ton 上的 DeFi 未來",
         "subTitle": ["Maxey, Torch, Head of Contract", "Yang, Ton, Syndicate"]
       },
-      "item7": {
+      "item8": {
         "time": "15:45",
         "topic": "利用 AI 在六個月內打造 5 萬粉絲的 Instagram",
         "subTitle": ["NANA, 104, 產品設計師"]
       },
-      "item8": {
+      "item9": {
         "time": "16:00",
         "topic": "Students Panel",
         "subTitle": [
