@@ -60,7 +60,7 @@ import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
 import WOODY from "@/assets/Judges/WOODY.png";
 import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
 import Tian_Tsair from "@/assets/Judges/Tain-Tsair.jpg"
-
+import Moz from "@/assets/Judges/MOZ.jpeg"
 //icon-website
 //icon-twitter
 //icon-discord
@@ -246,9 +246,9 @@ function JudgesDoc() {
       avatar: Kevin_Chang.src,
     },
     {
-      name: "Kinjo",
-      company: "AKINDO\nFounder ",
-      avatar: Kinjo.src,
+      name: "Moz",
+      company: "AKINDO\nCSO ",
+      avatar: Moz.src,
     },
     {
       name: "Kyrie",
