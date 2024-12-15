@@ -125,20 +125,11 @@
     },
     "Day2": {
       "item1": {
-        "time": "10:00",
-        "topic": "釋放 L2 無縫互動的潛力",
-        "subTitle": [
-          "Cynthia, Contributor, BuilderDAO",
-          "Peter Yang, Head of BD, Scroll",
-          "Martinet Lee, Head of Developer Relations, Zircuit"
-        ]
-      },
-      "item2": {
         "time": "11:00",
         "topic": "The Next Generation L2 Zircuit & Sequencer-Level Security",
         "subTitle": ["Martinet Lee, Zircuit, 開發者關係負責人"]
       },
-      "item3": {
+      "item2": {
         "time": "11:15",
         "topic": "比特幣作為變革催化劑：探索新領域",
         "subTitle": [
@@ -148,7 +139,7 @@
           "Chanel, CoreDAO, Core Contributor"
         ]
       },
-      "item4": {
+      "item3": {
         "time": "14:00",
         "topic": "Sui 上 DeFi 的未來：打造協同的 Sui 生態系統",
         "subTitle": [
@@ -158,7 +149,7 @@
           "Kyrie, Typus, CGO"
         ]
       },
-      "item5": {
+      "item4": {
         "time": "14:45",
         "topic": "為什麼選擇構建在 BNB 上：探索未來路線圖",
         "subTitle": [
@@ -167,12 +158,12 @@
           "Nell, Seraph, Brand Director"
         ]
       },
-      "item6": {
+      "item5": {
         "time": "15:15",
         "topic": "Community as Catalyst: Igniting a builder ecosystem",
         "subTitle": ["MOZ, Akindo, CSO", "Antoine, ICP Taiwan, Co-Founder"]
       },
-      "item7": {
+      "item6": {
         "time": "15:45",
         "topic": "賦能 Web3 新創",
         "subTitle": [
@@ -183,7 +174,7 @@
           "Scott, CopeX, Co-Founder"
         ]
       },  
-      "item8": {
+      "item7": {
         "time": "16:00",
         "topic": "Taiwan Builder House Demo Day",
         "subTitle": ["Aggregata", "CopeX", "Isle Finance"]
