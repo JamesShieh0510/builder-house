@@ -40,7 +40,7 @@ function AgendaDoc() {
     };
   });
 
-  const radianceStageDay2 = Array.from({ length: 6 }, (_, i) => {
+  const radianceStageDay2 = Array.from({ length: 7 }, (_, i) => {
     const index = i + 1;
     return {
       time: t(`RadianceStage.Day2.item${index}.time`),
@@ -51,25 +51,27 @@ function AgendaDoc() {
     };
   });
 
-  const roundTableDay1 = [
-    {
-      time: t("RoundTable.Day1.item1.time"),
-      topic: t("RoundTable.Day1.item1.topic"),
+  const roundTableDay1 = Array.from({ length: 4 }, (_, i) => {
+    const index = i + 1;
+    return {
+      time: t(`RoundTable.Day1.item${index}.time`),
+      topic: t(`RoundTable.Day1.item${index}.topic`),
       subTitle: normalizeSubTitle(
-        t("RoundTable.Day1.item1.subTitle", { returnObjects: true })
+        t(`RoundTable.Day1.item${index}.subTitle`, { returnObjects: true })
       ),
-    },
-  ];
-
-  const roundTableDay2 = [
-    {
-      time: t("RoundTable.Day2.item1.time"),
-      topic: t("RoundTable.Day2.item1.topic"),
+    };
+  });
+  
+  const roundTableDay2 = Array.from({ length: 1 }, (_, i) => {
+    const index = i + 1;
+    return {
+      time: t(`RoundTable.Day2.item${index}.time`),
+      topic: t(`RoundTable.Day2.item${index}.topic`),
       subTitle: normalizeSubTitle(
-        t("RoundTable.Day2.item1.subTitle", { returnObjects: true })
+        t(`RoundTable.Day2.item${index}.subTitle`, { returnObjects: true })
       ),
-    },
-  ];
+    };
+  });
 
   const agendaData = {
     MainStage: {

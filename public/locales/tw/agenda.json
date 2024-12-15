@@ -150,7 +150,7 @@
         ]
       },
       "item4": {
-        "time": "14:45",
+        "time": "14:30",
         "topic": "為什麼選擇構建在 BNB 上：探索未來路線圖",
         "subTitle": [
           "Artemis, THENA, Growth Lead",
@@ -159,12 +159,12 @@
         ]
       },
       "item5": {
-        "time": "15:15",
+        "time": "15:00",
         "topic": "Community as Catalyst: Igniting a builder ecosystem",
         "subTitle": ["MOZ, Akindo, CSO", "Antoine, ICP Taiwan, Co-Founder"]
       },
       "item6": {
-        "time": "15:45",
+        "time": "15:30",
         "topic": "賦能 Web3 新創",
         "subTitle": [
           "Kevin, Mustaverse Digital, Founder",
@@ -177,7 +177,7 @@
       "item7": {
         "time": "16:00",
         "topic": "Taiwan Builder House Demo Day",
-        "subTitle": ["Aggregata", "CopeX", "Isle Finance"]
+        "subTitle": ["Aggregata", "CopeX", "Isle Finance","Compass Protocol"]
       }
     }
   },
@@ -268,7 +268,7 @@
         "subTitle": ["DA Capital"]
       },
       "item5": {
-        "time": "15:00",
+        "time": "14:45",
         "topic": "Women leading the way and redefining roles in Web3",
         "subTitle": [
           "Banana, Grenade ",
@@ -278,12 +278,12 @@
         ]
       },
       "item6": {
-        "time": "15:30",
+        "time": "15:15",
         "topic": "Account Abstraction",
         "subTitle": ["David Kim (Trust Wallet)"]
       },
       "item7": {
-        "time": "15:45",
+        "time": "15:30",
         "topic": "MEME COIN",
         "subTitle": [
           "Sabibro CashCashBot,Founder",
@@ -296,8 +296,23 @@
     "Day1": {
       "item1": {
         "time": "14:00",
-        "topic": "圓桌討論 1",
-        "subTitle": ["Participant X", "Participant Y"]
+        "topic": "Wazcher - Watch to Earn",
+        "subTitle": ["Wazcher"]
+      },
+      "item2": {
+        "time": "14:30",
+        "topic": "Web3 與新型人才-未來的黃金機會在哪裡？",
+        "subTitle": ["Francis, BEA Co-founder, 幣震器 founder, USC Fintech founder"]
+      },
+      "item3": {
+        "time": "15:00",
+        "topic": "UStars 💫",
+        "subTitle": ["UStars 💫"]
+      },
+      "item4": {
+        "time": "16:00",
+        "topic": "CXS",
+        "subTitle": ["茶葉少女"]
       }
     },
     "Day2": {
