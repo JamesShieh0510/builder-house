@@ -45,7 +45,7 @@ export default function AgendaPage() {
       <div id="agenda">
         <Agenda
           data={{ ...AgendaData, data: AgendaData.data.MainStage }}
-          stageName="Builder Stage"
+          stageName="Main Stage"
         />
         <Agenda
           data={{ ...AgendaData, data: AgendaData.data.RadianceStage }}
