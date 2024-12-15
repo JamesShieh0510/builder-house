@@ -60,7 +60,7 @@ import Ton_Yang from "@/assets/Judges/TON_YANG.jpg";
 import WOODY from "@/assets/Judges/WOODY.png";
 import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
 import Tian_Tsair from "@/assets/Judges/Tain-Tsair.jpg"
-import Moz from "@/assets/Judges/MOZ.jpeg"
+import Moz from "@/assets/Judges/Moz.jpeg"
 //icon-website
 //icon-twitter
 //icon-discord
