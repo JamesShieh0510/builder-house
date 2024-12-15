@@ -24,7 +24,11 @@ export default function CityGuidePage() {
         <title>City Guide - Taiwan Builder House</title>
       </Head>
       <Header />
-      <Image src={cityguidetop} alt="cityguide" width={1920} height={1080} />
+      <Image
+  src={cityguidetop}
+  alt="Description of the image"
+  className="w-full sm:h-64 md:h-96 lg:h-auto object-cover"
+/>
       <main className="min-h-screen bg-white">
         <div id="cityguide">
           <CityGuide data={CityGuideData} />

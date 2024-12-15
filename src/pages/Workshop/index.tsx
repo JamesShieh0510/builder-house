@@ -33,7 +33,11 @@ export default function WorkshopAgendaPage() {
         <title>Workshop & Agenda - Taiwan Builder House</title>
       </Head>
       <Header />
-      <Image src={workshoptop} alt="Description of the image" width={1920} height={1080} />
+      <Image
+  src={workshoptop}
+  alt="Description of the image"
+  className="w-full sm:h-64 md:h-96 lg:h-auto object-cover"
+/>
       {isClient && (
         <main className="min-h-screen bg-white">
           <div id="workshop">

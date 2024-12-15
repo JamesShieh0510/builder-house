@@ -28,7 +28,11 @@ export default function FAQPage() {
         <title>FAQ - Taiwan Builder House</title>
       </Head>
       <Header />
-      <Image src={faqtop} alt="Description of the image" width={1920} height={1080} />
+      <Image
+  src={faqtop}
+  alt="Description of the image"
+  className="w-full sm:h-64 md:h-96 lg:h-auto object-cover"
+/>
       <div id="faq">
         <FAQ data={FAQData} />
       </div>

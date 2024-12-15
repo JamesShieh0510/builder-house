@@ -37,11 +37,10 @@ export default function AgendaPage() {
       </Head>
       <Header />
       <Image
-        src={agendatop}
-        alt="Description of the image"
-        width={1920}
-        height={1080}
-      />
+  src={agendatop}
+  alt="Description of the image"
+  className="w-full sm:h-64 md:h-96 lg:h-auto object-cover"
+/>
       <div id="agenda">
         <Agenda
           data={{ ...AgendaData, data: AgendaData.data.MainStage }}
