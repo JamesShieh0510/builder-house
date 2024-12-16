@@ -79,13 +79,13 @@ export default function WorkshopDoc() {
             registerLink: "https://lu.ma/3xug7yd9",
           },
           {
-            title: "Unlocking the Future of Bitcoin: An Introduction to exSat",
+            title: "比特幣可以買pizza？ ETF後的比特幣市場",
             time: "16:00",
             description:
-              "​​​The TBH Workshop Series brings together experts and developers to explore the latest trends and innovations in the Web3 space. Each session is designed to provide practical insights, hands-on experience, and valuable networking opportunities for those interested in the evolving world of blockchain, decentralized applications, and smart contract development.",
-            //organizers: ["Team E", "Team F"],
-            speaker: "Joshua, Director of Development, exSat", // 單一 Speaker
-            registerLink: "",
+              "Remember the story of someone buying pizza with 10,000 bitcoins? Today, the applications of Bitcoin go far beyond that. In this part, we'll explore various real-life uses of Bitcoin, from shopping and travel to salary payments. Learn how Bitcoin is accepted as a legal means of payment worldwide, and what it means for our daily lives. Maybe next time, you can buy a cup of coffee with Bitcoin!",
+            //organizers: ["成大區塊鏈研究社NCKU Blockchain Club", "XueDAO"],
+            speaker: "TED CHEN ", // 單一 Speaker
+            registerLink: "https://lu.ma/nmtreryc",
           },
         ],
         Room2: [
