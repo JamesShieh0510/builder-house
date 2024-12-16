@@ -286,10 +286,17 @@
         "time": "15:30",
         "topic": "memecoin",
         "subTitle": [
-          "Sabibro CashCashBot,Founder",
+          "Sabibro, CashCashBot,Founder",
           "Ethan,AC Capital,Founding partner"
         ]
-    }
+    },
+    "item8": {
+      "time": "16:00",
+      "topic": "Unlocking the Future of Bitcoin: An Introduction to exSat",
+      "subTitle": [
+        "Joshua, exSat, Director of Development"
+      ]
+  }
   },
 
   "RoundTable": {

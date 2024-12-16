@@ -61,6 +61,11 @@ import WOODY from "@/assets/Judges/WOODY.png";
 import Weike_Li from "@/assets/Judges/Weike_Li.jpg";
 import Tian_Tsair from "@/assets/Judges/Tain-Tsair.jpg"
 import Moz from "@/assets/Judges/Moz.jpeg"
+import Banana from "@/assets/Judges/Banana.jpeg"
+import Zoe from "@/assets/Judges/Zoe.jpeg"
+import Jane from "@/assets/Judges/Jane_Ding.jpeg"
+import Carey from "@/assets/Judges/carey.jpg"
+import sabibro from "@/assets/Judges/sabibro.jpeg"
 //icon-website
 //icon-twitter
 //icon-discord
@@ -146,9 +151,19 @@ function JudgesDoc() {
       avatar: NUVA.src,
     },
     {
+      name: "Banana",
+      company: "Grenade",
+      avatar: Banana.src,
+    },
+    {
       name: "Carl",
       company: "NAVI\nAPAC Growth Lead",
       avatar: Carl.src,
+    },
+    {
+      name: "Carey",
+      company: "BitMEX",
+      avatar: Carey.src,
     },
     {
       name: "Claire Dang",
@@ -306,6 +321,11 @@ function JudgesDoc() {
       avatar: Scott.src,
     },
     {
+      name: "Sabibro",
+      company: "Sabibro\nCashCashBot\nFounder",
+      avatar: sabibro.src,
+    },
+    {
       name: "Sean_Tao",
       company: "OpenSocial\nCo-Founder",
       avatar: Sean_Tao.src,
@@ -331,6 +351,11 @@ function JudgesDoc() {
       avatar: Singa.src,
     },
     {
+      name: "Jane",
+      company: "TaZhiDAO\nContributer ",
+      avatar: Jane.src,
+    },
+    {
       name: "Juile",
       company: "Tako Protocol\nGrowth Head",
       avatar: TAKO.src,
@@ -344,6 +369,11 @@ function JudgesDoc() {
       name: "Woody Cheng",
       company: "SecuX\nCOO",
       avatar: WOODY.src,
+    },
+    {
+      name: "Zoe",
+      company: "Arcade Galaxy\n Marketing Head",
+      avatar: Zoe.src,
     },
   ];
   const JudgesData = {

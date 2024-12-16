@@ -40,7 +40,7 @@ function AgendaDoc() {
     };
   });
 
-  const radianceStageDay2 = Array.from({ length: 7 }, (_, i) => {
+  const radianceStageDay2 = Array.from({ length: 8 }, (_, i) => {
     const index = i + 1;
     return {
       time: t(`RadianceStage.Day2.item${index}.time`),
